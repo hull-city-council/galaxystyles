@@ -1,0 +1,12 @@
+#menu ul + h2,
+#menu ul + h2 + ul {
+    display: none;
+}
+.summary {
+  visibility:hidden;
+}
+#menu .close:focus {
+    background-image: url(https://hullcollaborativepartnership.org.uk/themes/jadu-spectral/dist/css/images/close.svg) !important;
+    background-position: 4.85em 1em !important;
+    background-repeat: no-repeat !important;
+}
