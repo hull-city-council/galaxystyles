@@ -60,3 +60,9 @@ text-decoration: none;
 #menu ul + h2 + ul {
   display: none;
 }
+
+#menu .close:focus {
+    background-image: url(/themes/jadu-spectral/dist/css/images/close.svg) !important;
+    background-position: 4.85em 1em !important;
+    background-repeat: no-repeat !important;
+}
