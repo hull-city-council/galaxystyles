@@ -1,0 +1,84 @@
+:root{
+  --jonquil: #FFCC00;
+  --platinum: #DEDEDD;
+  --amethyst: #9665AB;
+}
+/* Font */
+body, input, select, textarea, h1, h2, h3, h4, h5, h6{
+  font-family: Verdana, sans-serif;
+  letter-spacing: unset !important;
+}
+
+/* Header */
+#header, #header.alt{
+  background-color: var(--jonquil);
+}
+#header .logo > *, #header nav > ul > li > a{
+  color: #000;
+}
+#header nav > ul > li > a.menuToggle:after{
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='16px' height='16px' viewBox='0 0 16 16' zoomAndPan='disable' preserveAspectRatio='none'%3E%3Cstyle type='text/css'%3E%3C!%5BCDATA%5B line %7B stroke: %23000000; stroke-width: 2; %7D %5D%5D%3E%3C/style%3E%3Cline x1='0' y1='1' x2='16' y2='1' /%3E%3Cline x1='0' y1='7' x2='16' y2='7' /%3E%3Cline x1='0' y1='13' x2='16' y2='13' /%3E%3C/svg%3E");
+}
+a:focus{
+  background-color: var(--platinum);
+  color: #000;
+}
+
+/* Menu */
+#menu .close:focus {
+  background-image: url(https://hccp.org.uk/themes/jadu-spectral/dist/css/images/close.svg) !important;
+  background-position: 4.85em 1em !important;
+  background-repeat: no-repeat !important;
+}
+#menu ul + h2,
+#menu ul + h2 + ul {
+  display: none;
+}
+#menu h2:last-of-type,
+#menu ul:last-of-type {
+display: block;
+}
+#menu {
+  background: var(--platinum) !important;
+}
+#menu ul > li > a{
+  color: #000;
+}
+
+.more:focus {
+    outline: 2px dotted #657083 !important;
+    color: white !important;
+}
+
+#menu > h2 {
+    color: #000;
+}
+
+.wrapper.style5 button:focus { background-color: blue !important; border: 2px dotted #657083; }
+
+
+a:focus {background: transparent !important;opacity: 0.5;}
+
+.list--breadcrumb a:focus {
+  color: unset !important;
+}
+
+.wrapper.style5 input[type='submit'], .wrapper.style5 input[type='reset'], .wrapper.style5 input[type='button'], .wrapper.style5 button, .wrapper.style5 .button, .wrapper.style5 input[type='submit']:hover, .wrapper.style5 input[type='reset']:hover, .wrapper.style5 input[type='button']:hover, .wrapper.style5 button:hover, .wrapper.style5 .button:hover {
+  box-shadow: unset;
+  background: #A8BBC7;
+}
+
+a.list__link, #one a {
+ 
+}
+a.list__link:hover, #one a:hover {
+
+}
+
+a.list__link:active, #one a:active {
+
+}
+
+#menu .close > a:focus {
+    background: unset !important;
+}
