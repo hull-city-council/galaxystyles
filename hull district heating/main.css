@@ -23,6 +23,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 a:focus{
 	background-color: var(--orange) !important;
 }
+#menu ul + h2,
+#menu ul + h2 + ul {
+    display: none;
+}
+.summary {
+  visibility:hidden;
+}
 .button {
     background-color: var(--green);
 	color: white !important;
