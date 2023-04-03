@@ -54,3 +54,8 @@ a:focus{
 .nav {
 	color: var(--grey) !important;
 }
+#menu .close:focus {
+    background-image: url(https://www.hullkarting.co.uk/themes/jadu-spectral/dist/css/images/close.svg) !important;
+    background-position: 4.85em 1em !important;
+    background-repeat: no-repeat !important;
+}
