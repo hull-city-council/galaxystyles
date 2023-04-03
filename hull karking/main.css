@@ -1,0 +1,60 @@
+:root{
+/* menu button text, category menu text, learn more text selected, learn more arrow selected */
+	--grey: #242424; 
+
+/* menu button, category menu background, learn more selected, button background, events diary hover,
+events diary button */
+	--orange: #ffb43b; 
+
+/* menu button hover, button hover over, */
+    --yellow_hover: #efb300; 
+
+/* category selected, button action, events diary background, events diary button selected,  */
+    --white: #ffffff; 
+
+}
+
+#menu ul + h2,
+#menu ul + h2 + ul {
+    display: none;
+}
+.summary {
+  visibility:hidden;
+}
+.button {
+    background: var(--orange) !important;
+}
+.button:hover{
+	background-color: var(--yellow_hover) !important;
+}
+.wrapper.style5 input[type='submit'], .wrapper.style5 input[type='reset'], .wrapper.style5 input[type='button'], .wrapper.style5 button, .wrapper.style5 .button, .wrapper.style5 input[type='submit']:hover, .wrapper.style5 input[type='reset']:hover, .wrapper.style5 input[type='button']:hover, .wrapper.style5 button:hover, .wrapper.style5 .button:hover {
+  box-shadow: unset;
+  background: #ffb43b;
+  color: #242424;
+}
+a:focus{
+    background-color: var(--yellow_hover) !important;
+}
+#menu {
+    background: var(--orange) !important;
+	color: var(--grey) !important;
+}
+#menu h2 {
+    color: var(--grey) !important;
+}
+
+#nav {
+	color: var(--grey) !important;
+}
+.nav {
+	color: var(--grey) !important;
+}
+body, input, select, textarea, h1, h2, h3, h4, h5, h6{
+  font-family: Verdana, sans-serif;
+  letter-spacing: unset !important;
+}
+#menu .close:focus {
+    background-image: url(https://www.hullkarting.co.uk/themes/jadu-spectral/dist/css/images/close.svg) !important;
+    background-position: 4.85em 1em !important;
+    background-repeat: no-repeat !important;
+}
