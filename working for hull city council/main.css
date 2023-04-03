@@ -1,0 +1,62 @@
+body.is-menu-visible #menu {
+  -moz-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  background-color: #e5007e !important;
+}
+
+#menu ul + h2,
+#menu ul + h2 + ul {
+  display: none;
+}
+#menu h2:last-of-type,
+#menu ul:last-of-type {
+display: block;
+}
+
+#menu a:focus{
+background-color: #00000000 !important;
+outline: none;
+
+}
+
+#menu .close:focus {
+    background-image: url(/themes/jadu-spectral/dist/css/images/close.svg) !important;
+    background-position: 4.85em 1em !important;
+    background-repeat: no-repeat !important;
+}
+
+/* font is open sans */
+
+/* previously #e5007e = pink :  #ffff00 = yellow : teal = #1f7e9e  previously #AD005F */
+
+#menu {
+background: #e5007e !important;
+}
+
+#header nav > ul > li > a.menuToggle {
+color:#ffffff !important;
+}
+
+*:focus,
+input:focus           { outline: 2px dotted #e5007e ;}
+.wrapper.style5 button:focus { background-color: #000; border: 2px dotted #e5007e; }
+a:focus               { background: transparent  !important; color: #444 !important; outline: none; }
+
+.style5 h1, h2, h3, h4, h5, h6 {
+letter-spacing: 0.05em !important;
+}
+
+
+.editor a:active {
+color: #e5007e !important;
+text-decoration: none;
+}
+
+.wrapper.style5 button:focus { background-color: #000; border: 2px dotted #ffff00; }
+
+#menu ul + h2,
+#menu ul + h2 + ul {
+  display: none;
+}
