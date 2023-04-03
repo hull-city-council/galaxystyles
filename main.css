@@ -166,24 +166,6 @@
     color:white;
   }
   
-   /* Top Nav - Recite Me 
-  
-  #header.alt{
-    background: #90489a;
-    position: inherit;
-  }
-  #header .logo{
-    display: none;
-  }
-  #top-nav{
-    padding:1rem;
-    background: #90489a;
-    height: 1rem;
-    display: flex;
-    justify-content: flex-end;
-  }
-  */
-  
   /* Banner */
   #banner {
     background-size: cover !important; 
