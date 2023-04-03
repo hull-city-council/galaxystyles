@@ -1,10 +1,6 @@
-#menu ul + h2,
-#menu ul + h2 + ul {
-    display: none;
-}
 #menu h2:last-of-type,
 #menu ul:last-of-type {
-display: block;
+display: none;
 }
 .summary {
   visibility:hidden;
