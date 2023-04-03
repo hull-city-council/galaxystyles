@@ -1,0 +1,25 @@
+:root{
+	--gold: #d7b04a;
+	--darkGold: #d69a02;
+	--blue: #0c0e1a;
+}
+
+#menu ul + h2,
+#menu ul + h2 + ul {
+    display: none;
+}
+.summary {
+  visibility:hidden;
+}
+.button {
+    background: var(--gold) !important;
+}
+.button:hover {
+	background-color: var(--darkGold) !important;
+}
+a:focus{
+    background-color: var(--gold) !important;
+}
+#menu {
+    background: var(--blue) !important;
+}
