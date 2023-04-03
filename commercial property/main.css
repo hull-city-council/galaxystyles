@@ -71,17 +71,6 @@ a:focus {background: transparent !important;opacity: 0.5;}
 
 .wrapper.style5 input[type='submit']:hover, .wrapper.style5 input[type='reset']:hover, .wrapper.style5 input[type='button']:hover, .wrapper.style5 button:hover, .wrapper.style5 .button:hover{
   background-color: var(--platinum);
-  
-}
-
-a.list__link, #one a {
- 
-}
-a.list__link:hover, #one a:hover {
-
-}
-
-a.list__link:active, #one a:active {
 
 }
 
