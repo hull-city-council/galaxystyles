@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+:root{
+	--green: #789174;
+	--light-green: #d3d9c5;
+	--orange: #ed8733;
+	--grey:#616161;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	font-family: 'Montserrat', sans-serif;
+}
+@media screen and (min-width: 760px){
+	.widget-row {
+		margin-left: -1.5rem;
+		margin-right: -1.5rem;
+		margin-top: 4rem;
+		margin-bottom: 4rem;
+	}
+}
+.row > * {
+	padding: 0 0 0 0 !important;
+}
+a:focus{
+	background-color: var(--orange) !important;
+}
+.button {
+    background-color: var(--green);
+	color: white !important;
+	box-shadow: unset !important;
+    text-transform: unset !important;
+    font-style: normal !important;
+    letter-spacing: unset !important;
+}
+.button:hover{
+	background-color: #698f63 !important;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: var(--green) !important;
+	font-weight: 500;
+	text-transform: none;
+	letter-spacing: unset;
+}
+h2{
+	font-size: 1.5em !important;
+}
+h3 {
+	font-size: 1.35em !important;
+}
+#banner h2, #menu h2, #main > header h2{
+	color: white !important;
+	font-size: 2rem !important;
+	font-weight: 600 !important;
+}
+#header{
+	background-color: var(--green);
+}
+#header h1{
+	color: white !important;
+}
+#header .logo > * {
+	font-weight: 600 !important;
+}
+#banner .more{
+	text-transform: unset;
+}
+#menu{
+	background-color: var(--green);
+}
+a.list__link {
+    text-transform: unset !important;
+    font-size: 1rem !important;
+	font-weight: 600 !important;
+    letter-spacing: unset !important;
+}
+#menu ul > li {
+    border-top: solid 1px rgba(255, 255, 255, 0.13);
+}
+nav.breadcrumb {
+    display: none;
+}
+.hr-leaf { 
+    background: url(/hulldistrictheating/images/HDH_Leaf_Green.png) no-repeat bottom;
+    background-size: contain;
+    height: 30px;
+    background-color: white;
+    border: 0;
+    position: relative;
+}
+.hr-leaf:before,
+.hr-leaf:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: var(--green);
+    height: 2px;
+    top: 8px;
+}
+.hr-leaf:before {
+    left: 0;
+    right: 55%;
+    margin-right: 10px;
+}
+.hr-leaf:after {
+    right: 0;
+    left: 55%;
+    margin-left: 10px;
+}
