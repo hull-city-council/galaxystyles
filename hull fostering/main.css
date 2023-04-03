@@ -1,0 +1,15 @@
+#menu ul + h2,
+#menu ul + h2 + ul {
+    display: none;
+}
+.summary {
+  visibility:hidden;
+}
+.button {
+background-color: #f6a800;
+}
+#menu .close:focus {
+    background-image: url(https://www.hullfostering.co.uk/themes/jadu-spectral/dist/css/images/close.svg) !important;
+    background-position: 4.85em 1em !important;
+    background-repeat: no-repeat !important;
+}
