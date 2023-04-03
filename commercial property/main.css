@@ -63,9 +63,15 @@ a:focus {background: transparent !important;opacity: 0.5;}
   color: unset !important;
 }
 
-.wrapper.style5 input[type='submit'], .wrapper.style5 input[type='reset'], .wrapper.style5 input[type='button'], .wrapper.style5 button, .wrapper.style5 .button, .wrapper.style5 input[type='submit']:hover, .wrapper.style5 input[type='reset']:hover, .wrapper.style5 input[type='button']:hover, .wrapper.style5 button:hover, .wrapper.style5 .button:hover {
+.wrapper.style5 input[type='submit'], .wrapper.style5 input[type='reset'], .wrapper.style5 input[type='button'], .wrapper.style5 button, .wrapper.style5 .button  {
   box-shadow: unset;
-  background: #A8BBC7;
+  background: var(--jonquil);
+  color: #000;
+}
+
+.wrapper.style5 input[type='submit']:hover, .wrapper.style5 input[type='reset']:hover, .wrapper.style5 input[type='button']:hover, .wrapper.style5 button:hover, .wrapper.style5 .button:hover{
+  background-color: var(--platinum);
+  
 }
 
 a.list__link, #one a {
