@@ -42,7 +42,7 @@ color:#ffffff !important;
 *:focus,
 input:focus           { outline: 2px dotted #e5007e ;}
 .wrapper.style5 button:focus { background-color: #000; border: 2px dotted #e5007e; }
-a:focus               { background: transparent; color: #444 !important; outline: none; }
+a:focus               { background: transparent !important; color: #444 !important; outline: none; }
 
 .style5 h1, h2, h3, h4, h5, h6 {
 letter-spacing: 0.05em !important;
@@ -62,7 +62,7 @@ text-decoration: none;
 }
 
 #menu .close:focus {
-    background-image: url(/themes/jadu-spectral/dist/css/images/close.svg) !important;
+    background-image: url(https://www.workingforhullcitycouncil.org.uk/themes/jadu-spectral/dist/css/images/close.svg) !important;
     background-position: 4.85em 1em !important;
     background-repeat: no-repeat !important;
 }
