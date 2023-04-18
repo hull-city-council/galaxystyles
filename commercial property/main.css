@@ -66,14 +66,19 @@ a:focus {background: transparent !important;opacity: 0.5;}
 .wrapper.style5 input[type='submit'], .wrapper.style5 input[type='reset'], .wrapper.style5 input[type='button'], .wrapper.style5 button, .wrapper.style5 .button  {
   box-shadow: unset;
   background: var(--jonquil);
-  color: #000;
+  color: #000 !important;
 }
 
-.wrapper.style5 input[type='submit']:hover, .wrapper.style5 input[type='reset']:hover, .wrapper.style5 input[type='button']:hover, .wrapper.style5 button:hover, .wrapper.style5 .button:hover{
-  background-color: var(--platinum);
+.wrapper.style5 input[type='submit']:hover, .wrapper.style5 input[type='reset']:hover, .wrapper.style5 input[type='button']:hover, .wrapper.style5 button:hover, .wrapper.style5 .button:hover, button.primary:hover, .button.primary:hover{
+  background-color: var(--platinum) !important;
 
 }
 
 #menu .close > a:focus {
     background: unset !important;
+}
+
+/* Hide submit new event button */
+#one > div > div.col-4.col-12-medium > a {
+    display: none;
 }
