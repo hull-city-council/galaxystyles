@@ -12,7 +12,9 @@ color: #4e4e4e;
 strong, b{
 color: #4e4e4e;
 }
-
+p {
+    margin: 0 0 1em 0;
+}
 .listing__heading{
 font-size: 1.7rem;
 }
