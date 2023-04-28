@@ -93,3 +93,13 @@ blockquote p:first-child,blockquote .blockquote__text,.blockquote p:first-child,
     color: #000000;
     font-family: "Outfit",sans-serif;
 }
+.widget-image .image__caption{
+    color: #000000;
+}
+.site-footer {
+    background-color: #ffffff;
+    color: #000;
+}
+.nav--social-links .icon{
+    background-color: #000;
+}
