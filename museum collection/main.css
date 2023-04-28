@@ -103,3 +103,7 @@ blockquote p:first-child,blockquote .blockquote__text,.blockquote p:first-child,
 .nav--social-links .icon{
     background-color: #000;
 }
+.site-footer__text, .site-footer__links, .site-footer__group .list__link, .site-footer__link {
+    color: #000;
+}
+
