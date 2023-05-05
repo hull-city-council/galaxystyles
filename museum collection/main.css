@@ -88,15 +88,10 @@ blockquote p:first-child,blockquote .blockquote__text,.blockquote p:first-child,
 }
 .button, .button:visited, .form__label--upload, .form__label--image-upload, .widget--myaccount-sign-in a, .widget--myaccount-api-links a, .widget--myaccount-organisation-account-links a, .widget--myaccount-organisation-links a, .form__label--upload:visited, .form__label--image-upload:visited, .widget--myaccount-sign-in a:visited, .widget--myaccount-api-links a:visited, .widget--myaccount-organisation-account-links a:visited, .widget--myaccount-organisation-links a:visited{
     background-color: #fff;
-    border: unset;
+    border: 1px solid;
     border-radius: unset;
     color: #000000;
     font-family: "Outfit",sans-serif;
-    box-shadow:
-      6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
-      22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
-      100px 100px 80px rgba(0, 0, 0, 0.07)
-    ;
 }
 .button::before, .button:visited::before {
     border: unset;
