@@ -26,7 +26,11 @@ Navigation
 .nav--primary-navigation .button__text {
     color: #000;
 }
-
+.icon-ui-search {
+    background-image: url(data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60' preserveAspectRatio='xMinYMid' aria-hidden='true' focusable='false'%3E%3Cpath class='cls-1' d='M57.64,53.46l-15-15a23,23,0,1,0-4.18,4.18l15,15a3,3,0,0,0,4.18-4.17Zm-33.19-46a17,17,0,1,1-17,17A17.06,17.06,0,0,1,24.45,7.41Z' fill='currentColor'/%3E%3C/svg%3E);
+    background-repeat: no-repeat;
+    fill: #000;
+}
 .menu-navigation .menu-navigation__inner{
     background-color: #74cac3;
     width: 100%;
@@ -127,4 +131,5 @@ blockquote p:first-child,blockquote .blockquote__text,.blockquote p:first-child,
 .site-footer__text, .site-footer__links, .site-footer__group .list__link, .site-footer__link {
     color: #000;
 }
-
+.boxed, .widget-navigation .list__link, .card, .listing--featured, .supplement, .widget--myaccount-signed-out-content .myaccount-widget, .widget--myaccount-sign-in .myaccount-widget, .widget--my-account-direct-debits .myaccount-widget, .widget--my-account-forms .myaccount-widget, .widget--myaccount-api-links .myaccount-widget, .widget--myaccount-form-submissions .myaccount-widget, .widget--myaccount-my-address .myaccount-widget, .widget--myaccount-paybridge-balance-lookup .myaccount-widget, .widget--myaccount-payments .myaccount-widget, .widget--myaccount-directory-submissions .myaccount-widget, .widget--myaccount-cxm-cases-compact .myaccount-widget, .widget--myaccount-cxm-cases-verbose-list .myaccount-widget, .widget--myaccount-cxm-cases-verbose-table .myaccount-widget, .widget--myaccount-northgate-citizen-access .myaccount-widget, .widget--myaccount-organisation-account-links .myaccount-widget, .widget--myaccount-organisation-links .myaccount-widget, .my-cases .myaccount-widget, .widget--myaccount-links .myaccount-widget, .widget--my-account-forms #no-forms, .widget--myaccount-form-submissions #no-forms, .widget--my-account-forms .submitted, .widget--my-account-forms .unsubmitted, .widget--myaccount-form-submissions .submitted, .widget--myaccount-form-submissions .unsubmitted, .cxm-service__info, .cxm-service__case-detail, .cxm-service__action, .video-feature-box--boxed, .aside__section{
+    background-color: unset;
