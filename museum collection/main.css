@@ -134,3 +134,6 @@ blockquote p:first-child,blockquote .blockquote__text,.blockquote p:first-child,
 .list__link, {
     background-color: unset;
 }
+.editor {
+    max-width: unset;
+}
