@@ -3,7 +3,7 @@
 html {
     font: 1em / 1.5 "Outfit",sans-serif;
 }
-.style-guide__heading {
+*  {
     font-family: "Outfit",sans-serif;
 }
 .site-header {
@@ -39,22 +39,8 @@ html {
 }
 h1,.h1,h2,.h2,h3,.form__heading,.h3,h4,.h4,h5,.h5,h6,.h6 {
     color: #1c212c;
-    font-family: "Outfit",serif;
-}
-h5,.h5 {
-    font-family: "Outfit",sans-serif;
-    text-transform: uppercase
 }
 
-h6,.h6 {
-    font-family: "Outfit",sans-serif
-}
-blockquote p:first-child,blockquote .blockquote__text,.blockquote p:first-child,.blockquote .blockquote__text {
-    font-family: "Outfit",serif;
-}
-.form__field,.form__component--esri input[type="text"],.form__radio,.google-translate .goog-te-combo,.form__select,select,.form__textarea {
-    font-family: "Outfit",sans-serif;
-}
 .button,.button:visited,.form__label--upload,.form__label--image-upload,.widget--myaccount-sign-in a,.widget--myaccount-api-links a,.widget--myaccount-organisation-account-links a,.widget--myaccount-organisation-links a,.form__label--upload:visited,.form__label--image-upload:visited,.widget--myaccount-sign-in a:visited,.widget--myaccount-api-links a:visited,.widget--myaccount-organisation-account-links a:visited,.widget--myaccount-organisation-links a:visited {
     -webkit-appearance: none;
     background-color: #fff;
@@ -63,7 +49,6 @@ blockquote p:first-child,blockquote .blockquote__text,.blockquote p:first-child,
     color: #000000;
     cursor: pointer;
     display: inline-block;
-    font-family: "Outfit",sans-serif;
     font-size: 1rem;
     font-weight: 700;
     margin: 1.5rem 4px 4px;
@@ -74,24 +59,6 @@ blockquote p:first-child,blockquote .blockquote__text,.blockquote p:first-child,
     text-transform: unset;
     vertical-align: middle;
     white-space: normal;
-}
-.image-link .image__caption {
-    font-family: "Outfit",sans-serif;
-}
-.nav--pages-in .nav__heading {
-    font-family: "Outfit",sans-serif;
-}
-.widget-middle-advert .widget__subheading-child,.widget-right-advert .widget__subheading-child,.widget-middle-advert .widget__text,.widget-right-advert .widget__text {
-    font-family: "Outfit",sans-serif;
-}
-.widget-homepage-banner .image__caption,.widget-homepage-banner .image-link .image__caption {
-    font-family: "Outfit",serif;
-}
-.widget-image .image__caption {
-    font-family: "Outfit",serif;
-}
-.site-search--header .form__field {
-    font-family: "Outfit",serif;
 }
 .editor a:not(.button) {
     background-image: -webkit-linear-gradient(bottom, #fcb442 0, #fcb442 1px, transparent 1px, transparent 100%);
@@ -108,7 +75,6 @@ blockquote p:first-child,blockquote .blockquote__text,.blockquote p:first-child,
     border: 1px solid;
     border-radius: unset;
     color: #000000;
-    font-family: "Outfit",sans-serif;
 }
 .button::before, .button:visited::before {
     border: unset;
@@ -159,7 +125,7 @@ a {
     color: #000;
 }
 .button:focus, .form__label--upload:focus, .form__label--image-upload:focus, .widget--myaccount-sign-in a:focus, .widget--myaccount-api-links a:focus, .widget--myaccount-organisation-account-links a:focus, .widget--myaccount-organisation-links a:focus{
-	    outline: 3px solid #74cac3;
+    outline: 3px solid #74cac3;
 }
 .nav--social-links .icon{
     height: 2.5rem;
@@ -176,13 +142,6 @@ a {
         font-size: .9rem;
     color: #878787 !important;
     }
-}
-
-
-
-Invert social media links
-.nav--social-links .icon {
-    background-color: #fff;
 }
 @media screen and (max-width: 599px){
     .site-header>.container {
