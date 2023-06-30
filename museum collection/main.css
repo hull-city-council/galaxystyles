@@ -174,7 +174,7 @@ border: 1px solid #000;
 .listing--featured{
 border: 3px solid #000;
 }
-.list--listing .list__item{
+.list--listing .list__item, .widget--external_feeds .list--listing .list__item, .widget--latest_news .list--listing .list__item, .search-list .list--listing .list__item, .news-list .list--listing .list__item, .event-list .list--listing .list__item, .councillor-list .list--listing .list__item{
 border-bottom: 1px solid #eeeeee;
 }
 .form__field, .form__component--esri input[type="text"], .form__radio, .google-translate .goog-te-combo, .form__select, select, .form__textarea{
@@ -202,7 +202,7 @@ border-color: #fafaf8 transparent transparent;
 .pagination{
 background-color: #fafaf8;
 }
-.pagination__item--next::after{
+.pagination__item--next::after,.pagination__item--previous::after{
     border-left: 4px solid #000;
 }
 @media screen and (max-width: 768px){
@@ -227,4 +227,10 @@ background-color: #000;
 }
 .site-header a:focus, .site-header button:focus, .site-header .button:focus, .site-header__links:focus, .site-footer__social .list--social-links .list__link:focus, .site-footer__logo .identity__link:focus, .site-footer__group .list__link:focus, .site-footer__link:focus, .site-footer__text:focus, .site-footer__links:focus {
     outline: 3px solid #000000;
+}
+
+element.style {
+}
+.listing .listing__link {
+    color: #000;
 }
