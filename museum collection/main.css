@@ -13,8 +13,11 @@
 .toggle-icon::before, .toggle-icon::after, .toggle-icon .toggle-icon__line {
     background-color: #000;
 }
-.nav--primary-navigation .button__text,.menu-navigation .list__link:hover, .menu-navigation .list__link:focus, .menu-navigation .list__link:visited  {
+.nav--primary-navigation .button__text,.menu-navigation .list__link:hover, .menu-navigation .list__link:focus, .menu-navigation .list__link:visited, .nav--primary-navigation .button:focus .button__text, .nav--primary-navigation .button:active .button__text, .menu-navigation .list__link, .site-footer__text, .site-footer__links, .site-footer__group .list__link, .site-footer__link, a, .nav--pages-in .list__item .list__link-text, .nav--primary-navigation .button:hover .button__text, .nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::before, listing .listing__link, .site-search--header .js-search-toggle .toggle-icon::after, .widget-navigation .list__link .list__heading, .site-search--header .form__field, .site-footer, .image-link:hover .image__caption, .image-link:focus .image__caption, .image-link:active .image__caption   {
     color: #000;
+}
+.nav--primary-navigation .button.js-menu-toggle:active .toggle-icon::before, .nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::before{
+background-color: #000;
 }
 .menu-navigation .list__link:hover, .menu-navigation .list__link:focus{
     background-size: 0;
@@ -22,6 +25,7 @@
     -o-transition: unset;
     transition: unset;
 }
+
 .icon-ui-search {
     background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60' preserveAspectRatio='xMinYMid' aria-hidden='true' focusable='false'%3E%3Cpath class='cls-1' d='M57.64,53.46l-15-15a23,23,0,1,0-4.18,4.18l15,15a3,3,0,0,0,4.18-4.17Zm-33.19-46a17,17,0,1,1-17,17A17.06,17.06,0,0,1,24.45,7.41Z'/%3E%3C/svg%3E") !important;
     background-repeat: no-repeat;
@@ -89,13 +93,9 @@ h1,.h1,h2,.h2,h3,.form__heading,.h3,h4,.h4,h5,.h5,h6,.h6 {
 }
 .site-footer {
     background-color: #ffffff;
-    color: #000;
 }
 .nav--social-links .icon{
     background-color: #000;
-}
-.site-footer__text, .site-footer__links, .site-footer__group .list__link, .site-footer__link {
-    color: #000;
 }
 .list__link, {
     background-color: unset;
@@ -124,12 +124,9 @@ a:focus {
     mask-image: linear-gradient(to bottom, rgba(0,0,0,65) 90%,rgba(0,0,0,0.0) 0%);
     -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,65) 90%,rgba(0,0,0,0.0) 0%);
 }
-a {
-    color: #000;
-}
+
 .image-link:hover .image__caption, .image-link:focus .image__caption, .image-link:active .image__caption {
     background-position: bottom left;
-    color: #000;
 }
 .button:focus, .form__label--upload:focus, .form__label--image-upload:focus, .widget--myaccount-sign-in a:focus, .widget--myaccount-api-links a:focus, .widget--myaccount-organisation-account-links a:focus, .widget--myaccount-organisation-links a:focus{
     outline: 3px solid #74cac3;
@@ -163,7 +160,6 @@ background-color: #74cac3;
 }
 .site-search--header .form__field{
 border-bottom: 6px solid #000;
-    color: #000;
 }
 
 .site-search--header .js-search-toggle {
@@ -176,7 +172,6 @@ border: 1px solid #000;
     background-color: #fff;
 }
 .widget-navigation .list__link .list__heading{
-    color: #000;
     font-weight: 700;
 }
 .supplement {
@@ -209,9 +204,7 @@ background-color: #fafaf8;
 .nav--pages-in .nav__list::before{
 border-color: #fafaf8 transparent transparent;
 }
-.nav--pages-in .list__item .list__link-text{
-    color: #000;
-}
+
 .pagination{
 background-color: #fafaf8;
 }
@@ -240,12 +233,6 @@ background-color: #000;
 }
 .site-header a:focus, .site-header button:focus, .site-header .button:focus, .site-header__links:focus, .site-footer__social .list--social-links .list__link:focus, .site-footer__logo .identity__link:focus, .site-footer__group .list__link:focus, .site-footer__link:focus, .site-footer__text:focus, .site-footer__links:focus {
     outline: 3px solid #000000;
-}
-.nav--primary-navigation .button:hover .button__text, .nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::before, listing .listing__link{
- color: #000;
-}
-.site-search--header .js-search-toggle .toggle-icon::after {
-color: #000;
 }
 .site-search--header .js-search-toggle:hover, .site-search--header .js-search-toggle:focus, .site-search--header .js-search-toggle:active {
     background-color: unset;
