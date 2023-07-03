@@ -19,7 +19,7 @@ a {
 .nav--primary-navigation .button__text,.menu-navigation .list__link:hover, .menu-navigation .list__link:focus, .menu-navigation .list__link:visited, .nav--primary-navigation .button:focus .button__text, .nav--primary-navigation .button:active .button__text, .menu-navigation .list__link, .site-footer__text, .site-footer__links, .site-footer__group .list__link, .site-footer__link, .nav--pages-in .list__item .list__link-text, .nav--primary-navigation .button:hover .button__text, .nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::before, listing .listing__link, .site-search--header .js-search-toggle .toggle-icon::after, .widget-navigation .list__link .list__heading, .site-search--header .form__field, .site-footer, .image-link:hover .image__caption, .image-link:focus .image__caption, .image-link:active .image__caption, .listing   {
     color: #000;
 }
-.nav--primary-navigation .button.js-menu-toggle:active .toggle-icon::before, .nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::before{
+.nav--primary-navigation .button.js-menu-toggle:active .toggle-icon::before, .nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::before, .nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::after{
 background-color: #000;
 }
 .menu-navigation .list__link:hover, .menu-navigation .list__link:focus{
@@ -44,8 +44,11 @@ background-color: #000;
 .menu-navigation .list__link{
     font-size: 2rem;
 }
+.widget__heading{
+    font-size: unset;
+}
 h1,.h1,h2,.h2,h3,.form__heading,.h3,h4,.h4,h5,.h5,h6,.h6 {
-    color: #1c212c;
+    color: #000;
 }
 
 .button,.button:visited,.form__label--upload,.form__label--image-upload,.widget--myaccount-sign-in a,.widget--myaccount-api-links a,.widget--myaccount-organisation-account-links a,.widget--myaccount-organisation-links a,.form__label--upload:visited,.form__label--image-upload:visited,.widget--myaccount-sign-in a:visited,.widget--myaccount-api-links a:visited,.widget--myaccount-organisation-account-links a:visited,.widget--myaccount-organisation-links a:visited {
