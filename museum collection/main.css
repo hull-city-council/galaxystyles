@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {font-family: "Outfit",sans-serif !important;}
+a {
+    color: #000;
+}
 .site-header {
     background-color: #ffffff;
 }
@@ -13,7 +16,7 @@
 .toggle-icon::before, .toggle-icon::after, .toggle-icon .toggle-icon__line {
     background-color: #000;
 }
-.nav--primary-navigation .button__text,.menu-navigation .list__link:hover, .menu-navigation .list__link:focus, .menu-navigation .list__link:visited, .nav--primary-navigation .button:focus .button__text, .nav--primary-navigation .button:active .button__text, .menu-navigation .list__link, .site-footer__text, .site-footer__links, .site-footer__group .list__link, .site-footer__link, a, .nav--pages-in .list__item .list__link-text, .nav--primary-navigation .button:hover .button__text, .nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::before, listing .listing__link, .site-search--header .js-search-toggle .toggle-icon::after, .widget-navigation .list__link .list__heading, .site-search--header .form__field, .site-footer, .image-link:hover .image__caption, .image-link:focus .image__caption, .image-link:active .image__caption   {
+.nav--primary-navigation .button__text,.menu-navigation .list__link:hover, .menu-navigation .list__link:focus, .menu-navigation .list__link:visited, .nav--primary-navigation .button:focus .button__text, .nav--primary-navigation .button:active .button__text, .menu-navigation .list__link, .site-footer__text, .site-footer__links, .site-footer__group .list__link, .site-footer__link, .nav--pages-in .list__item .list__link-text, .nav--primary-navigation .button:hover .button__text, .nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::before, listing .listing__link, .site-search--header .js-search-toggle .toggle-icon::after, .widget-navigation .list__link .list__heading, .site-search--header .form__field, .site-footer, .image-link:hover .image__caption, .image-link:focus .image__caption, .image-link:active .image__caption, .listing   {
     color: #000;
 }
 .nav--primary-navigation .button.js-menu-toggle:active .toggle-icon::before, .nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::before{
@@ -179,6 +182,12 @@ border: 1px solid #000;
     border-radius: 0.75em;
     box-shadow: 0 0 0 1px hsla(230, 13%, 9%, 0.05), 0 0.3px 0.4px hsla(230, 13%, 9%, 0.02), 0 0.9px 1.5px hsla(230, 13%, 9%, 0.045), 0 3.5px 6px hsla(230, 13%, 9%, 0.09);
 }
+.aside--below {
+    padding: 2rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0.75em;
+    box-shadow: 0 0 0 1px hsla(230, 13%, 9%, 0.05), 0 0.3px 0.4px hsla(230, 13%, 9%, 0.02), 0 0.9px 1.5px hsla(230, 13%, 9%, 0.045), 0 3.5px 6px hsla(230, 13%, 9%, 0.09);
+}
 .listing--featured{
 border: 3px solid #000;
 }
@@ -253,4 +262,14 @@ background-image: url("data:image/svg+xml,%0A%3Csvg height='64' preserveAspectRa
 .icon-social-youtube {
 background-image: url("data:image/svg+xml,%0A%3Csvg height='64' preserveAspectRatio='xMinYMid' aria-hidden='true' focusable='false' viewBox='0 0 64 64' width='64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M51.83,9.74H12.17A10.13,10.13,0,0,0,2,20V42.72A10.1,10.1,0,0,0,12.17,53H51.83A10.1,10.1,0,0,0,62,42.72V20A10.13,10.13,0,0,0,51.83,9.74Zm6.42,33a6.39,6.39,0,0,1-6.42,6.49H12.17a6.39,6.39,0,0,1-6.42-6.49V20a6.42,6.42,0,0,1,6.42-6.55H51.83A6.42,6.42,0,0,1,58.25,20Zm-14.82-14L27.27,18.08a1.87,1.87,0,0,0-2.9,1.57V41a1.86,1.86,0,0,0,1.87,1.87,1.83,1.83,0,0,0,1-.31L43.43,31.86a1.87,1.87,0,0,0,.84-1.56A1.9,1.9,0,0,0,43.43,28.73ZM28.12,37.47V23.13L39,30.3Z' fill='%23000'/%3E%3C/svg%3E") !important;
 }
-
+.icon-social-linkedin{
+background-image: url("data:image/svg+xml,%0A%3Csvg height='64' preserveAspectRatio='xMinYMid' aria-hidden='true' focusable='false' viewBox='0 0 64 64' width='64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16.58,20.78H4.5a1.88,1.88,0,0,0-1.87,1.88V58.88A1.87,1.87,0,0,0,4.5,60.75H16.58a1.87,1.87,0,0,0,1.87-1.87V22.66A1.88,1.88,0,0,0,16.58,20.78ZM14.7,57H6.38V24.53H14.7Zm-4-53.75C5.67,3.25,2,6.65,2,11.34s3.6,8,8.64,8,8.71-3.39,8.71-8.1S15.7,3.25,10.72,3.25Zm-.16,12.36c-2.88,0-4.81-1.72-4.81-4.27S7.7,7,10.72,7s4.82,1.66,4.88,4.3S13.65,15.61,10.56,15.61ZM46.11,20A14.13,14.13,0,0,0,37,23v-.33a1.88,1.88,0,0,0-1.87-1.88H23.37a1.9,1.9,0,0,0-1.36.58,1.87,1.87,0,0,0-.51,1.39c.15,3.36,0,35.79,0,36.12a1.88,1.88,0,0,0,1.88,1.88H35.12A1.87,1.87,0,0,0,37,58.88V38.78a6.53,6.53,0,0,1,.4-2.25A5,5,0,0,1,42,33.29c1.25,0,4.18,0,4.18,6.35V58.88a1.87,1.87,0,0,0,1.87,1.87H60.12A1.88,1.88,0,0,0,62,58.88V38.24C62,27,55.91,20,46.11,20ZM58.25,57H49.93V39.64c0-8.79-5-10.1-7.93-10.1a8.65,8.65,0,0,0-8.08,5.59,10,10,0,0,0-.68,3.65V57h-8c0-6.23.11-25.78,0-32.47h8v3.35A1.87,1.87,0,0,0,36.65,29c1.89-2.7,4.34-5.2,9.46-5.2,7.71,0,12.14,5.28,12.14,14.49Z' fill='%23000'/%3E%3C/svg%3E") !important;
+}
+.boxed .google-translate .goog-te-combo:focus, .google-translate .boxed .goog-te-combo:focus, .aside__section .google-translate .goog-te-combo:focus, .google-translate .aside__section .goog-te-combo:focus, .boxed .form__select:focus, .aside__section .form__select:focus, .boxed select:focus, .aside__section select:focus{
+background-color: unset;
+outline: 2px solid;
+}
+/* Hide submit new event button */
+#content > div > div > section > a {
+    display: none;
+}
