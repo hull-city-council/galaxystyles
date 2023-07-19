@@ -9,6 +9,9 @@ a {
 .site-search--header {
     color: #2d3547;
 }
+.nav--primary-navigation .button__text, .nav--primary-navigation .button:hover .button__text {
+color: #000;
+}
 .page-header, .breadcrumb {
     background-color: #fafaf8;
 }
@@ -97,7 +100,8 @@ h3, .form__heading, .h3, .gamma {
     margin-top: -43px;
 }
 .site-footer {
-    background-color: #ffffff;
+    background-color: #74cac3;
+    padding: 3.5rem 0;
 }
 .nav--social-links .icon{
     background-color: #000;
@@ -143,7 +147,7 @@ a:focus {
 .site-footer__group .list__link {
     font-weight: 400;
     font-size: .9rem;
-color: #878787;
+    color: #000;
 }
 @media screen and (min-width: 960px){
     .site-footer .nav--social-links {
