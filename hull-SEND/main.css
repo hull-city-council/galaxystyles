@@ -3183,3 +3183,16 @@ display: none;
 .gw-launchpad-button__icon--left {
   margin-right: 4px !important;
 }
+.texthelpMasking {
+	position: absolute;
+	width: 100%;
+	pointer-events: none;
+    z-index:2147483647;
+}
+
+.texthelpMiddleMask {
+	position: absolute;
+	width: 100%;
+  	pointer-events: none;
+	z-index: 2147483647;
+}
