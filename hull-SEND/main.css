@@ -158,12 +158,6 @@ label[for="postcode"]
   display:none;
 }
 
-
-/* Banner */
-#banner {
-background-size: cover !important; 
-}
-
 .supplement__heading {
 font-size: 1.8em !important;
 }
@@ -173,11 +167,6 @@ background-color: var(--yale-blue);
 }
 .copyright li {
 color:white;
-}
-
-/* Banner */
-#banner {
-background-size: cover !important; 
 }
 
 .supplement__heading {
