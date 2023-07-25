@@ -1,5 +1,16 @@
-.listing__heading{
-font-size: 1.7rem;
+:root {
+  --slate-blue: #5B89B4;
+  --shocking-pink #E6007E;
+  --orange: #F5A800;
 }
 
-/* test comment */
+.button-icon {
+   color: var(--slate-blue);
+}
+
+
+
+
+
+
+
