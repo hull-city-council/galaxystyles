@@ -8,7 +8,7 @@
     background-color: #ffffff;
 }
 .site-search--header {
-    color: #2d3547;
+    color: var(--shocking-pink);
 }
 .nav--primary-navigation .button__text, .nav--primary-navigation .button:hover .button__text {
 color: #000;
