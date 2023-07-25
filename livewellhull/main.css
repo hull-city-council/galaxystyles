@@ -14,7 +14,7 @@
 color: #000;
 }
 .page-header, .breadcrumb {
-    background-color: #fafaf8;
+    background-color: var(--shocking-pink);
 }
 /*
 .toggle-icon::before, .toggle-icon::after, .toggle-icon .toggle-icon__line {
