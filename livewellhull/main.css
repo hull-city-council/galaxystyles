@@ -5,7 +5,7 @@
 }
 
 .site-header {
-    background-color: #ffffff;
+    background-color: var(--shocking-pink);
 }
 .site-search--header {
     color: var(--shocking-pink);
