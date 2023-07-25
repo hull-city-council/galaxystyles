@@ -3,7 +3,7 @@
   --shocking-pink #E6007E;
   --orange: #F5A800;
 }
-
+/*
 .site-header {
     background-color: #ffffff;
 }
@@ -276,6 +276,7 @@ background-image: url("data:image/svg+xml,%0A%3Csvg height='64' preserveAspectRa
 background-color: unset;
 outline: 2px solid;
 }
+*/
 /* Hide submit new event button */
 #content > div > div > section > a {
     display: none;
