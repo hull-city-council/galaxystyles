@@ -6,9 +6,8 @@
 
 .button,.button:visited,.form__label--upload,.form__label--image-upload,.widget--myaccount-sign-in a,.widget--myaccount-api-links a,.widget--myaccount-organisation-account-links a,.widget--myaccount-organisation-links a,.form__label--upload:visited,.form__label--image-upload:visited,.widget--myaccount-sign-in a:visited,.widget--myaccount-api-links a:visited,.widget--myaccount-organisation-account-links a:visited,.widget--myaccount-organisation-links a:visited {
     -webkit-appearance: none;
-    background-color: var(--slate-blue) !important;
+    background-color: var(--slate-blue);
     border: 2px solid #000000;
-    border-radius: unset;
     color: #000000;
     cursor: pointer;
     display: inline-block;
