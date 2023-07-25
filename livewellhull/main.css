@@ -5,13 +5,13 @@
 }
 
 .site-header {
-    background-color: var(--shocking-pink);
+    background-color: var(--slate-blue);
 }
 .site-search--header {
     color: var(--shocking-pink);
 }
 .nav--primary-navigation .button__text, .nav--primary-navigation .button:hover .button__text {
-color: #000;
+color: #fff;
 }
 .page-header, .breadcrumb {
     background-color: var(--shocking-pink);
