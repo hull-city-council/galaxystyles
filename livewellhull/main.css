@@ -24,10 +24,10 @@
     white-space: normal;
 }
 
-/*
 .site-header {
-    background-color: var(--slate-blue);
+    background-color: var(--slate-blue) !important;
 }
+/*
 .site-search--header {
     color: var(--shocking-pink);
 }
