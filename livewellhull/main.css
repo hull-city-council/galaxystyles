@@ -4,6 +4,27 @@
   --orange: #F5A800;
 }
 
+.button,.button:visited,.form__label--upload,.form__label--image-upload,.widget--myaccount-sign-in a,.widget--myaccount-api-links a,.widget--myaccount-organisation-account-links a,.widget--myaccount-organisation-links a,.form__label--upload:visited,.form__label--image-upload:visited,.widget--myaccount-sign-in a:visited,.widget--myaccount-api-links a:visited,.widget--myaccount-organisation-account-links a:visited,.widget--myaccount-organisation-links a:visited {
+    -webkit-appearance: none;
+    background-color: var(--slate-blue);
+    border: 2px solid #000000;
+    border-radius: unset;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1.5rem 4px 4px;
+    padding: .75rem 2.25rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: unset;
+    vertical-align: middle;
+    white-space: normal;
+}
+
+/*
 .site-header {
     background-color: var(--slate-blue);
 }
@@ -16,7 +37,7 @@ color: #fff;
 .page-header, .breadcrumb {
     background-color: var(--shocking-pink);
 }
-/*
+
 .toggle-icon::before, .toggle-icon::after, .toggle-icon .toggle-icon__line {
     background-color: #000;
 }
@@ -54,25 +75,7 @@ h1,.h1,h2,.h2,h3,.form__heading,.h3,h4,.h4,h5,.h5,h6,.h6 {
 h3, .form__heading, .h3, .gamma {
     font-size: 1.8rem;
 }
-.button,.button:visited,.form__label--upload,.form__label--image-upload,.widget--myaccount-sign-in a,.widget--myaccount-api-links a,.widget--myaccount-organisation-account-links a,.widget--myaccount-organisation-links a,.form__label--upload:visited,.form__label--image-upload:visited,.widget--myaccount-sign-in a:visited,.widget--myaccount-api-links a:visited,.widget--myaccount-organisation-account-links a:visited,.widget--myaccount-organisation-links a:visited {
-    -webkit-appearance: none;
-    background-color: #fff;
-    border: 2px solid #000000;
-    border-radius: unset;
-    color: #000000;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 1rem;
-    font-weight: 700;
-    margin: 1.5rem 4px 4px;
-    padding: .75rem 2.25rem;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    text-transform: unset;
-    vertical-align: middle;
-    white-space: normal;
-}
+
 .editor a:not(.button) {
     background-image: -webkit-linear-gradient(bottom, #fcb442 0, #fcb442 1px, transparent 1px, transparent 100%);
     background-image: -o-linear-gradient(bottom, #fcb442 0, #fcb442 1px, transparent 1px, transparent 100%);
