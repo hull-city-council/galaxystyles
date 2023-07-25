@@ -3,7 +3,7 @@
   --shocking-pink #E6007E;
   --orange: #F5A800;
 }
-/*
+
 .site-header {
     background-color: #ffffff;
 }
@@ -16,7 +16,7 @@ color: #000;
 .page-header, .breadcrumb {
     background-color: #fafaf8;
 }
-
+/*
 .toggle-icon::before, .toggle-icon::after, .toggle-icon .toggle-icon__line {
     background-color: #000;
 }
