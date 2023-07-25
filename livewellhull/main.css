@@ -16,7 +16,7 @@ color: #fff;
 .page-header, .breadcrumb {
     background-color: var(--shocking-pink);
 }
-
+/*
 .toggle-icon::before, .toggle-icon::after, .toggle-icon .toggle-icon__line {
     background-color: #000;
 }
@@ -276,6 +276,7 @@ background-image: url("data:image/svg+xml,%0A%3Csvg height='64' preserveAspectRa
 background-color: unset;
 outline: 2px solid;
 }
+*/
 /* Hide submit new event button */
 #content > div > div > section > a {
     display: none;
