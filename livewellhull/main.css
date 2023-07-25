@@ -5,7 +5,7 @@
 }
 
 .nav--primary-navigation .button__text,.menu-navigation .list__link:hover, .menu-navigation .list__link:focus, .menu-navigation .list__link:visited, .nav--primary-navigation .button:focus .button__text, .nav--primary-navigation .button:active .button__text, .menu-navigation .list__link, .site-footer__text, .site-footer__links, .site-footer__group .list__link, .site-footer__link, .nav--pages-in .list__item .list__link-text, .nav--primary-navigation .button:hover .button__text, .nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::before, listing .listing__link, .site-search--header .js-search-toggle .toggle-icon::after, .widget-navigation .list__link .list__heading, .site-search--header .form__field, .site-footer, .image-link:hover .image__caption, .image-link:focus .image__caption, .image-link:active .image__caption, .listing, .listing .listing__link   {
-    color: var(--slate-blue);
+    color: var(--slate-blue) !important;
 }
 
 
