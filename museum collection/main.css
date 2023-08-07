@@ -111,6 +111,9 @@ h3, .form__heading, .h3, .gamma {
     background-repeat: repeat-x;
     background-position: bottom;
 }
+#content .nav--social-links .icon {
+    background-color: white;
+}
 .nav--social-links .icon{
     background-color: #74cac3;
 }
