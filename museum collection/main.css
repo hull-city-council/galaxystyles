@@ -159,7 +159,10 @@ a:focus {
     background-position: bottom left;
 }
 .button:focus, .form__label--upload:focus, .form__label--image-upload:focus, .widget--myaccount-sign-in a:focus, .widget--myaccount-api-links a:focus, .widget--myaccount-organisation-account-links a:focus, .widget--myaccount-organisation-links a:focus{
-    outline: 3px solid #74cac3;
+    outline: 3px solid #fff;
+    outline-offset: 1px;
+    background: #000;
+    color: #fff;
 }
 .nav--social-links .icon{
     height: 2.5rem;
