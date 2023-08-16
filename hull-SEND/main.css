@@ -65,15 +65,6 @@ outline: 2px dotted var(--mexican-pink);
 background-color: var(--yale-blue);
 }
 
-/* Buttons */
-input[type="submit"], input[type="reset"], input[type="button"], .button, input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, .button.primary{
-background-color: var(--mexican-pink);
-font-weight: bold;
-}
-input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:hover, input[type="submit"].primary:hover, input[type="reset"].primary:hover, input[type="button"].primary:hover, .button.primary:hover{
-background-color: var(--dark-magenta);
-color: #fff;
-}
 /* Links */
 a {
   color: var(--yale-blue);
