@@ -301,3 +301,16 @@ outline: 2px solid;
 #content > div > div > section > a {
     display: none;
 }
+.partner-heading {
+    width: 100%;
+    text-align: center;
+}
+.partner-container {
+    margin:1rem 0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.partner-logos {
+    padding: 1rem;
+}
