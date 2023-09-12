@@ -1,11 +1,11 @@
 /* voice and influence */
 
 :root{
---primary: #7eb6b2;
---secondary: #e6731a;
---tertiary: pink; /* not used yet */
-}
-
+--primary: #467C7C;
+--secondary: #B85B14;
+--tertiary: #7eb6b2; 
+} 
+ 
 /* Font */
 body, input, select, textarea, h1, h2, h3, h4, h5, h6{
   font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
@@ -71,9 +71,7 @@ outline: 2px dotted var(--secondary);
   display: none;
 }
 
-#header{
-background-color: var(--primary);
-}
+#header{background-color: var(--tertiary) !important;}
 
 /* hide html5 copyright */
 #footer > ul > li:nth-child(2) {
@@ -88,7 +86,7 @@ background-color: var(--primary);
 }
 
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:hover, input[type="submit"].primary:hover, input[type="reset"].primary:hover, input[type="button"].primary:hover, .button.primary:hover{
-background-color: var(--secondary); /* this was tertiary before */
+background-color: var(--tertiary);
 color: #fff;
 }
 
@@ -266,4 +264,3 @@ display: none;
 #banner > h2{
     display: none;
 }
-
