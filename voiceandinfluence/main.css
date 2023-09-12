@@ -2,8 +2,8 @@
 
 :root{
 --primary: #7eb6b2;
---secondary: #C21741;
---tertiary: #EB6D13;
+--secondary: #e6731a;
+--tertiary: pink; /* not used yet */
 }
 
 /* Font */
@@ -33,12 +33,12 @@ p {
 
 
 #nav ul ul, #nav ul li:hover ul:before, #nav ul li.hover ul:before{
-background-color: var(--primary) !important;
+background-color: white !important;
 box-shadow: 0 2px 0 0 rgb(0 0 0 / 7%);
+  color:black;
 }
 
 #nav > ul > li > ul > li a:not(.button){
-color: #fff;
 border-top: solid 1px #6d4c9d;
 }
 
@@ -47,7 +47,7 @@ border-top: 0;
 }
 
 #nav > ul > li > ul > li a:hover{
-background-color: var(--secondary);
+background-color: var(--secondary) !important;
 }
 
 @media screen and (max-width: 840px){
@@ -56,9 +56,8 @@ background-color: var(--secondary);
 }
     
 #navPanel .link.depth-0{
-  font-weight: 600;
+  font-weight: 600; 
 }
-
 
 a.toggle:focus:before{
   outline: 2px dotted var(--secondary);
@@ -89,7 +88,7 @@ background-color: var(--primary);
 }
 
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:hover, input[type="submit"].primary:hover, input[type="reset"].primary:hover, input[type="button"].primary:hover, .button.primary:hover{
-background-color: var(--tertiary);
+background-color: var(--secondary); /* this was tertiary before */
 color: #fff;
 }
 
@@ -267,3 +266,4 @@ display: none;
 #banner > h2{
     display: none;
 }
+
