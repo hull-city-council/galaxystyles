@@ -4,18 +4,18 @@
 --primary: #F3A119;
 --secondary: #C21741;
 --tertiary: #EB6D13;
---quarternary: #CC1918;
+--quarternary: #CC1918; /* didn't use this - used secondary instead - keep this value if anyone complains */
 }
 
 /* Font */
 body, input, select, textarea, h1, h2, h3, h4, h5, h6{
-font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
-letter-spacing: unset !important;
-color: #4e4e4e;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+  letter-spacing: unset !important;
+  color: #4e4e4e;
 }
 
 strong, b{
-color: #4e4e4e;
+  color: #4e4e4e;
 }
 
 p {
@@ -23,21 +23,20 @@ p {
 }
 
 .listing__heading{
-font-size: 1.7rem;
+  font-size: 1.7rem;
 }
 
 /* Menu */
 
 #header nav{
-right: 6.75em;
+  right: 6.75em;
 }
 
-/*
+
 #nav ul ul, #nav ul li:hover ul:before, #nav ul li.hover ul:before{
 background-color: var(--primary) !important;
 box-shadow: 0 2px 0 0 rgb(0 0 0 / 7%);
 }
-
 
 #nav > ul > li > ul > li a:not(.button){
 color: #fff;
@@ -60,7 +59,7 @@ background-color: var(--secondary);
 #navPanel .link.depth-0{
   font-weight: 600;
 }
-    */
+
 
 a.toggle:focus:before{
   outline: 2px dotted var(--secondary);
@@ -78,6 +77,10 @@ outline: 2px dotted var(--secondary);
 background-color: var(--primary);
 }
 
+/* hide html5 copyright */
+#footer > ul > li:nth-child(2) {
+  display:none;
+}
 
 
 /* Buttons */
@@ -265,3 +268,4 @@ display: none;
 #banner > h2{
     display: none;
 }
+
