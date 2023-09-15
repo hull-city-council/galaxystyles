@@ -1,44 +1,52 @@
+*{font-family: Verdana, Arial, Helvetica, sans-serif !important;}
+
 :root{
-  --primary:#368445;
-  --secondary:#9C549C;
+  --primary:#5E9DC9;
+  --secondary:#D1D1F5;
+}
+
+/*
+* Typography
+*/
+h1,h2,h3,h4,h5,h6,p,li,td,.button {
+  letter-spacing: 0;
+}
+
+
+/*
+* Buttons
+*/
+input[type="submit"], input[type="reset"], input[type="button"], button, .button, input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, button.primary, .button.primary{
+  box-shadow: unset !important;
+  background-color: var(--primary) !important;
+  color: #000 !important;
+}
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover, input[type="submit"].primary:hover, input[type="reset"].primary:hover, input[type="button"].primary:hover, button.primary:hover, .button.primary:hover, .wrapper.style5 button:focus {
+  background-color: var(--secondary) !important;
 }
 
 /*
 * Links
 */
-
-a:focus{
-  background: transparent !important;opacity: 0.5;
-}
-*:focus,
-input:focus{ 
-  outline: 2px dotted #657083;
-}
-.wrapper.style5 button:focus{
-  background-color: blue !important; border: 2px dotted #657083;
-}
-
-a.list__link, #one a {
-  border-bottom: solid 1px #B1D9D0;
-}
-a.list__link:hover, #one a:hover {
-  border-bottom: solid 1px #AFC4AF;
-}
-
-a.list__link:active, #one a:active {
-  border-bottom: solid 1px #A8BBC7;
+a:focus, .wrapper.style5 button:focus, *:focus, input:focus {
+  background-color: var(--secondary) !important;
+  outline: 2px solid #000;
+  border: unset;
 }
 
 /*
 * Menu
 */
 
-body.is-menu-visible #menu {
-    -moz-transform: translateX(0);
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
-    background-color: #657083 !important;
+#menu {
+  background: var(--primary);
+  color: #000;
+}
+#menu h2{
+  color: #000;
+}
+#menu a.list__link:hover {
+    color: #400471;
 }
 
 #menu ul + h2,
@@ -46,27 +54,26 @@ body.is-menu-visible #menu {
     display: none;
 }
 
-#menu {
-  background: #657083 !important;
-}
-
-#header nav > ul > li > a.menuToggle {
-  color:#ffffff !important;
-}
-.more:focus {
-    outline: 2px dotted #657083 !important;
-    color: white !important;
-}
-#menu .close:focus {
-    background-image: url(/themes/jadu-spectral/dist/css/images/close.svg) !important;
+#menu .close, #menu .close:focus {
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='16px' height='16px' viewBox='0 0 16 16' zoomAndPan='disable' preserveAspectRatio='none'%3E%3Cstyle type='text/css'%3E%3C!%5BCDATA%5B line %7B stroke: %23000; stroke-width: 2; %7D %5D%5D%3E%3C/style%3E%3Cline x1='0' y1='0' x2='16' y2='16' /%3E%3Cline x1='16' y1='0' x2='0' y2='16' /%3E%3C/svg%3E") !important;
     background-position: 4.85em 1em !important;
     background-repeat: no-repeat !important;
 }
 
 /*
-* Typography
+* Fields
 */
 
-.style5 h1, h2, h3, h4, h5, h6 {
-  letter-spacing: 0.05em !important;
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="type"]:focus, input[type="search"]:focus, select:focus, textarea:focus{
+  box-shadow: 0 0 0 2px var(--primary) !important;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="type"]:focus, input[type="search"]:focus, select:focus, textarea:focus{
+  color: #000 !important;
+}
+
+#footer > ul > li:nth-child(2){
+  display:none;
+}
+#one > div > div.col-4.col-12-medium > a{
+  display: none;
 }
