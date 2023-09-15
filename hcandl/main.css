@@ -162,7 +162,7 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
 }
 
 .editor a:not(.button):hover, .editor a:not(.button):focus, .editor a:not(.button):active {
-    background-image: linear-gradient(to top, #74cac3 0, #74cac3 3px, transparent 1px, transparent 100%);
+    background-image: linear-gradient(to top, var(--secondary) 0, var(--secondary) 3px, transparent 1px, transparent 100%);
 }
 
 
@@ -204,7 +204,7 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
 }
 
 .editor a:not(.button):hover {
-    background-image: linear-gradient(to top, #74cac3 0, #74cac3 3px, transparent 1px, transparent 100%);
+    background-image: linear-gradient(to top, var(--secondary) 0, var(--secondary) 3px, transparent 1px, transparent 100%);
 }
 
 
