@@ -11,7 +11,7 @@
 /*
 * Typography
 */
-h1, .h1, h2, .h2, h3, .form__heading, .h3, h4, .h4, h5, .h5, h6, .h6 {
+h1, .h1, h2, .h2, h3, .form__heading, .h3, h4, .h4, h5, .h5, h6, .h6,.listing .listing__link {
     color: #000;
 }
 
@@ -114,7 +114,7 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
 /*
 * Links
 */
-*:focus {
+*:focus:not(main) {
     outline: 3px solid var(--primary) !important;
 }
 
@@ -179,6 +179,9 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
 
 #content .nav--social-links .icon {
     background-color: white;
+}
+.site-footer .nav--social-links .list__link:focus{
+    outline: 3px solid #fff !important;
 }
 
 .nav--social-links .icon {
