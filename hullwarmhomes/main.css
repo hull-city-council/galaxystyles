@@ -93,12 +93,23 @@ background-color: var(--primary);
   display:none;
 }
 
+.list__link {
+  color:black !important;
+}
+
+.list--breadcrumb li {
+  color: var(--secondary);
+}
+
+.list--breadcrumb a {
+  color: var(--secondary);
+}
 
 /* Buttons */
 
 input[type="submit"], input[type="reset"], input[type="button"], .button, input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, .button.primary{
 background-color: var(--primary);
-  color:black;
+  color:black !important;
 }
 
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:hover, input[type="submit"].primary:hover, input[type="reset"].primary:hover, input[type="button"].primary:hover, .button.primary:hover{
@@ -109,7 +120,7 @@ background-color: var(--tertiary);
 
 /* Links */
 a {
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 a.image-link {
@@ -119,6 +130,7 @@ a.image-link {
 a:hover{
 color: var(--secondary);
 }
+
 
 /* Select */
 input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="search"], select, textarea{
@@ -130,7 +142,9 @@ input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hove
   box-shadow: 0 0 0 2px var(--secondary);
 }
 
-
+#main > header > nav > div > ol > li:nth-child(1) {
+  color: var(--secondary);
+}
 
 
 
