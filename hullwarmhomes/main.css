@@ -105,6 +105,10 @@ background-color: var(--primary);
   color: var(--secondary);
 }
 
+.secondary a {
+  color: var(--secondary) !important
+}
+
 /* Buttons */
 
 input[type="submit"], input[type="reset"], input[type="button"], .button, input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, .button.primary{
