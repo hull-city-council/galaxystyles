@@ -7,6 +7,7 @@
 :root{
   --primary:#FFDD00;
   --secondary:#007B3E;
+  --tertiary: #3AAB45;
 }
 
 
@@ -69,14 +70,14 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
     background-color: #000;
 }
 .site-search--header .button{
-        background-color: var(--secondary) !important;
+        background-color: var(--primary) !important;
 }
 /*
 * Buttons
 */
 .button,.button:visited,.form__label--upload,.form__label--image-upload,.widget--myaccount-sign-in a,.widget--myaccount-api-links a,.widget--myaccount-organisation-account-links a,.widget--myaccount-organisation-links a,.form__label--upload:visited,.form__label--image-upload:visited,.widget--myaccount-sign-in a:visited,.widget--myaccount-api-links a:visited,.widget--myaccount-organisation-account-links a:visited,.widget--myaccount-organisation-links a:visited {
     -webkit-appearance: none;
-    background-color: var(--secondary);
+    background-color: var(--primary) !important;
     border-radius: unset;
     color: #000000;
     cursor: pointer;
@@ -98,7 +99,7 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
     border-radius: unset;
 }
 .button:hover{
-    background-color: var(--primary);
+    background-color: var(--tertiary) !important;
     color: #fff;
 }
 .button::before, .button:visited::before {
