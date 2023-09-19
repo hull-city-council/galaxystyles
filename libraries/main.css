@@ -310,10 +310,8 @@ button#js-search-toggle:hover{
 }
 
 .icon-social-youtube {
-  background-image: url('data:image/svg+xml;charset%3DUS-ASCII,%3Csvg%20height%3D%2264%22%20preserveAspectRatio%3D%22xMinYMid%22%20aria-hidden%3D%22true%22%20focusable%3D%22false%22%20viewBox%3D%220%200%2064%2064%22%20width%3D%2264%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M51.83%2C9.74H12.17A10.13%2C10.13%2C0%2C0%2C0%2C2%2C20V42.72A10.1%2C10.1%2C0%2C0%2C0%2C12.17%2C53H51.83A10.1%2C10.1%2C0%2C0%2C0%2C62%2C42.72V20A10.13%2C10.13%2C0%2C0%2C0%2C51.83%2C9.74Zm6.42%2C33a6.39%2C6.39%2C0%2C0%2C1-6.42%2C6.49H12.17a6.39%2C6.39%2C0%2C0%2C1-6.42-6.49V20a6.42%2C6.42%2C0%2C0%2C1%2C6.42-6.55H51.83A6.42%2C6.42%2C0%2C0%2C1%2C58.25%2C20Zm-14.82-14L27.27%2C18.08a1.87%2C1.87%2C0%2C0%2C0-2.9%2C1.57V41a1.86%2C1.86%2C0%2C0%2C0%2C1.87%2C1.87%2C1.83%2C1.83%2C0%2C0%2C0%2C1-.31L43.43%2C31.86a1.87%2C1.87%2C0%2C0%2C0%2C.84-1.56A1.9%2C1.9%2C0%2C0%2C0%2C43.43%2C28.73ZM28.12%2C37.47V23.13L39%2C30.3Z%22%20fill%3D%22%23000%22%2F%3E%3C%2Fsvg%3E') !important;    
+  background-image: url('data:image/svg+xml;charset%3DUS-ASCII,%3Csvg%20height%3D%2264%22%20preserveAspectRatio%3D%22xMinYMid%22%20aria-hidden%3D%22true%22%20focusable%3D%22false%22%20viewBox%3D%220%200%2064%2064%22%20width%3D%2264%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M51.83%2C9.74H12.17A10.13%2C10.13%2C0%2C0%2C0%2C2%2C20V42.72A10.1%2C10.1%2C0%2C0%2C0%2C12.17%2C53H51.83A10.1%2C10.1%2C0%2C0%2C0%2C62%2C42.72V20A10.13%2C10.13%2C0%2C0%2C0%2C51.83%2C9.74Zm6.42%2C33a6.39%2C6.39%2C0%2C0%2C1-6.42%2C6.49H12.17a6.39%2C6.39%2C0%2C0%2C1-6.42-6.49V20a6.42%2C6.42%2C0%2C0%2C1%2C6.42-6.55H51.83A6.42%2C6.42%2C0%2C0%2C1%2C58.25%2C20Zm-14.82-14L27.27%2C18.08a1.87%2C1.87%2C0%2C0%2C0-2.9%2C1.57V41a1.86%2C1.86%2C0%2C0%2C0%2C1.87%2C1.87%2C1.83%2C1.83%2C0%2C0%2C0%2C1-.31L43.43%2C31.86a1.87%2C1.87%2C0%2C0%2C0%2C.84-1.56A1.9%2C1.9%2C0%2C0%2C0%2C43.43%2C28.73ZM28.12%2C37.47V23.13L39%2C30.3Z%22%20fill%3D%22%23000%22%2F%3E%3C%2Fsvg%3E') !important;
 }
-
-
     
 .site-footer 
 .nav--social-links 
@@ -321,13 +319,17 @@ button#js-search-toggle:hover{
     outline: 3px solid #000;
 }
 
+.site-footer__supplier {
+    display:none;
+}
+
 .nav--social-links .icon {
     background-color: var(--primary);
     color: #000 !important;
 }
 
-.icon-social-facebook {
-    color:black !important;
+.site-footer__rights {
+    color:black;
 }
 
 .list__link, {
