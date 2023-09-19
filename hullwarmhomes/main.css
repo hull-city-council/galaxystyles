@@ -56,22 +56,20 @@ background-color: var(--secondary);
 }
 
 @media screen and (max-width: 840px){
-#navButton .toggle:before, #navPanel{
-  background-color: white;
-  color: var(--secondary);
+  #navButton .toggle:before, #navPanel{
+    background-color: var(--primary);
+    color: black !important;
+  }
+
+  #navPanel .link {
+    color: #000 !important;
+  }
 }
     
-#navPanel .link.depth-0{
-  color:black !important;
-  font-weight: 600;
-}
-
-
 a.toggle:focus:before{
   outline: 2px dotted var(--secondary);
 }
-
-}
+  
 input[type="button"]:focus, input[type="submit"]:focus, a:focus, *:focus{
 outline: 2px dotted var(--secondary);
 }
@@ -80,14 +78,13 @@ outline: 2px dotted var(--secondary);
 }
 
 #header{
-background-color: var(--primary);
+  background-color: var(--primary);
 }
 
 /*categories text */
 #js-menu-toggle > li:nth-child(1) > a {
   color:black !important;
 }
-
 
 
 /* hide html5 copyright */
