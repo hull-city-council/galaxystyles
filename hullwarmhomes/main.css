@@ -60,6 +60,10 @@ background-color: var(--secondary);
     background-color: var(--primary);
     color: black !important;
   }
+  #navPanel > nav > a:hover {
+    background-color:var(--secondary);
+    color:white !important;
+  }
 
   #navPanel .link {
     color: #000 !important;
