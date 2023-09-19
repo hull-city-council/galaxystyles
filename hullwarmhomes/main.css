@@ -57,10 +57,12 @@ background-color: var(--secondary);
 
 @media screen and (max-width: 840px){
 #navButton .toggle:before, #navPanel{
-  background-color: var(--primary);
+  background-color: white;
+  color: var(--secondary);
 }
     
 #navPanel .link.depth-0{
+  color:black !important;
   font-weight: 600;
 }
 
@@ -99,6 +101,10 @@ background-color: var(--primary);
 
 .list--breadcrumb li {
   color: var(--secondary);
+}
+
+.list--record li {
+    color: var(--secondary) !important;
 }
 
 .list--breadcrumb a {
