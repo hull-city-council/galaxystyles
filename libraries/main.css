@@ -328,6 +328,11 @@ button#js-search-toggle:hover{
     color: #000 !important;
 }
 
+.nav--social-links .icon:hover {
+    background-color: var(--secondary);
+    border: 1px solid black;
+}
+
 .site-footer__rights {
     color:black;
 }
@@ -373,14 +378,9 @@ button#js-search-toggle:hover{
   color:var(--secondary);
 }
 
-.image-link .image__caption p:hover {
-  text-decoration-color:var(--secondary) !important;
+.image-link .image__caption:hover {
+  color:var(--secondary);
 }
-
-.widget-image:focus {
-    outline-style:none;
-}
-
 
 .button:focus, 
 .form__label--upload:focus, 
