@@ -39,6 +39,7 @@ h5, .h5 {
 
 .site-header{
     background-color: var(--primary);
+    /* color: black !important; */
 }
 
 .site-header a:focus, 
@@ -55,6 +56,10 @@ h5, .h5 {
 .list__link:focus, .site-footer__link:focus, .site-footer__text:focus, .site-footer__links:focus, .list--back-to-top .list__link:link, .list--back-to-top .list__link:hover, .list--back-to-top .list__link:active, .list--back-to-top .list__link:focus, .list--skip-links .list__link:link, .list--skip-links .list__link:hover, .list--skip-links .list__link:active, .list--skip-links .list__link:focus{
     outline: 3px solid #fff !important;
 }
+
+.nav--primary-navigation 
+.button 
+.button__text, 
 .nav--primary-navigation 
 .button:hover 
 .button__text, 
@@ -73,6 +78,15 @@ button#js-search-toggle:hover{
     outline-offset: 10px;
 }
 
+.nav--primary-navigation 
+.button.js-menu-toggle
+.toggle-icon::before,
+.nav--primary-navigation 
+.button.js-menu-toggle
+.toggle-icon::after,
+.nav--primary-navigation 
+.button.js-menu-toggle 
+.toggle-icon__line,
 .nav--primary-navigation 
 .button.js-menu-toggle:focus 
 .toggle-icon::before,
@@ -95,6 +109,9 @@ button#js-search-toggle:hover{
     background-color: #000;
 }
 
+.icon-ui-search, 
+.nav--primary-navigation
+.button:active 
 .nav--primary-navigation 
 .button:hover 
 .icon-ui-search, 
@@ -251,7 +268,9 @@ button#js-search-toggle:hover{
     -webkit-transition: unset;
     -o-transition: unset;
     transition: unset;
+    /* background-color:var(--secondary); */
 }
+
 .menu-navigation 
 .menu-navigation__inner {
     background-color: var(--primary);
@@ -267,6 +286,7 @@ button#js-search-toggle:hover{
     outline: 1px solid var(--secondary);;
     outline-offset: 5px;
 }
+
 .menu-navigation 
 .js-menu-toggle 
 .toggle-icon::before, 
@@ -279,6 +299,7 @@ button#js-search-toggle:hover{
 .toggle-icon__line{
     background-color: #000;
 }
+
 
 .editor a:not(.button) {
     background-image: -webkit-linear-gradient(bottom, #fcb442 0, #fcb442 1px, transparent 1px, transparent 100%);
@@ -312,7 +333,7 @@ button#js-search-toggle:hover{
 #content 
 .nav--social-links 
 .icon {
-    background-color: white;
+    background-color: black;
 }
 
 .icon-social-facebook {
