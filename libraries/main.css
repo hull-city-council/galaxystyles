@@ -368,19 +368,21 @@ button#js-search-toggle:hover{
 .image-link:active 
 .image__caption {
     background-position: bottom left;
+    color:var(--secondary);
 }
 
 .image-link .image__caption{
   color:var(--secondary);
 }
 
-.image-link:hover {
-  color:var(--secondary);
-}
-
 .image-link .image__caption:hover {
   color:var(--secondary);
 }
+
+.widget-image .image-link:hover {
+    color:var(--secondary);
+}
+
 
 .button:focus, 
 .form__label--upload:focus, 
