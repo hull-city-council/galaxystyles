@@ -8,6 +8,8 @@
   --primary:#FFDD00;
   --secondary:#007B3E;
   --tertiary: #3AAB45;
+    /* #074325 dark green */
+    /* #E95D0C orange */
 }
 
 
@@ -183,15 +185,28 @@ button#js-search-toggle:hover{
     border-radius: unset;
 }
 
+
 .button:hover{
     background-color: var(--tertiary) !important;
     color: #fff;
 }
 
+.js-search-toggle:hover, 
+.js-menu-toggle:hover{
+    background-color: var(--primary) !important;
+}
+
+
+
+
 .button::before, 
 .button:visited::before {
     border: unset;
     border-radius: unset;
+}
+
+.navigation-buttons{
+    color: black;
 }
 
 .nav--primary-navigation 
