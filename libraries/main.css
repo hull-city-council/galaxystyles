@@ -125,6 +125,10 @@ button#js-search-toggle:hover{
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60' preserveAspectRatio='xMinYMid' aria-hidden='true' focusable='false'%3E%3Cpath class='cls-1' d='M57.64,53.46l-15-15a23,23,0,1,0-4.18,4.18l15,15a3,3,0,0,0,4.18-4.17Zm-33.19-46a17,17,0,1,1-17,17A17.06,17.06,0,0,1,24.45,7.41Z' fill='%23000'%3E%3C/path%3E%3C/svg%3E") !important;
 }
 
+body > footer > div > div.site-footer__left > nav > ul > li > a {
+    color:black !important;
+}
+
 .site-search--header::before {
     background-color: var(--primary);
     opacity: .9
@@ -203,16 +207,20 @@ button#js-search-toggle:hover{
 }
 
 
+.site-header button:focus, .site-header .button:focus, .site-header__links:focus{
+    outline: 3px solid #000000 !important;
+}
+
+
 .button:hover{
     background-color: var(--tertiary) !important;
     color: #fff;
 }
 
 .js-search-toggle:hover, 
-.js-menu-toggle:hover{
+.js-menu-toggle:hover {
     background-color: var(--primary) !important;
 }
-
 
 
 
