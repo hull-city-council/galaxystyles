@@ -12,6 +12,13 @@
     /* #E95D0C orange */
 }
 
+#search-site-header {
+    background-color:white !important;
+}
+
+#js-search-toggle-inner:hover {
+   /* color:black !important; */
+}
 
 /*
 * Typography
@@ -106,6 +113,12 @@ button#js-search-toggle:hover{
 .nav--primary-navigation 
 .button.js-menu-toggle:hover 
 .toggle-icon::after{
+    background-color: #000;
+}
+
+.site-search--header .js-search-toggle .toggle-icon::before, 
+.site-search--header .js-search-toggle .toggle-icon::after, 
+.site-search--header .js-search-toggle .toggle-icon .toggle-icon__line {
     background-color: #000;
 }
 
@@ -622,6 +635,7 @@ blockquote p:first-child::before {
 .js-search-toggle:active {
     background-color: unset;
     outline: 3px solid #000;
+    color: black !important;
 }
 
 
