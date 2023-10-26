@@ -1,0 +1,212 @@
+:root{
+  --primary:#5ABEB3;
+  --secondary:#c1d72e;
+}
+
+/*
+* Buttons
+*/
+.button,.button:visited,.form__label--upload,.form__label--image-upload,.widget--myaccount-sign-in a,.widget--myaccount-api-links a,.widget--myaccount-organisation-account-links a,.widget--myaccount-organisation-links a,.form__label--upload:visited,.form__label--image-upload:visited,.widget--myaccount-sign-in a:visited,.widget--myaccount-api-links a:visited,.widget--myaccount-organisation-account-links a:visited,.widget--myaccount-organisation-links a:visited {
+
+}
+.button, .button:visited, .form__label--upload, .form__label--image-upload, .widget--myaccount-sign-in a, .widget--myaccount-api-links a, .widget--myaccount-organisation-account-links a, .widget--myaccount-organisation-links a, .form__label--upload:visited, .form__label--image-upload:visited, .widget--myaccount-sign-in a:visited, .widget--myaccount-api-links a:visited, .widget--myaccount-organisation-account-links a:visited, .widget--myaccount-organisation-links a:visited {
+
+}
+.button:hover{
+
+}
+.button::before, .button:visited::before {
+
+}
+.nav--primary-navigation .button{
+
+}
+
+.list--skip-links .list__link:link, .list--skip-links .list__link:hover, .list--skip-links .list__link:active, .list--skip-links .list__link:focus{
+
+}
+
+/*
+* Links
+*/
+*:focus:not(main) {
+
+}
+
+.page-header, .breadcrumb {
+
+}
+
+
+
+/*
+* Menu
+*/
+.menu-navigation .list__link:hover, .menu-navigation .list__link:focus {
+
+}
+.menu-navigation .menu-navigation__inner {
+   
+}
+
+.menu-navigation .list__link {
+
+}
+.menu-navigation .list__link:hover{
+  
+}
+.menu-navigation .js-menu-toggle .toggle-icon::before, .menu-navigation .js-menu-toggle .toggle-icon::after, .menu-navigation .js-menu-toggle .toggle-icon .toggle-icon__line{
+    
+}
+
+.editor a:not(.button) {
+
+}
+
+.editor a:not(.button):hover, .editor a:not(.button):focus, .editor a:not(.button):active {
+  
+}
+
+
+
+
+.widget-image .image {
+    border-bottom: 10px solid var(--primary);
+}
+
+
+.button:focus, .form__label--upload:focus, .form__label--image-upload:focus, .widget--myaccount-sign-in a:focus, .widget--myaccount-api-links a:focus, .widget--myaccount-organisation-account-links a:focus, .widget--myaccount-organisation-links a:focus {
+    outline: 3px solid #fff;
+    outline-offset: 1px;
+    background: var(--primary);
+    color: #fff;
+}
+
+.nav--social-links .icon {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.site-footer__group .list__link {
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+@media screen and (min-width: 960px) {
+    .site-footer .nav--social-links {
+        padding-left: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .site-header>.container {
+        display: flex;
+        padding: 0 .8rem;
+    }
+
+    .site-header .button {
+        padding: .5rem;
+    }
+}
+
+.widget-navigation .list__link {
+    border: 1px solid #fff;
+}
+
+.widget-navigation .list__link {
+    background-color: #fff;
+}
+
+.widget-navigation .list__link .list__heading {
+    font-weight: 700;
+}
+
+
+
+.listing--featured {
+    border: 3px solid #000;
+}
+
+.list--listing .list__item, .widget--external_feeds .list--listing .list__item, .widget--latest_news .list--listing .list__item, .search-list .list--listing .list__item, .news-list .list--listing .list__item, .event-list .list--listing .list__item, .councillor-list .list--listing .list__item {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.form__field, .form__component--esri input[type="text"], .form__radio, .google-translate .goog-te-combo, .form__select, select, .form__textarea {
+    box-shadow: unset;
+}
+
+.editor ul:not([class]):not([type]) li::before {
+    background-color: #000;
+}
+
+table {
+    border: 1px solid #000 !important;
+}
+
+.nav--pages-in .nav__list {
+    background-color: #fafaf8;
+}
+
+.nav--pages-in {
+    background-color: #fafaf8;
+}
+
+.nav--pages-in .nav__list::before {
+    border-color: #fafaf8 transparent transparent;
+}
+
+.pagination {
+    background-color: #fafaf8;
+}
+
+.pagination__item--next::after,.pagination__item--previous::after {
+    border-left: 4px solid #000;
+}
+
+@media screen and (max-width: 768px) {
+    .nav--pages-in .nav__list {
+        border-bottom: unset;
+    }
+}
+
+blockquote, .blockquote {
+    background-color: #fafaf8;
+}
+
+blockquote p:first-child::before {
+    background-color: #000;
+}
+
+@media screen and (min-width: 1200px) {
+    .site-footer__left {
+        max-width: 90%;
+    }
+}
+
+::selection {
+    background-color: var(--primary)!important;
+    color: #fff !important;
+}
+
+
+
+.site-header a:focus, .site-header button:focus, .site-header .button:focus, .site-header__links:focus, .site-footer__social .list--social-links .list__link:focus, .site-footer__logo .identity__link:focus, .site-footer__group .list__link:focus, .site-footer__link:focus, .site-footer__text:focus, .site-footer__links:focus {
+    outline: 3px solid #000000;
+    background-color: unset;
+}
+
+.site-search--header .js-search-toggle:hover, .site-search--header .js-search-toggle:focus, .site-search--header .js-search-toggle:active {
+    background-color: unset;
+    outline: 3px solid #000;
+}
+
+
+.boxed .google-translate .goog-te-combo:focus, .google-translate .boxed .goog-te-combo:focus, .aside__section .google-translate .goog-te-combo:focus, .google-translate .aside__section .goog-te-combo:focus, .boxed .form__select:focus, .aside__section .form__select:focus, .boxed select:focus, .aside__section select:focus {
+    background-color: unset;
+    outline: 2px solid;
+}
+
+/* Hide submit new event button */
+#content > div > div > section > a {
+    display: none;
+}
