@@ -17,8 +17,8 @@ display: block;
 
 #menu a:focus{
 background-color: #00000000 !important;
-outline: none;
-
+outline: 1px solid #fff!important;
+padding: .2rem;
 }
 
 #menu .close:focus {
@@ -42,7 +42,7 @@ color:#ffffff !important;
 *:focus,
 input:focus           { outline: 2px dotted #e5007e ;}
 .wrapper.style5 button:focus { background-color: #000; border: 2px dotted #e5007e; }
-a:focus               { background: transparent !important; color: #444 !important; outline: none; }
+a:focus               { background: #e5007e !important; color: #fff !important; outline: #e5007e !important; }
 
 .style5 h1, h2, h3, h4, h5, h6 {
 letter-spacing: 0.05em !important;
@@ -65,4 +65,55 @@ text-decoration: none;
     background-image: url(https://www.workingforhullcitycouncil.org.uk/themes/jadu-spectral/dist/css/images/close.svg) !important;
     background-position: 4.85em 1em !important;
     background-repeat: no-repeat !important;
+}
+
+/* 
+Featured jobs
+*/
+
+.saveJob {
+    display: none;
+}
+.listBlock.box.styleOne.jobsList > ul > li {
+    padding: unset;
+}
+.listBlock.box.styleOne.jobsList > ul {
+    list-style: none;
+    padding: unset;
+}
+li > figure > img {
+    display: none;
+}
+.listBlock.box.styleOne.jobsList > ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 18px;
+  grid-row-gap: 10px;
+}
+.listBlock.box.styleOne.jobsList > ul > li {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-bottom: 2px solid #e5007e;
+    padding: 1rem;
+    border-radius: 6px;
+
+  box-shadow: 0 0 0 1px hsla(230, 13%, 9%, 0.05),
+              0 0.3px 0.4px hsla(230, 13%, 9%, 0.02),
+              0 0.9px 1.5px hsla(230, 13%, 9%, 0.045),
+              0 3.5px 6px hsla(230, 13%, 9%, 0.09);
+}
+@media screen and (max-width: 736px) {
+  .listBlock.box.styleOne.jobsList > ul {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+article > div.jobDetails > p > span {
+    display: block;
+    margin: .3rem 0;
+}
+
+#footer > ul > li:nth-child(2){
+  display: none;
 }
