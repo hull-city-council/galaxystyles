@@ -9,9 +9,7 @@ font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 letter-spacing: unset !important;
 color: #4e4e4e;
 }
-strong, b{
-color: #4e4e4e;
-}
+strong, b{color: #4e4e4e;font-weight: bold;}
 p {
     margin: 0 0 1em 0;
 }
@@ -142,6 +140,555 @@ ul.search-nav.nav.nav--pagination > li > a {
 border-bottom: unset;
 }
 
+
+/* 
+Cludo search
+*/
+
+#cludo-search-results li::before,ul.search_autocomplete li::before {
+    display: none
+}
+
+
+@media (max-width: 992px) {
+    #cludo-search-results .cludo-facet__header-wrapper {
+        display:none
+    }
+}
+
+#cludo-search-results .cludo-facet__header {
+    font-size: 1.1em;
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 1em;
+    text-align: center;
+    padding: 15px 5px;
+}
+
+#cludo-search-results .cludo-facet__value-list {
+    /* padding: 0 0 0 21px; */
+}
+
+@media (max-width: 992px) {
+    #cludo-search-results .cludo-facet__value-list {
+        display:none;
+        position: absolute;
+        width: 100%;
+        background: #fff;
+        z-index: 100;
+    }
+}
+
+#cludo-search-results .cludo-facet__value-list-item {
+    padding: 0 0 8px
+}
+
+#cludo-search-results .cludo-facet__value-list-item-anchor {
+    border-bottom: 1px dotted #d0d0d0;
+    color: #333;
+    display: block;
+    font-size: 14px;
+    line-height: 1.4em;
+    padding: 4px 0;
+    transition: all .3s ease-in-out;
+}
+
+
+#cludo-search-results .cludo-facet__value-list-item-anchor.active,#cludo-search-results .cludo-facet__value-list-item-anchor:hover {
+    color: #6c40ad;
+    text-decoration: none;
+    border-bottom: 1px solid #6c40ad;
+    transition: all .3s ease-in-out
+}
+
+#cludo-search-results .cludo-facet__header-mobile {
+    display: none;
+    position: relative;
+    padding: 12.5px;
+    font-size: 24px;
+    margin: 12px 0
+}
+
+@media (max-width: 992px) {
+    #cludo-search-results .cludo-facet__header-mobile {
+        border-radius: 6px;
+    border: 0;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: var(--tekhelet);
+        cursor:pointer;
+        margin-bottom: 1em;
+        text-align: center;
+        padding: 15px 5px;
+        border: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    #cludo-search-results .cludo-facet__header-mobile h2 {
+        font-size: 1.6rem!important;
+        color: #fff;
+        margin: unset;
+    }
+
+    #cludo-search-results .cludo-facet__header-mobile:after {
+        content: "\f078";
+        font-family: FontAwesome;
+        display: block;
+        top: 46px;
+        right: 19px;
+        margin-left: 25px
+    }
+
+    #cludo-search-results .cludo-facet__header-mobile.open:after {
+        content: "\f077"
+    }
+}
+
+#cludo-search-results .cludo-sort-by__label,#cludo-search-results .cludo-sort-by__option,#cludo-search-results .cludo-sort-by__sort-dropdown {
+    display: inline-block
+}
+
+#cludo-search-results .cludo-sort-by {
+    position: absolute;
+    top: -45px;
+    right: 10px;
+    font-size: 14px;
+    line-height: 1.4em
+}
+
+@media (max-width: 992px) {
+    #cludo-search-results .cludo-sort-by {
+        top:-127px
+    }
+}
+
+#cludo-search-results .cludo-sort-by__option a {
+    text-decoration: none;
+    color: #333;
+    border-color: transparent
+}
+
+#cludo-search-results .cludo-sort-by__option a:hover {
+    padding: 0
+}
+
+#cludo-search-results .cludo-sort-by__option.active a {
+    border-color: #6c40ad;
+    color: #6c40ad
+}
+
+#cludo-search-results .cludo-search-results-list__banner {
+    width: 100%;
+    border-top: 1px solid #333;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    border-radius: 0;
+    border-bottom: 8px solid #b40e19;
+    margin-bottom: 20px;
+    padding: 25px;
+    overflow: hidden
+}
+
+#cludo-search-results .cludo-search-results-list__banner .page-header {
+    float: inherit;
+    padding: 0
+}
+
+#cludo-search-results .cludo-search-results-list__banner h1,#cludo-search-results .cludo-search-results-list__banner h2,#cludo-search-results .cludo-search-results-list__banner h3,#cludo-search-results .cludo-search-results-list__banner h4 {
+    padding-bottom: 15px
+}
+
+#cludo-search-results .cludo-search-results-list__banner ul {
+    list-style: outside
+}
+
+#cludo-search-results .cludo-search-results-list__banner a {
+    background-color: #b40e19;
+    border: 1px solid #b40e19;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: 12px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-top: 25px;
+    display: flex;
+    width: fit-content
+}
+
+#cludo-search-results .cludo-search-results-list__banner a:hover {
+    background-color: #61282b!important;
+    border: 1px solid #b40e19;
+    color: #fff;
+    text-decoration: underline
+}
+
+#cludo-search-results .cludo-search-results-item {
+    margin-bottom: 35px;
+    border-bottom: 1px solid #e8e8e8;!
+}
+
+#cludo-search-results .cludo-search-results-item__title-anchor {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    border-bottom: none!important;
+}
+
+#cludo-search-results .cludo-search-results-item__title-anchor .fa {
+    display: none;;
+}
+
+@media (max-width: 520px) {
+    #cludo-search-results .cludo-search-results-item__title-anchor .fa {
+        padding:15px 20px;
+        font-size: 1.1em;
+        line-height: 1.1
+    }
+}
+
+#cludo-search-results .cludo-search-results-item__title-anchor .cludo-search-results-item__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    word-break: break-word;
+    font-size: 1.2em;
+    width: 100%;
+    transition: all .2s ease-in
+}
+
+@media (max-width: 520px) {
+    #cludo-search-results .cludo-search-results-item__title-anchor .cludo-search-results-item__title {
+        font-size: 1.4em;
+        line-height: 1.1
+    }
+
+    #cludo-search-results .cludo-search-results-item__title-anchor .cludo-search-results-item__title span {
+        display: none
+    }
+}
+
+#cludo-search-results .cludo-search-results-item__title-anchor .cludo-search-results-item__title span {
+    text-align: center;
+    font-size: .6em;
+}
+
+#cludo-search-results .cludo-search-results-item__title-anchor:hover {
+    border-bottom: 0;
+    padding-bottom: 0
+}
+
+#cludo-search-results .cludo-search-results-item__title-anchor:hover .fa,#cludo-search-results .cludo-search-results-item__title-anchor:hover h2 {
+    text-decoration: underline;
+}
+
+#cludo-search-results .cludo-search-results-item__info {
+    display: flex
+}
+
+#cludo-search-results .cludo-search-results-item__info-left {
+    word-break: break-word;
+    width: 40%;
+    margin-right: 50px
+}
+
+#cludo-search-results .cludo-search-results-item__info-left .cludo-search-results-item__info-item {
+    position: relative;
+    padding-left: 120px
+}
+
+#cludo-search-results .cludo-search-results-item__info-left .cludo-search-results-item__info-item span {
+    position: absolute;
+    left: 0
+}
+
+#cludo-search-results .cludo-search-results-item__info-right {
+    word-break: break-word
+}
+
+#cludo-search-results .cludo-search-results-item__info-right .cludo-search-results-item__info-item {
+    position: relative;
+    padding-left: 35px
+}
+
+#cludo-search-results .cludo-search-results-item__info-right .cludo-search-results-item__info-item:before {
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0
+}
+
+#cludo-search-results .cludo-search-results-item__info-right .cludo-search-results-item__info-item span {
+    display: none
+}
+
+@media (max-width: 520px) {
+    #cludo-search-results .cludo-search-results-item__info {
+        flex-direction:column
+    }
+
+    #cludo-search-results .cludo-search-results-item__info-left {
+        width: 100%
+    }
+
+    #cludo-search-results .cludo-search-results-item__info-right .cludo-search-results-item__info-item {
+        padding-left: 120px
+    }
+
+    #cludo-search-results .cludo-search-results-item__info-right .cludo-search-results-item__info-item:before {
+        display: none
+    }
+
+    #cludo-search-results .cludo-search-results-item__info-right .cludo-search-results-item__info-item span {
+        display: block;
+        position: absolute;
+        left: 0
+    }
+}
+
+#cludo-search-results .cludo-search-results-item__info-right .cludo-search-results-item__info_phone:before {
+    content: "\f095"
+}
+
+#cludo-search-results .cludo-search-results-item__info-right .cludo-search-results-item__info_email:before {
+    content: "\f0e0"
+}
+
+#cludo-search-results .cludo-search-results-item__info-right .cludo-search-results-item__info_email a {
+    transition: all .3s ease-in-out
+}
+
+#cludo-search-results .cludo-search-results-item__info-right .cludo-search-results-item__info_email a:hover {
+    padding: 0
+}
+
+#cludo-search-results .cludo-search-results-item__info-right .cludo-search-results-item__info_address:before {
+    content: "\f124"
+}
+
+#cludo-search-results .cludo-search-results-item .cludo-breadcrumbs {
+    font-size: 13px
+}
+
+#cludo-search-results .cludo-page-navigation__list {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#cludo-search-results .cludo-page-navigation__list-item {
+    text-decoration: none;
+    color: #222;
+    padding: 6px 0
+}
+
+#cludo-search-results .cludo-page-navigation__list-item.active {
+    border: 1px solid #fff;
+    background-color: rgba(214,214,214,.5);
+    border-color: rgba(214,214,214,.5);
+    line-height: 1.42857143;
+    padding: 6px 12px
+}
+
+#cludo-search-results .cludo-page-navigation__list-item a {
+    display: flex;
+    color: #222;
+    background-color: #fff;
+    border: 1px solid #fff;
+    width: 100%;
+    height: 100%;
+    padding: 6px 12px;
+    line-height: 1.42857143
+}
+
+#cludo-search-results .cludo-page-navigation__list-item a:hover {
+    background-color: rgba(214,214,214,.5);
+    border-color: rgba(214,214,214,.5)
+}
+
+#cludo-search-results .cludo-page-navigation .cludo-sr-only {
+    display: none
+}
+
+#cludo-search-results .cludo-search-results__results-wrapper {
+    margin-right: auto
+}
+
+p.cludo-search-results-item__description{
+    font-size: 1rem;
+}
+
+
+
+@media (max-width: 992px) {
+    .search-result-count {
+        position:inherit;
+        padding-bottom: 24px;
+        padding-right: 0
+    }
+}
+
+.block-hull-federated-search #form-search-page {
+    display: flex;
+    position: relative
+}
+
+.search_autocomplete {
+    background: #fff;
+    border-radius: 6px;
+    border-color: var(--mexican-pink);
+    box-shadow: 0 0 0 2px var(--mexican-pink);
+    z-index: 5;
+    padding: 1rem;
+    border-top: 0;
+}
+
+.search_autocomplete:before {
+    content: "Suggested searches";
+    height: 40px!important;
+    width: 100%;
+    padding: 5px 12px;
+    color: #000;
+    display: flex;
+    align-items: center
+}
+
+.search_autocomplete li {
+    padding: 5px 12px!important;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.4
+}
+
+.search_autocomplete li.active,.search_autocomplete li:hover {
+    background: rgba(214,214,214,.5)
+}
+
+.search-container {
+    z-index: 150
+}
+
+#search-nav .search_autocomplete {
+    top: 120%;
+    border-radius: 20px;
+    border-top: 1px solid #333
+}
+
+#search-nav .search_autocomplete li {
+    padding: 5px 6px!important
+}
+
+#search-nav .search_autocomplete li:first-child {
+    border-radius: 20px 20px 0 0
+}
+
+#search-nav .search_autocomplete li:last-child {
+    border-radius: 0 0 20px 20px
+}
+
+#search-nav .search_autocomplete li:only-child {
+    border-radius: 20px
+}
+
+.cludo-loader {
+    display: inline-block;
+    position: relative;
+    width: 65px;
+    height: 45px;
+    margin: 0 auto
+}
+
+.cludo-loader>* {
+    display: block;
+    position: absolute;
+    width: 8px;
+    border-radius: 4px;
+    background: #000;
+    animation: cludoloader 1.2s cubic-bezier(0,.5,.5,1) infinite
+}
+
+.cludo-loader>:nth-child(1) {
+    left: 5px;
+    animation-delay: -.24s
+}
+
+.cludo-loader>:nth-child(2) {
+    left: 20px;
+    animation-delay: -.12s
+}
+
+.cludo-loader>:nth-child(3) {
+    left: 35px;
+    animation-delay: 0
+}
+
+.cludo-loader>:nth-child(4) {
+    left: 50px;
+    animation-delay: .12s
+}
+
+@keyframes cludoloader {
+    0%,100% {
+        top: 5px;
+        height: 8px;
+        opacity: .6
+    }
+
+    10%,60% {
+        height: 14px
+    }
+
+    50% {
+        top: 30px;
+        height: 8px;
+        opacity: 1
+    }
+}
+
+#loader {
+    text-align: center
+}
+
+.cludo-hidden {
+    display: none!important
+}
+
+.cludo-opacity0 {
+    opacity: 0
+}
+
+
+
+@media screen and (min-width: 760px){
+.search-results li{margin:2rem 0;padding:2rem 0 0;}
+}
+#cludo-search-results{margin-top:0!important;}
+@media screen and (min-width: 760px){
+#cludo-search-results{display:-webkit-box;display:-ms-flexbox;display:flex;}
+}
+@media screen and (min-width: 760px){
+#cludo-search-results .col-md-3{margin-top:.5rem;padding-right:.75rem;width:25%;}
+}
+@media screen and (min-width: 760px){
+#cludo-search-results .col-md-9{width:75%;}
+}
+
+
+
+
+                         
+
 /* hide postcode */
 #postcode {
   display:none;
@@ -212,3 +759,5 @@ display: none;
 #banner > h2{
     display: none;
 }
+
+
