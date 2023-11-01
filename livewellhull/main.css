@@ -196,7 +196,7 @@ a {
 * Links
 */
 *:focus:not(main) {
-    outline: 3px solid var(--primary) !important;
+    outline: 3px solid var(--dark) !important;
 }
 
 
@@ -256,6 +256,9 @@ a {
 /*
 * Footer
 */
+
+
+
 #content .nav--social-links .icon {
     background-color: white;
 }
@@ -305,7 +308,7 @@ background-color: unset;
 .widget--myaccount-organisation-links a:focus {
     outline: 3px solid #fff;
     outline-offset: 1px;
-    background: var(--primary);
+    background: var(--dark);
     color: #fff;
 }
 
