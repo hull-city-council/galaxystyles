@@ -362,7 +362,11 @@ select,
 table {
     border: 1px solid #000 !important;
 }
-
+@media screen and (min-width: 960px){
+    .page-content {
+        margin-top: 1.5rem;
+    }
+}
 .nav--pages-in .nav__list {
     background-color: #f0f0f0;
 }
