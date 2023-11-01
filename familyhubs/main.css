@@ -145,6 +145,10 @@ border-bottom: unset;
 Cludo search
 */
 
+#cludo-search-results .cludo-facet__value-list,ul.cludo-search-results-list__list,#cludo-search-results .cludo-page-navigation__list, .search_autocomplete  {
+    list-style: none;
+}
+
 #cludo-search-results li::before,ul.search_autocomplete li::before {
     display: none
 }
@@ -326,13 +330,6 @@ Cludo search
     margin-top: 25px;
     display: flex;
     width: fit-content
-}
-
-#cludo-search-results .cludo-search-results-list__banner a:hover {
-    background-color: #61282b!important;
-    border: 1px solid #b40e19;
-    color: #fff;
-    text-decoration: underline
 }
 
 #cludo-search-results .cludo-search-results-item {
@@ -546,9 +543,8 @@ p.cludo-search-results-item__description{
 
 .search_autocomplete {
     background: #fff;
-    border-radius: 6px;
-    border-color: var(--mexican-pink);
-    box-shadow: 0 0 0 2px var(--mexican-pink);
+    border-radius: 0 0 6px 6px;
+    border: 2px solid var(--mexican-pink);
     z-index: 5;
     padding: 1rem;
     border-top: 0;
@@ -612,6 +608,7 @@ p.cludo-search-results-item__description{
 .cludo-loader>* {
     display: block;
     position: absolute;
+    left: 50%;
     width: 8px;
     border-radius: 4px;
     background: #000;
@@ -759,5 +756,3 @@ display: none;
 #banner > h2{
     display: none;
 }
-
-
