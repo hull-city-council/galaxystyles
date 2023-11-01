@@ -364,19 +364,19 @@ table {
 }
 
 .nav--pages-in .nav__list {
-    background-color: #fff;
+    background-color: #f0f0f0;
 }
 
 .nav--pages-in {
-    background-color: #fff;
+    background-color: #f0f0f0;
 }
 
 .nav--pages-in .nav__list::before {
-    border-color: #fff;
+    border-color: #f0f0f0 transparent transparent;
 }
 
 .pagination {
-    background-color: #fff;
+    background-color: #f0f0f0;
 }
 
 .pagination__item--next::after,
