@@ -1,28 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,400&display=swap');
-* {font-family: 'Roboto', sans-serif !important;}
-:root{
-  --primary:#5B89B4;
-  --secondary:#E6007E;
-  --tertiary:#F5A800;
-  --dark:#181C26;
+
+* {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+:root {
+    --primary: #5B89B4;
+    --secondary: #E6007E;
+    --tertiary: #F5A800;
+    --dark: #181C26;
 }
 
 /*
 * Typography
 */
-h1, .h1, h2, .h2, h3, .form__heading, .h3, h4, .h4, h5, .h5, h6, .h6,.listing .listing__link, .widget-image .image__caption {
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.form__heading,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+.listing .listing__link,
+.widget-image .image__caption {
     color: #000;
 }
 
-h3, .form__heading, .h3, .gamma {
+h3,
+.form__heading,
+.h3,
+.gamma {
     font-size: 1.8rem;
 }
 
-h4, .h4 {
+h4,
+.h4 {
     font-size: 1.55rem;
 }
 
-h5, .h5 {
+h5,
+.h5 {
     font-size: 1.3rem;
     text-transform: unset !important;
 }
@@ -31,28 +54,58 @@ h5, .h5 {
 * Header
 */
 
-.site-header{
+.site-header {
     background-color: var(--dark);
     -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
     -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
     box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
     max-height: 90px;
 }
-.identity__logo {
-        width: 100px;
-    }
 
-.site-header a:focus, .site-header button:focus, .site-header .button:focus, .site-header__links:focus, .site-footer__social .list--social-links .list__link:focus, .site-footer__logo .identity__link:focus, .site-footer__group .list__link:focus, .site-footer__link:focus, .site-footer__text:focus, .site-footer__links:focus, .list--back-to-top .list__link:link, .list--back-to-top .list__link:hover, .list--back-to-top .list__link:active, .list--back-to-top .list__link:focus, .list--skip-links .list__link:link, .list--skip-links .list__link:hover, .list--skip-links .list__link:active, .list--skip-links .list__link:focus{
+.identity__logo {
+    width: 100px;
+}
+
+.site-header a:focus,
+.site-header button:focus,
+.site-header .button:focus,
+.site-header__links:focus,
+.site-footer__social .list--social-links .list__link:focus,
+.site-footer__logo .identity__link:focus,
+.site-footer__group .list__link:focus,
+.site-footer__link:focus,
+.site-footer__text:focus,
+.site-footer__links:focus,
+.list--back-to-top .list__link:link,
+.list--back-to-top .list__link:hover,
+.list--back-to-top .list__link:active,
+.list--back-to-top .list__link:focus,
+.list--skip-links .list__link:link,
+.list--skip-links .list__link:hover,
+.list--skip-links .list__link:active,
+.list--skip-links .list__link:focus {
     outline: 3px solid #fff !important;
 }
-.nav--primary-navigation .button:hover .button__text, .nav--primary-navigation .button:focus .button__text, .nav--primary-navigation .button:active .button__text{
+
+.nav--primary-navigation .button:hover .button__text,
+.nav--primary-navigation .button:focus .button__text,
+.nav--primary-navigation .button:active .button__text {
     color: #fff;
 }
 
-.nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::before,.nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::after, .nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon .toggle-icon__line,.nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::before, .nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon .toggle-icon__line,.nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::after{
+.nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::before,
+.nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::after,
+.nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon .toggle-icon__line,
+.nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::before,
+.nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon .toggle-icon__line,
+.nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::after {
     background-color: #fff;
 }
-.nav--primary-navigation .button:hover .icon-ui-search, .nav--primary-navigation .button:focus .icon-ui-search, .nav--primary-navigation .button:active .icon-ui-search, .icon-ui-search-standout{
+
+.nav--primary-navigation .button:hover .icon-ui-search,
+.nav--primary-navigation .button:focus .icon-ui-search,
+.nav--primary-navigation .button:active .icon-ui-search,
+.icon-ui-search-standout {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60' preserveAspectRatio='xMinYMid' aria-hidden='true' focusable='false'%3E%3Cpath class='cls-1' d='M57.64,53.46l-15-15a23,23,0,1,0-4.18,4.18l15,15a3,3,0,0,0,4.18-4.17Zm-33.19-46a17,17,0,1,1-17,17A17.06,17.06,0,0,1,24.45,7.41Z' fill='%23fff'%3E%3C/path%3E%3C/svg%3E") !important;
 }
 
@@ -65,7 +118,21 @@ a {
     font-weight: 700;
     word-break: break-word
 }
-.button,.button:visited,.form__label--upload,.form__label--image-upload,.widget--myaccount-sign-in a,.widget--myaccount-api-links a,.widget--myaccount-organisation-account-links a,.widget--myaccount-organisation-links a,.form__label--upload:visited,.form__label--image-upload:visited,.widget--myaccount-sign-in a:visited,.widget--myaccount-api-links a:visited,.widget--myaccount-organisation-account-links a:visited,.widget--myaccount-organisation-links a:visited {
+
+.button,
+.button:visited,
+.form__label--upload,
+.form__label--image-upload,
+.widget--myaccount-sign-in a,
+.widget--myaccount-api-links a,
+.widget--myaccount-organisation-account-links a,
+.widget--myaccount-organisation-links a,
+.form__label--upload:visited,
+.form__label--image-upload:visited,
+.widget--myaccount-sign-in a:visited,
+.widget--myaccount-api-links a:visited,
+.widget--myaccount-organisation-account-links a:visited,
+.widget--myaccount-organisation-links a:visited {
     -webkit-appearance: none;
     background-color: var(--secondary);
     border-radius: unset;
@@ -83,24 +150,45 @@ a {
     vertical-align: middle;
     white-space: normal;
 }
-.button, .button:visited, .form__label--upload, .form__label--image-upload, .widget--myaccount-sign-in a, .widget--myaccount-api-links a, .widget--myaccount-organisation-account-links a, .widget--myaccount-organisation-links a, .form__label--upload:visited, .form__label--image-upload:visited, .widget--myaccount-sign-in a:visited, .widget--myaccount-api-links a:visited, .widget--myaccount-organisation-account-links a:visited, .widget--myaccount-organisation-links a:visited {
+
+.button,
+.button:visited,
+.form__label--upload,
+.form__label--image-upload,
+.widget--myaccount-sign-in a,
+.widget--myaccount-api-links a,
+.widget--myaccount-organisation-account-links a,
+.widget--myaccount-organisation-links a,
+.form__label--upload:visited,
+.form__label--image-upload:visited,
+.widget--myaccount-sign-in a:visited,
+.widget--myaccount-api-links a:visited,
+.widget--myaccount-organisation-account-links a:visited,
+.widget--myaccount-organisation-links a:visited {
     background-color: var(--tertiary);
     border: unset;
     border-radius: unset;
 }
-.button:hover{
+
+.button:hover {
     background-color: var(--dark);
     color: #fff;
 }
-.button::before, .button:visited::before {
+
+.button::before,
+.button:visited::before {
     border: unset;
     border-radius: unset;
 }
-.nav--primary-navigation .button{
+
+.nav--primary-navigation .button {
     background-color: unset;
 }
 
-.list--skip-links .list__link:link, .list--skip-links .list__link:hover, .list--skip-links .list__link:active, .list--skip-links .list__link:focus{
+.list--skip-links .list__link:link,
+.list--skip-links .list__link:hover,
+.list--skip-links .list__link:active,
+.list--skip-links .list__link:focus {
     background-color: var(--dark);
 }
 
@@ -115,12 +203,14 @@ a {
 /*
 * Menu
 */
-.menu-navigation .list__link:hover, .menu-navigation .list__link:focus {
+.menu-navigation .list__link:hover,
+.menu-navigation .list__link:focus {
     background-size: 0;
     -webkit-transition: unset;
     -o-transition: unset;
     transition: unset;
 }
+
 .menu-navigation .menu-navigation__inner {
     background-color: var(--dark);
 }
@@ -129,11 +219,15 @@ a {
     color: #fff !important;
     text-transform: unset;
 }
-.menu-navigation .list__link:hover{
+
+.menu-navigation .list__link:hover {
     outline: 1px solid #fff;
     outline-offset: 5px;
 }
-.menu-navigation .js-menu-toggle .toggle-icon::before, .menu-navigation .js-menu-toggle .toggle-icon::after, .menu-navigation .js-menu-toggle .toggle-icon .toggle-icon__line{
+
+.menu-navigation .js-menu-toggle .toggle-icon::before,
+.menu-navigation .js-menu-toggle .toggle-icon::after,
+.menu-navigation .js-menu-toggle .toggle-icon .toggle-icon__line {
     background-color: #fff;
 }
 
@@ -148,10 +242,13 @@ a {
     background-size: 100% 110%;
 }
 
-.editor a:not(.button):hover, .editor a:not(.button):focus, .editor a:not(.button):active {
+.editor a:not(.button):hover,
+.editor a:not(.button):focus,
+.editor a:not(.button):active {
     background-image: linear-gradient(to top, var(--secondary) 0, var(--secondary) 3px, transparent 1px, transparent 100%);
 }
-.icon-accessibility{
+
+.icon-accessibility {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' class='bi bi-universal-access' viewBox='0 0 16 16'%3E%3Cpath d='M9.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM6 5.5l-4.535-.442A.531.531 0 0 1 1.531 4H14.47a.531.531 0 0 1 .066 1.058L10 5.5V9l.452 6.42a.535.535 0 0 1-1.053.174L8.243 9.97c-.064-.252-.422-.252-.486 0l-1.156 5.624a.535.535 0 0 1-1.053-.174L6 9V5.5Z'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
 }
@@ -159,20 +256,19 @@ a {
 /*
 * Footer
 */
-
-
-
 #content .nav--social-links .icon {
     background-color: white;
 }
-.site-footer .nav--social-links .list__link:focus{
+
+.site-footer .nav--social-links .list__link:focus {
     outline: 3px solid #fff !important;
 }
 
 
 
-.list__link, {
-    background-color: unset;
+.list__link,
+{
+background-color: unset;
 }
 
 .editor {
@@ -189,16 +285,24 @@ a {
     background-image: linear-gradient(to top, var(--secondary) 0, var(--secondary) 3px, transparent 1px, transparent 100%);
 }
 
-.widget-image .image{
+.widget-image .image {
     border-bottom: unset;
 }
 
 
-.image-link:hover .image__caption, .image-link:focus .image__caption, .image-link:active .image__caption {
+.image-link:hover .image__caption,
+.image-link:focus .image__caption,
+.image-link:active .image__caption {
     background-position: bottom left;
 }
 
-.button:focus, .form__label--upload:focus, .form__label--image-upload:focus, .widget--myaccount-sign-in a:focus, .widget--myaccount-api-links a:focus, .widget--myaccount-organisation-account-links a:focus, .widget--myaccount-organisation-links a:focus {
+.button:focus,
+.form__label--upload:focus,
+.form__label--image-upload:focus,
+.widget--myaccount-sign-in a:focus,
+.widget--myaccount-api-links a:focus,
+.widget--myaccount-organisation-account-links a:focus,
+.widget--myaccount-organisation-links a:focus {
     outline: 3px solid #fff;
     outline-offset: 1px;
     background: var(--primary);
@@ -261,11 +365,23 @@ a {
     border: 3px solid #000;
 }
 
-.list--listing .list__item, .widget--external_feeds .list--listing .list__item, .widget--latest_news .list--listing .list__item, .search-list .list--listing .list__item, .news-list .list--listing .list__item, .event-list .list--listing .list__item, .councillor-list .list--listing .list__item {
+.list--listing .list__item,
+.widget--external_feeds .list--listing .list__item,
+.widget--latest_news .list--listing .list__item,
+.search-list .list--listing .list__item,
+.news-list .list--listing .list__item,
+.event-list .list--listing .list__item,
+.councillor-list .list--listing .list__item {
     border-bottom: 1px solid #eeeeee;
 }
 
-.form__field, .form__component--esri input[type="text"], .form__radio, .google-translate .goog-te-combo, .form__select, select, .form__textarea {
+.form__field,
+.form__component--esri input[type="text"],
+.form__radio,
+.google-translate .goog-te-combo,
+.form__select,
+select,
+.form__textarea {
     box-shadow: unset;
 }
 
@@ -293,7 +409,8 @@ table {
     background-color: #fafaf8;
 }
 
-.pagination__item--next::after,.pagination__item--previous::after {
+.pagination__item--next::after,
+.pagination__item--previous::after {
     border-left: 4px solid #000;
 }
 
@@ -303,7 +420,8 @@ table {
     }
 }
 
-blockquote, .blockquote {
+blockquote,
+.blockquote {
     background-color: #fafaf8;
 }
 
@@ -318,30 +436,47 @@ blockquote p:first-child::before {
 }
 
 ::selection {
-    background-color: var(--primary)!important;
+    background-color: var(--primary) !important;
     color: #fff !important;
 }
 
 
 
-.site-header a:focus, .site-header button:focus, .site-header .button:focus, .site-header__links:focus, .site-footer__social .list--social-links .list__link:focus, .site-footer__logo .identity__link:focus, .site-footer__group .list__link:focus, .site-footer__link:focus, .site-footer__text:focus, .site-footer__links:focus {
+.site-header a:focus,
+.site-header button:focus,
+.site-header .button:focus,
+.site-header__links:focus,
+.site-footer__social .list--social-links .list__link:focus,
+.site-footer__logo .identity__link:focus,
+.site-footer__group .list__link:focus,
+.site-footer__link:focus,
+.site-footer__text:focus,
+.site-footer__links:focus {
     outline: 3px solid #000000;
     background-color: unset;
 }
 
-.site-search--header .js-search-toggle:hover, .site-search--header .js-search-toggle:focus, .site-search--header .js-search-toggle:active {
+.site-search--header .js-search-toggle:hover,
+.site-search--header .js-search-toggle:focus,
+.site-search--header .js-search-toggle:active {
     background-color: unset;
     outline: 3px solid #000;
 }
 
 
-.boxed .google-translate .goog-te-combo:focus, .google-translate .boxed .goog-te-combo:focus, .aside__section .google-translate .goog-te-combo:focus, .google-translate .aside__section .goog-te-combo:focus, .boxed .form__select:focus, .aside__section .form__select:focus, .boxed select:focus, .aside__section select:focus {
+.boxed .google-translate .goog-te-combo:focus,
+.google-translate .boxed .goog-te-combo:focus,
+.aside__section .google-translate .goog-te-combo:focus,
+.google-translate .aside__section .goog-te-combo:focus,
+.boxed .form__select:focus,
+.aside__section .form__select:focus,
+.boxed select:focus,
+.aside__section select:focus {
     background-color: unset;
     outline: 2px solid;
 }
 
 /* Hide submit new event button */
-#content > div > div > section > a {
+#content>div>div>section>a {
     display: none;
 }
-
