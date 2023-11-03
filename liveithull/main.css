@@ -148,7 +148,9 @@ blockquote p:first-child::before {
     outline: 3px solid #000;
 }
 
-
+.site-search--header .form__field {
+  font-size: 4.625rem;
+}
 .boxed .google-translate .goog-te-combo:focus, .google-translate .boxed .goog-te-combo:focus, .aside__section .google-translate .goog-te-combo:focus, .google-translate .aside__section .goog-te-combo:focus, .boxed .form__select:focus, .aside__section .form__select:focus, .boxed select:focus, .aside__section select:focus {
     background-color: unset;
     outline: 2px solid;
