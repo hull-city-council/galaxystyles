@@ -164,3 +164,23 @@ blockquote p:first-child::before {
 #content > div > div > section > a {
     display: none;
 }
+.site-footer__logo {
+    display: none;
+}
+
+.partner-heading {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.partner-container {
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partner-logos {
+    padding: 1rem;
+}
