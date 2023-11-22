@@ -71,7 +71,9 @@ text-decoration: none;
 /* 
 Featured jobs
 */
-
+.listBlock.box.styleOne.jobsList {
+    padding: unset;
+}
 .saveJob {
     display: none;
 }
@@ -87,7 +89,7 @@ li > figure > img {
 }
 .listBlock.box.styleOne.jobsList > ul {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%/3, max(64px, 100%/5)), 1fr));
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 18px;
   grid-row-gap: 10px;
