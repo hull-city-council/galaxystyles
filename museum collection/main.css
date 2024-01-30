@@ -18,9 +18,9 @@ color: #000;
 .page-header, .breadcrumb {
     background-color: #fafaf8;
 }
-
-.toggle-icon::before, .toggle-icon::after, .toggle-icon .toggle-icon__line, .nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::after {
-    background-color: #000;
+.list--breadcrumb a:hover {
+    text-decoration-thickness: 2px !important;
+    text-decoration: underline;
 }
 .nav--primary-navigation .button__text,.menu-navigation .list__link:hover, .menu-navigation .list__link:focus, .menu-navigation .list__link:visited, .nav--primary-navigation .button:focus .button__text, .nav--primary-navigation .button:active .button__text, .menu-navigation .list__link, .site-footer__text, .site-footer__links, .site-footer__group .list__link, .site-footer__link, .nav--pages-in .list__item .list__link-text, .nav--primary-navigation .button:hover .button__text, .nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::before, listing .listing__link, .site-search--header .js-search-toggle .toggle-icon::after, .widget-navigation .list__link .list__heading, .site-search--header .form__field, .site-footer, .image-link:hover .image__caption, .image-link:focus .image__caption, .image-link:active .image__caption, .listing, .listing .listing__link   {
     color: #000;
@@ -121,6 +121,12 @@ h5, .h5 {
     background-position: bottom;
     background-repeat: repeat-x;
 }
+.site-footer__group .list__link, a.site-footer__link {
+    text-decoration: underline;
+}
+.site-footer__group .list__link:hover, a.site-footer__link:hover {
+    text-decoration-thickness: 2px;
+}
 #content .nav--social-links .icon {
     background-color: white;
 }
@@ -161,6 +167,10 @@ a:focus {
 .button:focus, .form__label--upload:focus, .form__label--image-upload:focus, .widget--myaccount-sign-in a:focus, .widget--myaccount-api-links a:focus, .widget--myaccount-organisation-account-links a:focus, .widget--myaccount-organisation-links a:focus{
     outline: 3px solid #fff;
     outline-offset: 1px;
+    background: #000;
+    color: #fff;
+}
+a.button:hover {
     background: #000;
     color: #fff;
 }
