@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap')
-
-*{
-    font-family: "Outfit", sans-serif; !important; 
-}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 :root{
   --primary:#02291C;
   --secondary:#FF9505;
+}
+
+
+* {
+    font-family: "Outfit", sans-serif !important; 
 }
 
 body{
@@ -20,6 +21,8 @@ body{
 */
 h1, .h1, h2, .h2, h3, .form__heading, .h3, h4, .h4, h5, .h5, h6, .h6,.listing .listing__link {
     color: #fff;
+    text-transform: uppercase;
+    
 }
 
 h3, .form__heading, .h3, .gamma {
