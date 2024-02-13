@@ -5,8 +5,13 @@
 }
 
 :root{
-  --primary:#00713d;
-  --secondary:#c1d72e;
+  --primary:#02291C;
+  --secondary:#FF9505;
+}
+
+body{
+    background-color: var(--primary);
+    color: #e7e7e7;
 }
 
 
@@ -14,7 +19,7 @@
 * Typography
 */
 h1, .h1, h2, .h2, h3, .form__heading, .h3, h4, .h4, h5, .h5, h6, .h6,.listing .listing__link {
-    color: #000;
+    color: #fff;
 }
 
 h3, .form__heading, .h3, .gamma {
@@ -77,7 +82,6 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
 .button,.button:visited,.form__label--upload,.form__label--image-upload,.widget--myaccount-sign-in a,.widget--myaccount-api-links a,.widget--myaccount-organisation-account-links a,.widget--myaccount-organisation-links a,.form__label--upload:visited,.form__label--image-upload:visited,.widget--myaccount-sign-in a:visited,.widget--myaccount-api-links a:visited,.widget--myaccount-organisation-account-links a:visited,.widget--myaccount-organisation-links a:visited {
     -webkit-appearance: none;
     background-color: var(--secondary);
-    border-radius: unset;
     color: #000000;
     cursor: pointer;
     display: inline-block;
@@ -88,14 +92,12 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
     position: relative;
     text-align: center;
     text-decoration: none;
-    text-transform: unset;
     vertical-align: middle;
     white-space: normal;
 }
 .button, .button:visited, .form__label--upload, .form__label--image-upload, .widget--myaccount-sign-in a, .widget--myaccount-api-links a, .widget--myaccount-organisation-account-links a, .widget--myaccount-organisation-links a, .form__label--upload:visited, .form__label--image-upload:visited, .widget--myaccount-sign-in a:visited, .widget--myaccount-api-links a:visited, .widget--myaccount-organisation-account-links a:visited, .widget--myaccount-organisation-links a:visited {
     background-color: var(--secondary);
     border: unset;
-    border-radius: unset;
 }
 .button:hover{
     background-color: var(--primary);
@@ -115,7 +117,8 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
 
 /*
 * Sticky button
-* /
+*/
+
 @media screen and (max-width: 599px) {
     .sticky-container {
         position: fixed;
@@ -153,6 +156,20 @@ a.button.button-sticky:hover {
 a.button.button-sticky:focus {
     outline: 4px solid #ffc77b;
     outline-offset: 2px;
+}
+
+/*
+* CTA banners
+*/
+.cta-banner {
+    background-color: #241401 !important;
+    border-radius: 0.75em;
+    border: 1px solid #ffffff2e;
+    box-shadow: 0 0 0 1px hsla(230, 13%, 9%, 0.05), 0 0.3px 0.4px hsla(230, 13%, 9%, 0.02), 0 0.9px 1.5px hsla(230, 13%, 9%, 0.045), 0 3.5px 6px hsla(230, 13%, 9%, 0.09);
+    overflow: hidden;
+}
+.cta-banner p {
+    color: #ccc;
 }
 
 /*
@@ -215,7 +232,7 @@ a.button.button-sticky:focus {
 */
 
 .site-footer {
-    background-color: var(--primary);
+    background-color: #241401;
     padding: 3.5rem 0;
     background-position: bottom;
     background-repeat: repeat-x;
@@ -254,10 +271,7 @@ a.button.button-sticky:focus {
 
 
 .widget-image .image {
-    background: #fff;
     border-bottom: unset;
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,65) 90%,rgba(0,0,0,0.0) 0%);
-    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,65) 90%,rgba(0,0,0,0.0) 0%);
 }
 
 .image-link:hover .image__caption, .image-link:focus .image__caption, .image-link:active .image__caption {
@@ -384,8 +398,8 @@ blockquote p:first-child::before {
 }
 
 ::selection {
-    background-color: var(--primary)!important;
-    color: #fff !important;
+    background-color: var(--secondary)!important;
+    color: #000 !important;
 }
 
 
@@ -408,10 +422,6 @@ blockquote p:first-child::before {
 
 /* Hide submit new event button */
 #content > div > div > section > a {
-    display: none;
-}
-
-.site-footer__logo {
     display: none;
 }
 
