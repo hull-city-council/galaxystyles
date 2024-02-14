@@ -149,11 +149,6 @@ a.button.button--secondary:hover {
         align-items: center;
     }
 }
-@media screen and (min-width: 599px) {
-    .sticky-container {
-        display:none;
-    }
-}
 a.button.button-sticky {
     transition: all .3s ease-out;
     margin: unset;
