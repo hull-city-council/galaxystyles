@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 :root{
   --primary:#02291C;
@@ -137,14 +136,29 @@ a.button.button--secondary:hover {
 * Sticky button
 */
 
-
+@media screen and (max-width: 599px) {
+    a.button.button-sticky {
+        background: #000;
+        width: 100% !important;
+    }
+    .sticky-container {
+        position: fixed;
+        width: 100%;
+        display: flex;
+        bottom: .5rem;
+        z-index: 995;
+        justify-content: center;
+        padding: .8rem;
+        align-items: center;
+    }
+}
 .sticky-container {
     position: fixed;
     width: 100%;
     display: flex;
     bottom: .5rem;
     z-index: 995;
-    justify-content: center;
+    justify-content: right;
     padding: .8rem;
     align-items: center;
 }
@@ -152,23 +166,72 @@ a.button.button--secondary:hover {
 a.button.button-sticky {
     transition: all .3s ease-out;
     margin: unset;
-    background: #ff9505;
-    border: 3px solid #ffc77b;
+    background: var(--secondary);
     color: #08251d;
-    font-weight: 700;
+    font-weight: 900;
     display: flex;
     gap: 10px;
-    width: 70%;
+    width: 30%;
     justify-content: center;
-    box-shadow: 0px 0px 2.2px rgba(0, 0, 0, 0.014), 0px 0px 5.3px rgba(0, 0, 0, 0.02), 0px 0px 10px rgba(0, 0, 0, 0.025), 0px 0px 17.9px rgba(0, 0, 0, 0.03), 0px 0px 33.4px rgba(0, 0, 0, 0.036), 0px 0px 80px rgba(0, 0, 0, 0.05);
+   box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+    ;
 }
 a.button.button-sticky:hover {
     background-color: #ec7211;
-    border-color: #ff9505;
+    border-color: var(--secondary);
 }
 a.button.button-sticky:focus {
     outline: 4px solid #ffc77b;
     outline-offset: 2px;
+}
+.gradient-border {
+    --borderWidth: 6px;
+    border-radius: var(--borderWidth);
+}
+.gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, var(--secondary), #ec7211, #EDFBC1);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    -webkit-animation: animatedgradient 3s ease alternate infinite;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+}
+
+@-webkit-keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 /*
@@ -502,4 +565,6 @@ blockquote p:first-child::before {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
 
