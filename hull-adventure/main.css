@@ -393,9 +393,9 @@ thead {
     background-color: #000000;
     border: 1px solid #323232;
 }
- th {
+.data-table th  {
     border-bottom: 1px solid var(--secondary);
-td {
+.data-table td {
     background-color: #0f0f0f;
     border: 1px solid #323232;
     padding: .625rem 1.5rem;
