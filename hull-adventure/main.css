@@ -5,20 +5,18 @@
   --secondary:#FF9505;
 }
 
-
-* {
-    font-family: "Outfit", sans-serif !important; 
-}
-
 body{
     background-color: var(--primary);
     color: #e7e7e7;
 }
 
-
 /*
 * Typography
 */
+
+* {
+  font-family: "Outfit", sans-serif !important; 
+}
 h1, .h1, h2, .h2, h3, .form__heading, .h3, h4, .h4, h5, .h5, h6, .h6,.listing .listing__link {
     color: #fff;
     text-transform: uppercase;
@@ -49,17 +47,17 @@ h5, .h5 {
     outline: 3px solid #fff !important;
 }
 .nav--primary-navigation .button:hover .button__text, .nav--primary-navigation .button:focus .button__text, .nav--primary-navigation .button:active .button__text{
-    color: #fff;
+    color: var(--secondary);
 }
 button#js-menu-toggle:hover, button#js-search-toggle:hover{
     outline: 1px solid #fff;
     outline-offset: 10px;
 }
 .nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::before,.nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::after, .nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon .toggle-icon__line,.nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::before, .nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon .toggle-icon__line,.nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::after{
-    background-color: #fff;
+    background-color: var(--secondary);
 }
 .nav--primary-navigation .button:hover .icon-ui-search, .nav--primary-navigation .button:focus .icon-ui-search, .nav--primary-navigation .button:active .icon-ui-search, .icon-ui-search-standout{
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60' preserveAspectRatio='xMinYMid' aria-hidden='true' focusable='false'%3E%3Cpath class='cls-1' d='M57.64,53.46l-15-15a23,23,0,1,0-4.18,4.18l15,15a3,3,0,0,0,4.18-4.17Zm-33.19-46a17,17,0,1,1-17,17A17.06,17.06,0,0,1,24.45,7.41Z' fill='%23fff'%3E%3C/path%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60' preserveAspectRatio='xMinYMid' aria-hidden='true' focusable='false'%3E%3Cpath class='cls-1' d='M57.64,53.46l-15-15a23,23,0,1,0-4.18,4.18l15,15a3,3,0,0,0,4.18-4.17Zm-33.19-46a17,17,0,1,1-17,17A17.06,17.06,0,0,1,24.45,7.41Z' fill='%23FF9505'%3E%3C/path%3E%3C/svg%3E") !important;
 }
 .site-search--header::before {
     background-color: var(--primary);
@@ -86,6 +84,8 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
     -webkit-appearance: none;
     background-color: var(--secondary);
     color: #000000;
+    border-radius: unset;
+    border: 2px solid var(--secondary);
     cursor: pointer;
     display: inline-block;
     font-size: 1rem;
@@ -98,9 +98,22 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
     vertical-align: middle;
     white-space: normal;
 }
+a.button:focus{
+    outline: 2px solid #fff !important;
+    outline-offset: 3px;
+}
+a.button.button--secondary {
+    background: var(--primary);
+    color: #e7e7e7;
+    border: 2px solid;
+}
+a.button.button--secondary:hover {
+    background: #fff;
+    color: #000;
+    border: 2px solid #fff;
+}
 .button, .button:visited, .form__label--upload, .form__label--image-upload, .widget--myaccount-sign-in a, .widget--myaccount-api-links a, .widget--myaccount-organisation-account-links a, .widget--myaccount-organisation-links a, .form__label--upload:visited, .form__label--image-upload:visited, .widget--myaccount-sign-in a:visited, .widget--myaccount-api-links a:visited, .widget--myaccount-organisation-account-links a:visited, .widget--myaccount-organisation-links a:visited {
     background-color: var(--secondary);
-    border: unset;
 }
 .button:hover{
     background-color: var(--primary);
@@ -182,12 +195,29 @@ a.button.button-sticky:focus {
     outline: 3px solid var(--primary) !important;
 }
 
-
+/*
+* Document page header
+*/
 .page-header, .breadcrumb {
-    background-color: #fafaf8;
+background-size: 20px 20px;
+background-image: repeating-linear-gradient(45deg, #032f1f 0, #032f1f 4px, #02291c 0, #02291c 50%);
 }
 
-
+.list--breadcrumb a{
+    background-image: unset;
+    background-position: unset;
+    background-size: unset;
+    display: initial;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: var(--secondary);
+    text-decoration-thickness: 2px
+}
+.list--breadcrumb a:visited{
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: var(--secondary);
+}
 
 /*
 * Menu
@@ -211,7 +241,7 @@ a.button.button-sticky:focus {
     outline-offset: 5px;
 }
 .menu-navigation .js-menu-toggle .toggle-icon::before, .menu-navigation .js-menu-toggle .toggle-icon::after, .menu-navigation .js-menu-toggle .toggle-icon .toggle-icon__line{
-    background-color: #fff;
+    background-color: var(--secondary);
 }
 
 .editor a:not(.button) {
@@ -227,6 +257,9 @@ a.button.button-sticky:focus {
 
 .editor a:not(.button):hover, .editor a:not(.button):focus, .editor a:not(.button):active {
     background-image: linear-gradient(to top, var(--secondary) 0, var(--secondary) 3px, transparent 1px, transparent 100%);
+}
+.menu-navigation__overlay {
+    background-color: rgb(0 0 0 / 80%);
 }
 
 
@@ -328,7 +361,7 @@ a.button.button-sticky:focus {
 }
 
 .supplement {
-    background-color: hsl(0, 0%, 100%);
+    background-color: #241401;
     border-radius: 0.75em;
     box-shadow: 0 0 0 1px hsla(230, 13%, 9%, 0.05), 0 0.3px 0.4px hsla(230, 13%, 9%, 0.02), 0 0.9px 1.5px hsla(230, 13%, 9%, 0.045), 0 3.5px 6px hsla(230, 13%, 9%, 0.09);
 }
@@ -353,11 +386,19 @@ a.button.button-sticky:focus {
 }
 
 .editor ul:not([class]):not([type]) li::before {
-    background-color: #000;
+    background-color: var(--secondary);
 }
 
-table {
-    border: 1px solid #000 !important;
+thead {
+    background-color: #000000;
+    border: 1px solid #323232;
+}
+.data-table th, .page-content table:not([class]) th, .widget--myaccount-cxm-cases-verbose-table .my-cases__table th {
+    border-bottom: 1px solid var(--secondary);
+.data-table td, .page-content table:not([class]) td, .widget--myaccount-cxm-cases-verbose-table .my-cases__table td {
+    background-color: #000000;
+    border: 1px solid #323232;
+    padding: .625rem 1.5rem;
 }
 
 .nav--pages-in .nav__list {
@@ -441,6 +482,3 @@ blockquote p:first-child::before {
     justify-content: center;
 }
 
-.partner-logos {
-    padding: 1rem;
-}
