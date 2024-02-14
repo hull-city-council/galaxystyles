@@ -137,18 +137,18 @@ a.button.button--secondary:hover {
 * Sticky button
 */
 
-@media screen and (max-width: 599px) {
-    .sticky-container {
-        position: fixed;
-        width: 100%;
-        display: flex;
-        bottom: .5rem;
-        z-index: 995;
-        justify-content: center;
-        padding: .8rem;
-        align-items: center;
-    }
+
+.sticky-container {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    bottom: .5rem;
+    z-index: 995;
+    justify-content: center;
+    padding: .8rem;
+    align-items: center;
 }
+
 a.button.button-sticky {
     transition: all .3s ease-out;
     margin: unset;
