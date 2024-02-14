@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 :root{
   --primary:#02291C;
   --secondary:#FF9505;
@@ -15,7 +17,7 @@ body{
 */
 
 * {
-  font-family: "Outfit", sans-serif !important; 
+    font-family: "Outfit", sans-serif !important; 
 }
 h1, .h1, h2, .h2, h3, .form__heading, .h3, h4, .h4, h5, .h5, h6, .h6,.listing .listing__link {
     color: #fff;
@@ -187,14 +189,39 @@ a.button.button-sticky:focus {
 .cta-banner p {
     color: #ccc;
 }
+.list--record::before, .list--navigation::before {
+    background-color: #033b28;
+}
 
+.list--record .list__item::before, .list--navigation .list__item::before{
+    background-color: var(--secondary);
+}
 /*
 * Links
 */
 *:focus:not(main) {
     outline: 3px solid var(--primary) !important;
 }
-
+.list--record .list__link, .list--navigation .list__link {
+    color: #fff;
+    text-decoration: underline;
+}
+.list--record .list__link:hover, .list--record .list__link:focus, .list--record .list__link:active, .list--navigation .list__link:hover, .list--navigation .list__link:focus, .list--navigation .list__link:active {
+    color: #fff;
+    text-decoration-color: var(--secondary);
+}
+.supplement a:not(.button) {
+    background-image: unset;
+    background-position: unset;
+    background-repeat: unset;
+    background-size: unset;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: var(--secondary);
+}
+.list--record .list__link:hover, .list--record .list__link:focus, .list--record .list__link:active, .list--navigation .list__link:hover, .list--navigation .list__link:focus, .list--navigation .list__link:active{
+    color: #fff;
+}
 /*
 * Document page header
 */
@@ -234,7 +261,6 @@ background-image: repeating-linear-gradient(45deg, #032f1f 0, #032f1f 4px, #0229
 
 .menu-navigation .list__link {
     color: #fff !important;
-    text-transform: unset;
 }
 .menu-navigation .list__link:hover{
     outline: 1px solid #fff;
@@ -282,10 +308,10 @@ background-image: repeating-linear-gradient(45deg, #032f1f 0, #032f1f 4px, #0229
 }
 
 .nav--social-links .icon {
-    background-color: var(--primary);
+    background-color: var(--secondary);
 }
 
-.list__link, {
+.list__link {
     background-color: unset;
 }
 
@@ -393,10 +419,10 @@ thead {
     background-color: #000000;
     border: 1px solid #323232;
 }
-.data-table th  {
+.data-table th, .page-content table:not([class]) th, .widget--myaccount-cxm-cases-verbose-table .my-cases__table th {
     border-bottom: 1px solid var(--secondary);
-.data-table td {
-    background-color: #0f0f0f;
+.data-table td, .page-content table:not([class]) td, .widget--myaccount-cxm-cases-verbose-table .my-cases__table td {
+    background-color: #000000;
     border: 1px solid #323232;
     padding: .625rem 1.5rem;
 }
