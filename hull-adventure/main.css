@@ -393,10 +393,10 @@ thead {
     background-color: #000000;
     border: 1px solid #323232;
 }
-.data-table th, .page-content table:not([class]) th, .widget--myaccount-cxm-cases-verbose-table .my-cases__table th {
+ th {
     border-bottom: 1px solid var(--secondary);
-.data-table td, .page-content table:not([class]) td, .widget--myaccount-cxm-cases-verbose-table .my-cases__table td {
-    background-color: #000000;
+td {
+    background-color: #0f0f0f;
     border: 1px solid #323232;
     padding: .625rem 1.5rem;
 }
