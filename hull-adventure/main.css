@@ -277,6 +277,9 @@ button.button.button-sticky.gradient-border:focus {
 .list--record .list__link:hover, .list--record .list__link:focus, .list--record .list__link:active, .list--navigation .list__link:hover, .list--navigation .list__link:focus, .list--navigation .list__link:active{
     color: #fff;
 }
+
+
+
 /*
 * Document page header
 */
@@ -294,6 +297,11 @@ background-image: repeating-linear-gradient(45deg, #032f1f 0, #032f1f 4px, #0229
     text-decoration: underline;
     text-decoration-color: var(--secondary);
     text-decoration-thickness: 2px
+}
+.list--breadcrumb a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--secondary);
+    text-decoration-thickness: 4px;
 }
 .list--breadcrumb a:visited{
     color: #fff;
@@ -414,8 +422,10 @@ background-image: repeating-linear-gradient(45deg, #032f1f 0, #032f1f 4px, #0229
 }
 
 .editor a:not(.button) {
-    text-decoration: underline;
+text-decoration: underline;
     background-image: unset;
+    color: #fff;
+    text-decoration-color: var(--secondary);
 }
 
 .editor a:not(.button):hover {
@@ -515,6 +525,10 @@ background-image: repeating-linear-gradient(45deg, #032f1f 0, #032f1f 4px, #0229
 .page-content table:not([class]) td {
     background: #241401 !important;
     border-color: #2f2f2f !important;
+}
+.page-content table:not([class]) th{
+  background-color: #0e0800 !important;
+  border-color: #2f2f2f !important;
 }
 
 .nav--pages-in .nav__list {
