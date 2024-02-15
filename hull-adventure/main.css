@@ -536,10 +536,6 @@ text-decoration: underline;
   border-color: #2f2f2f !important;
 }
 
-.pagination {
-    background-color: #fafaf8;
-}
-
 .pagination__item--next::after,.pagination__item--previous::after {
     border-left: 4px solid #000;
 }
