@@ -44,7 +44,7 @@ h5, .h5 {
 .site-header{
     background-color: var(--primary);
 }
-.site-header a:focus, .site-header button:focus, .site-header .button:focus, .site-header__links:focus, .site-footer__social .list--social-links .list__link:focus, .site-footer__logo .identity__link:focus, .site-footer__group .list__link:focus, .site-footer__link:focus, .site-footer__text:focus, .site-footer__links:focus, .list--back-to-top .list__link:link, .list--back-to-top .list__link:hover, .list--back-to-top .list__link:active, .list--back-to-top .list__link:focus, .list--skip-links .list__link:link, .list--skip-links .list__link:hover, .list--skip-links .list__link:active, .list--skip-links .list__link:focus{
+.site-header a:focus, .site-header button:focus, .site-header .button:focus, .site-header__links:focus, .site-footer__social .list--social-links .list__link:focus, .site-footer__logo .identity__link:focus, .site-footer__group .list__link:focus, .site-footer__link:focus, .site-footer__text:focus, .site-footer__links:focus, .list--back-to-top .list__link:link, .list--back-to-top .list__link:hover, .list--back-to-top .list__link:active, .list--back-to-top .list__link:focus, .list--skip-links .list__link:link, .list--skip-links .list__link:hover, .list--skip-links .list__link:active, .list--skip-links .list__link:focus {
     outline: 3px solid #fff !important;
 }
 .nav--primary-navigation .button:hover .button__text, .nav--primary-navigation .button:focus .button__text, .nav--primary-navigation .button:active .button__text{
@@ -154,13 +154,11 @@ a.button.button--secondary:hover {
 }
 .sticky-container {
     position: fixed;
-    width: 100%;
+    right: 0;
     display: flex;
     bottom: .5rem;
     z-index: 995;
-    justify-content: right;
     padding: .8rem;
-    align-items: center;
 }
 
 button.button.button-sticky.gradient-border {
@@ -171,7 +169,6 @@ button.button.button-sticky.gradient-border {
     font-weight: 900;
     display: flex;
     gap: 10px;
-    width: 30%;
     justify-content: center;
    box-shadow:
   2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
@@ -187,7 +184,7 @@ button.button.button-sticky.gradient-border:hover {
     border-color: var(--secondary);
 }
 button.button.button-sticky.gradient-border:focus {
-    outline: 4px solid #ffc77b;
+    outline: 4px solid #ffc77b !important;
     outline-offset: 2px;
 }
 .gradient-border {
@@ -258,7 +255,7 @@ button.button.button-sticky.gradient-border:focus {
 * Links
 */
 *:focus:not(main) {
-    outline: 3px solid var(--primary) !important;
+    outline: 3px solid #fff !important;
 }
 .list--record .list__link, .list--navigation .list__link {
     color: #fff;
@@ -302,6 +299,38 @@ background-image: repeating-linear-gradient(45deg, #032f1f 0, #032f1f 4px, #0229
     color: #fff;
     text-decoration: underline;
     text-decoration-color: var(--secondary);
+}
+
+/*
+* Document page navigation
+*/
+.nav--pages-in {
+    background-color: #001710;
+}
+.nav--pages-in .nav__list::before {
+    border-color: #001710 transparent transparent;
+}
+.nav--pages-in .nav__list {
+    background-color: #001710;
+}
+.nav--pages-in .nav__heading, .nav--pages-in .list__item.is-active .list__link, .nav--pages-in .list__item .list__link-text {
+    color: #e7e7e7;
+}
+.nav--pages-in .list__item .list__link-text {
+  text-decoration: underline;
+  text-decoration-color: var(--secondary);
+}
+.nav--pages-in .list__item .list__link-text:hover {
+    text-decoration-thickness: 4px;
+}
+.pagination {
+    background-color: #001710;
+}
+.pagination__content, .pagination__link .pagination__meta, .pagination__link:visited .pagination__meta {
+    color: #d9e7e7;
+}
+.pagination__item--next::after {
+    border-left: 4px solid #02291c;
 }
 
 /*
@@ -376,8 +405,13 @@ background-image: repeating-linear-gradient(45deg, #032f1f 0, #032f1f 4px, #0229
 .editor {
     max-width: unset;
 }
-
-
+.site-footer__link {
+    text-decoration: underline;
+}
+.site-footer__supplier .site-footer__link:hover, .site-footer__supplier .site-footer__link:focus, .site-footer__supplier .site-footer__link:active {
+    text-decoration: underline;
+    text-decoration-color: var(--secondary);
+}
 
 .editor a:not(.button) {
     text-decoration: underline;
@@ -411,8 +445,13 @@ background-image: repeating-linear-gradient(45deg, #032f1f 0, #032f1f 4px, #0229
 }
 
 .site-footer__group .list__link {
+    text-decoration: underline;
+    text-decoration-color: var(--secondary);
     font-weight: 400;
     font-size: .9rem;
+}
+.site-footer__group .list__link:hover {
+    text-decoration-thickness: 3px;
 }
 
 @media screen and (min-width: 960px) {
@@ -480,8 +519,8 @@ thead {
 .data-table th, .page-content table:not([class]) th, .widget--myaccount-cxm-cases-verbose-table .my-cases__table th {
     border-bottom: 1px solid var(--secondary);
 .data-table td, .page-content table:not([class]) td, .widget--myaccount-cxm-cases-verbose-table .my-cases__table td {
-    background-color: #000000;
-    border: 1px solid #323232;
+    background-color: #000000 !important;
+    border: 1px solid #323232 !important;
     padding: .625rem 1.5rem;
 }
 
