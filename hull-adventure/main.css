@@ -512,16 +512,9 @@ background-image: repeating-linear-gradient(45deg, #032f1f 0, #032f1f 4px, #0229
     background-color: var(--secondary);
 }
 
-thead {
-    background-color: #000000;
-    border: 1px solid #323232;
-}
-.data-table th, .page-content table:not([class]) th, .widget--myaccount-cxm-cases-verbose-table .my-cases__table th {
-    border-bottom: 1px solid var(--secondary);
-.data-table td, .page-content table:not([class]) td, .widget--myaccount-cxm-cases-verbose-table .my-cases__table td {
-    background-color: #000000 !important;
-    border: 1px solid #323232 !important;
-    padding: .625rem 1.5rem;
+.page-content table:not([class]) td {
+    background: #241401 !important;
+    border-color: #2f2f2f !important;
 }
 
 .nav--pages-in .nav__list {
