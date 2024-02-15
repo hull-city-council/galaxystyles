@@ -38,6 +38,11 @@
 
 .modal__header .modal__close:before { content: "\2715"; }
 
+a.button.booking {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
 
 
 /*
