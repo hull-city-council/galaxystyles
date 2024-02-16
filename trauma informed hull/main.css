@@ -186,7 +186,7 @@ color:white;
 
 /* Banner */
 #banner {
-background-size: cover !important; 
+ background-color: var(--primary);
 }
 
 .supplement__heading {
@@ -228,5 +228,5 @@ display: none;
 
 /* Hide banner heading */
 #banner > h2{
-    display: none;
+  /*  display: none; */
 }
