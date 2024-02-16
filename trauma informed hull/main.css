@@ -71,6 +71,10 @@ input[type="button"]:focus, input[type="submit"]:focus, a:focus, *:focus {
 background-color: var(--primary);
 }
 
+#header.alt {
+  background-color:var(--primary);
+}
+
 /* Buttons */
 input[type="submit"], input[type="reset"], input[type="button"], .button, input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, .button.primary{
 background-color: var(--primary); color:white
@@ -208,6 +212,8 @@ border-radius: 10px;
 .listing--featured {
 padding-top:1em;
 }
+
+
 
 #header .button, #header.alt .button  {
 box-shadow: unset;
