@@ -1,6 +1,6 @@
 :root{
---tekhelet: #482973;
 --primary: #571963;
+--secondary: #000;
 --silver-lake-blue: #5B89B4;
 }
 /* Font */
@@ -22,7 +22,7 @@ font-size: 1.7rem;
 right: 6.75em;
 }
 #nav ul ul, #nav ul li:hover ul:before, #nav ul li.hover ul:before{
-background-color: var(--tekhelet) !important;
+background-color: var(--primary) !important;
 box-shadow: 0 2px 0 0 rgb(0 0 0 / 7%);
 }
 #nav > ul > li > ul > li a:not(.button){
@@ -33,56 +33,56 @@ border-top: solid 1px #6d4c9d;
 border-top: 0;
 }
 #nav > ul > li > ul > li a:hover{
-background-color: var(--primary);
+background-color: var(--secondary);
 }
 @media screen and (max-width: 840px){
 #navButton .toggle:before, #navPanel{
-  background-color: var(--tekhelet);
+  background-color: var(--primary);
 }
 #navPanel .link.depth-0{
   font-weight: 600;
 }
 a.toggle:focus:before{
-  outline: 2px dotted var(--primary);
+  outline: 2px dotted var(--secondary);
 }
 
 }
 input[type="button"]:focus, input[type="submit"]:focus, a:focus, *:focus{
-outline: 2px dotted var(--primary);
+outline: 2px dotted var(--secondary);
 }
 #js-menu-toggle > li:nth-child(2), #js-menu-toggle > li:nth-child(3), #navPanel > nav > a:nth-child(5), #navPanel > nav > a:nth-child(6) {
   display: none;
 }
 #header{
-background-color: var(--tekhelet);
+background-color: var(--primary);
 }
 
 /* Buttons */
-input[type="submit"], input[type="reset"], input[type="button"], .button, input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, .button.primary{
-background-color: var(--tekhelet);
-}
-input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:hover, input[type="submit"].primary:hover, input[type="reset"].primary:hover, input[type="button"].primary:hover, .button.primary:hover{
+input[type="submit"], input[type="reset"], input[type="button"], .button, input[type="submit"].secondary, input[type="reset"].secondary, input[type="button"].secondary, .button.secondary{
 background-color: var(--primary);
+}
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:hover, input[type="submit"].secondary:hover, input[type="reset"].secondary:hover, input[type="button"].secondary:hover, .button.secondary:hover{
+background-color: var(--secondary);
 color: #fff;
 }
 /* Links */
 a {
-  color: var(--tekhelet);
+  color: var(--primary);
 }
 a.image-link {
   border: unset;
 }
 a:hover{
-color: var(--primary);
+color: var(--secondary);
 }
 /* Select */
 input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="search"], select, textarea{
-border: 1px solid var(--tekhelet);
+border: 1px solid var(--primary);
 }
 
 input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover, input[type="date"]:hover, input[type="search"]:hover, select:hover, textarea:hover, input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="date"]:focus, input[type="search"]:focus, select:focus, textarea:focus {
-  border-color: var(--primary);
-  box-shadow: 0 0 0 2px var(--primary);
+  border-color: var(--secondary);
+  box-shadow: 0 0 0 2px var(--secondary);
 }
 
 /* Search */
@@ -96,7 +96,7 @@ display: block;
 width: 100%;
 margin-bottom: 1rem;
 }
-input.button.button--primary {
+input.button.button--secondary {
 width: 100%;
 }
 #top-nav{
@@ -105,7 +105,7 @@ height: 4rem;
 
 }
 /* Search results */
-.search-refine.boxed.boxed--primary {
+.search-refine.boxed.boxed--secondary {
 display: none;
 }
 
@@ -120,7 +120,7 @@ ul.search-results.item-list.item-list--rich > li {
 margin-bottom: 1rem;
 }
 ul.search-results.item-list.item-list--rich > li > h3 > a {
-color: var(--tekhelet);
+color: var(--primary);
 }
 ul.search-nav.nav.nav--pagination {
 list-style: none;
@@ -224,7 +224,7 @@ Cludo search
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
-    background-color: var(--tekhelet);
+    background-color: var(--primary);
         cursor:pointer;
         margin-bottom: 1em;
         text-align: center;
@@ -544,7 +544,7 @@ p.cludo-search-results-item__description{
 .search_autocomplete {
     background: #fff;
     border-radius: 0 0 6px 6px;
-    border: 2px solid var(--primary);
+    border: 2px solid var(--secondary);
     z-index: 5;
     padding: 1rem;
     border-top: 0;
@@ -706,7 +706,7 @@ font-size: 1.8em !important;
 }
 
 #footer {
-background-color: var(--tekhelet);
+background-color: var(--primary);
 }
 .copyright li {
 color:white;
@@ -722,7 +722,7 @@ font-size: 1.8em !important;
 }
 
 #footer {
-background-color: var(--tekhelet);
+background-color: var(--primary);
 }
 .copyright li {
 color:white;
@@ -748,6 +748,6 @@ box-shadow: unset;
 display: flex;
 }
 /* Hide submit new event button */
-#main > div > div > div.col-4.col-12-narrow > a.button.button--primary.button--block {
+#main > div > div > div.col-4.col-12-narrow > a.button.button--secondary.button--block {
 display: none;
 }
