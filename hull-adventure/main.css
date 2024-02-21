@@ -82,7 +82,7 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
 /*
 * Buttons
 */
-.button,.button:visited,.form__label--upload,.form__label--image-upload,.widget--myaccount-sign-in a,.widget--myaccount-api-links a,.widget--myaccount-organisation-account-links a,.widget--myaccount-organisation-links a,.form__label--upload:visited,.form__label--image-upload:visited,.widget--myaccount-sign-in a:visited,.widget--myaccount-api-links a:visited,.widget--myaccount-organisation-account-links a:visited,.widget--myaccount-organisation-links a:visited {
+.button,.button:visited,.form__label--upload,.form__label--image-upload,.widget--myaccount-sign-in a,.widget--myaccount-api-links a,.widget--myaccount-organisation-account-links a,.widget--myaccount-organisation-links a,.form__label--upload:visited,.form__label--image-upload:visited,.widget--myaccount-sign-in a:visited,.widget--myaccount-api-links a:visited,.widget--myaccount-organisation-account-links a:visited,.widget--myaccount-organisation-links a:visited, button, html input[type="button"], input[type="reset"], input[type="submit"] {
     -webkit-appearance: none;
     background-color: var(--secondary);
     color: #000000;
@@ -117,7 +117,7 @@ a.button.button--secondary:hover {
 .button, .button:visited, .form__label--upload, .form__label--image-upload, .widget--myaccount-sign-in a, .widget--myaccount-api-links a, .widget--myaccount-organisation-account-links a, .widget--myaccount-organisation-links a, .form__label--upload:visited, .form__label--image-upload:visited, .widget--myaccount-sign-in a:visited, .widget--myaccount-api-links a:visited, .widget--myaccount-organisation-account-links a:visited, .widget--myaccount-organisation-links a:visited {
     background-color: var(--secondary);
 }
-.button:hover{
+.button:hover, button, html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover{
     background-color: var(--primary);
     color: #fff;
 }
