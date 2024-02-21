@@ -1,1 +1,3 @@
-document.querySelector("#prefix-clickz > a").addEventListener("Click", Plausible('Newsletter sign up'));
+$(function() {
+    document.querySelector("#prefix-clickz > a").addEventListener("Click", plausible('Newsletter sign up'));
+});
