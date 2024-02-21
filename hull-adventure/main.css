@@ -519,6 +519,10 @@ text-decoration: underline;
     box-shadow: unset;
 }
 
+input[type="email" i] {
+    color: #000;
+}
+
 .editor ul:not([class]):not([type]) li::before {
     background-color: var(--secondary);
 }
