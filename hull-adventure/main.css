@@ -342,6 +342,13 @@ background-image: repeating-linear-gradient(45deg, #032f1f 0, #032f1f 4px, #0229
     border-left: 4px solid #02291c;
 }
 
+.boxed--standout, .listing--featured, .widget--myaccount-links .myaccount-widget{
+  background-color: var(--primary);
+}
+.list--numbered li::before, .editor ol:not([class]):not([type]) li::before, .list--ordered li::before {
+    background-color: var(--secondary);
+}
+
 /*
 * Menu
 */
