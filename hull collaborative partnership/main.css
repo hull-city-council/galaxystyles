@@ -83,6 +83,13 @@ input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hove
 }
 
 /*
+* Hide postcode search
+*/
+#content > div > div > div.col-8.col-12-medium > div > form > div > div:nth-child(6) {
+    display: none;
+}
+
+/*
 * Footer
 */
 #footer > p {
