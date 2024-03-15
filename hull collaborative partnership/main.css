@@ -73,6 +73,14 @@ button:focus, .button:focus {
     color: #fff !important;
 }
 
+
+/*
+* Lists
+*/
+ul li {
+    padding: 0.5rem 0.5rem;
+}
+
 /*
 * Fields
 */
