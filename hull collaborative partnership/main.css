@@ -12,7 +12,7 @@
 */
 
 a, a:focus {
-    color: var(--primary) !important;
+    color: #2F743D !important;
 }
 a:hover {
   color: var(--secondary) !important;
