@@ -57,6 +57,10 @@ text-decoration: none;
 
 .wrapper.style5 button:focus { background-color: #000; border: 2px dotted #ffff00; }
 
+input[type="submit"], input[type="reset"], input[type="button"], button, .button{
+      max-width: 100%;
+}
+
 #menu ul + h2,
 #menu ul + h2 + ul {
   display: none;
