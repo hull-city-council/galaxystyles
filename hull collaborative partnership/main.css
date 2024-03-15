@@ -95,3 +95,16 @@ input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hove
 #footer > p {
   display: none;
 }
+
+/*
+* Responsive tables to avoid scrolling in two dimensions
+*/
+@media all and (max-width:768px){
+    table,tr, td, tbody, td p table div, table table{
+        width:100%!important;
+        float:left;
+        clear:both;
+        display:block;
+
+    }
+}
