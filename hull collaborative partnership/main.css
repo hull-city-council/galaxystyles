@@ -19,6 +19,12 @@ a:hover {
   border-bottom-color: var(--secondary);
 }
 
+.list--skip-links .list__link:link, .list--skip-links .list__link:hover, .list--skip-links .list__link:active, .list--skip-links .list__link:focus {
+    background-color: var(--primary);
+    color: #fff !important;
+    padding: 1rem !important;
+    font-weight: bold;
+}
 
 /*
 * Menu and header
