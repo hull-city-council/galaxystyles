@@ -42,7 +42,7 @@ p {
 .recite_button {
   font-size:0.9em; 
   margin-left: 10px;
-  line-height: unset;
+ /*  line-height: unset; */
 }
   
 
