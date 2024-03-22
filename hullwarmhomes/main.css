@@ -39,6 +39,12 @@ p {
   font-size: 1.7rem;
 }
 
+#enableRecite {
+  font-size:0.9em; 
+  margin-left: 10px;
+}
+  
+
 /* Menu */
 
 #header nav{
