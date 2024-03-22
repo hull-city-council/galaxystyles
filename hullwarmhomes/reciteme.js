@@ -56,7 +56,7 @@ define = function(a, b, c) {
 const recitemeButtonLink = document.createElement("a"),
 	recitemeButtonLinkMobile = document.createElement("a");
 recitemeButtonLink.setAttribute("id", "enableRecite");
-recitemeButtonLink.setAttribute("class", "button fit");
+recitemeButtonLink.setAttribute("class", "button fit listing__heading");
 recitemeButtonLinkMobile.setAttribute("class", "link depth-1");
 recitemeButtonLinkMobile.setAttribute("id", "enableReciteM");
 recitemeButtonLink.appendChild(document.createTextNode("Accessibility and translation"));
