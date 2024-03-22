@@ -39,7 +39,7 @@ p {
   font-size: 1.7rem;
 }
 
-#enableRecite {
+.recite_button {
   font-size:0.9em; 
   margin-left: 10px;
 }
