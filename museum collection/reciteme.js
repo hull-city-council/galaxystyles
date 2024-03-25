@@ -65,8 +65,8 @@ recitemeButtonLinkMobile.setAttribute("id", "enableReciteM");
 recitemeButtonLink.appendChild(document.createTextNode("Accessibility and translation"));
 recitemeButtonLinkMobile.appendChild(document.createTextNode("Accessibility and translation"));
 
-// document.getElementById("nav").appendChild(recitemeButtonLink);
-document.getElementsByClassName("navigation-buttons")[0].appendChild(recitemeButtonLink);
+/* document.getElementById("nav").appendChild(recitemeButtonLink); */
+// document.getElementsByClassName("navigation-buttons")[0].appendChild(recitemeButtonLink);
 
 document.getElementById("navPanel").appendChild(recitemeButtonLinkMobile);
 
