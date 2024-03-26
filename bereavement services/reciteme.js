@@ -66,7 +66,7 @@ recitemeButtonLink.appendChild(document.createTextNode("Accessibility and transl
 recitemeButtonLinkMobile.appendChild(document.createTextNode("Accessibility and translation"));
 document.getElementById("one").appendChild(recitemeButtonLink);
 //document.getElementById("navPanel").appendChild(recitemeButtonLinkMobile);
-//document.getElementById("one").appendChild(recitemeButtonLinkMobile);
+//document.getElementById("one").prependChild(recitemeButtonLinkMobile);
 /* const recitemeNavBtn1 = document.getElementById('enableRecite'),
 	recitemeNavBtn2 = document.getElementById('enableReciteM');
  */
