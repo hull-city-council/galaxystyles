@@ -55,6 +55,8 @@ define = function(a, b, c) {
 	}
 	almondDefine(a, b, c);
 };
+document.getElementById("one").appendChild("Hello sir");
+/*
 const recitemeButtonLink = document.createElement("a"),
 	recitemeButtonLinkMobile = document.createElement("a");
 recitemeButtonLink.setAttribute("id", "enableRecite");
@@ -72,3 +74,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		loadService();
 	}))
 });
+*/
