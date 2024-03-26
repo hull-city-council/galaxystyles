@@ -67,10 +67,13 @@ recitemeButtonLinkMobile.appendChild(document.createTextNode("Accessibility and 
 document.getElementById("one").appendChild(recitemeButtonLink);
 //document.getElementById("navPanel").appendChild(recitemeButtonLinkMobile);
 //document.getElementById("one").appendChild(recitemeButtonLinkMobile);
-const recitemeNavBtn1 = document.getElementById('enableRecite'),
+/* const recitemeNavBtn1 = document.getElementById('enableRecite'),
 	recitemeNavBtn2 = document.getElementById('enableReciteM');
+ */
+const recitemeNavBtn1 = document.getElementById('enableRecite');
 document.addEventListener("DOMContentLoaded", function(event) {
-	[recitemeNavBtn1, recitemeNavBtn2].map(element => element.addEventListener("click", function() {
+//	[recitemeNavBtn1, recitemeNavBtn2].map(element => element.addEventListener("click", function() {
+	[recitemeNavBtn1].map(element => element.addEventListener("click", function() {
 		loadService();
 	}))
 });
