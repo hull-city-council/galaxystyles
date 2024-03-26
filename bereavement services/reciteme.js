@@ -64,9 +64,9 @@ recitemeButtonLinkMobile.setAttribute("class", "link depth-1");
 recitemeButtonLinkMobile.setAttribute("id", "enableReciteM");
 recitemeButtonLink.appendChild(document.createTextNode("Accessibility and translation"));
 recitemeButtonLinkMobile.appendChild(document.createTextNode("Accessibility and translation"));
-document.getElementById("one").appendChild(recitemeButtonLink);
+document.getElementById("one").prependChild(recitemeButtonLink);
 //document.getElementById("navPanel").appendChild(recitemeButtonLinkMobile);
-//document.getElementById("one").prependChild(recitemeButtonLinkMobile);
+//document.getElementById("one").appendChild(recitemeButtonLinkMobile);
 /* const recitemeNavBtn1 = document.getElementById('enableRecite'),
 	recitemeNavBtn2 = document.getElementById('enableReciteM');
  */
