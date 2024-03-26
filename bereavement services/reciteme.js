@@ -60,6 +60,7 @@ const recitemeButtonLink = document.createElement("a"),
 	recitemeButtonLinkMobile = document.createElement("a");
 recitemeButtonLink.setAttribute("id", "enableRecite");
 recitemeButtonLink.setAttribute("class", "button fit recite_button");
+recitemeButtonLink.setAttribute("style", "margin-bottom: 0.8em;");
 recitemeButtonLinkMobile.setAttribute("class", "link depth-1");
 recitemeButtonLinkMobile.setAttribute("id", "enableReciteM");
 recitemeButtonLink.appendChild(document.createTextNode("Accessibility and translation"));
