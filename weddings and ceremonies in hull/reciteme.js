@@ -1,5 +1,4 @@
-
-/* this works with Alpha theme *?
+/* for spectral theme */
 
 var serviceUrl = "//api.reciteme.com/asset/js?key=";
 var serviceKey = "f6cd075d8f4872e8017e5b50baf4b22c6eabd288";
@@ -56,20 +55,26 @@ define = function(a, b, c) {
 	}
 	almondDefine(a, b, c);
 };
+
 const recitemeButtonLink = document.createElement("a"),
 	recitemeButtonLinkMobile = document.createElement("a");
 recitemeButtonLink.setAttribute("id", "enableRecite");
-recitemeButtonLink.setAttribute("class", "button fit");
+recitemeButtonLink.setAttribute("class", "button fit recite_button");
+recitemeButtonLink.setAttribute("style", "margin-bottom: 0.8em;");
 recitemeButtonLinkMobile.setAttribute("class", "link depth-1");
 recitemeButtonLinkMobile.setAttribute("id", "enableReciteM");
 recitemeButtonLink.appendChild(document.createTextNode("Accessibility and translation"));
 recitemeButtonLinkMobile.appendChild(document.createTextNode("Accessibility and translation"));
-document.getElementById("nav").appendChild(recitemeButtonLink);
-document.getElementById("navPanel").appendChild(recitemeButtonLinkMobile);
-const recitemeNavBtn1 = document.getElementById('enableRecite'),
+document.querySelector("#one > div").prepend(recitemeButtonLink);
+//document.getElementById("navPanel").appendChild(recitemeButtonLinkMobile);
+//document.getElementById("one").appendChild(recitemeButtonLinkMobile);
+/* const recitemeNavBtn1 = document.getElementById('enableRecite'),
 	recitemeNavBtn2 = document.getElementById('enableReciteM');
+ */
+const recitemeNavBtn1 = document.getElementById('enableRecite');
 document.addEventListener("DOMContentLoaded", function(event) {
-	[recitemeNavBtn1, recitemeNavBtn2].map(element => element.addEventListener("click", function() {
+//	[recitemeNavBtn1, recitemeNavBtn2].map(element => element.addEventListener("click", function() {
+	[recitemeNavBtn1].map(element => element.addEventListener("click", function() {
 		loadService();
 	}))
 });
