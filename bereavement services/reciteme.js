@@ -55,8 +55,7 @@ define = function(a, b, c) {
 	}
 	almondDefine(a, b, c);
 };
-document.getElementById("one").appendChild("Hello sir");
-/*
+
 const recitemeButtonLink = document.createElement("a"),
 	recitemeButtonLinkMobile = document.createElement("a");
 recitemeButtonLink.setAttribute("id", "enableRecite");
@@ -66,7 +65,8 @@ recitemeButtonLinkMobile.setAttribute("id", "enableReciteM");
 recitemeButtonLink.appendChild(document.createTextNode("Accessibility and translation"));
 recitemeButtonLinkMobile.appendChild(document.createTextNode("Accessibility and translation"));
 document.getElementById("one").appendChild(recitemeButtonLink);
-// document.getElementById("navPanel").appendChild(recitemeButtonLinkMobile);
+//document.getElementById("navPanel").appendChild(recitemeButtonLinkMobile);
+//document.getElementById("one").appendChild(recitemeButtonLinkMobile);
 const recitemeNavBtn1 = document.getElementById('enableRecite'),
 	recitemeNavBtn2 = document.getElementById('enableReciteM');
 document.addEventListener("DOMContentLoaded", function(event) {
@@ -74,4 +74,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		loadService();
 	}))
 });
-*/
+
