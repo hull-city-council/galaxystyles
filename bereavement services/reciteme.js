@@ -67,8 +67,8 @@ document.getElementById("one").appendChild(recitemeButtonLink);
 // document.getElementById("navPanel").appendChild(recitemeButtonLinkMobile);
 const recitemeNavBtn1 = document.getElementById('enableRecite'),
 	recitemeNavBtn2 = document.getElementById('enableReciteM');
-/* document.addEventListener("DOMContentLoaded", function(event) {
+document.addEventListener("DOMContentLoaded", function(event) {
 	[recitemeNavBtn1, recitemeNavBtn2].map(element => element.addEventListener("click", function() {
 		loadService();
 	}))
-}); */
+});
