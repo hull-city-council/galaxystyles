@@ -17,7 +17,7 @@ display: block;
 }
 
 #menu a:focus{
-background-color: #00000000 !important;
+background-color: #000000 !important;
 outline: 1px solid #fff!important;
 padding: .2rem;
 }
