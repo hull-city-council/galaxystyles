@@ -87,6 +87,18 @@ Featured jobs
 .listBlock.box.styleOne.jobsList {
     padding: unset;
 }
+.listBlock.box.styleOne.jobsList > ul > li:before{
+    display: none;
+}
+#content > div > div > div > div:nth-child(5) > div > div > div > div > div > div > div:nth-child(4) > div > ul {
+    margin: unset !important;
+}
+.listBlock.box.styleOne.jobsList > ul > li > figure {
+    margin: unset;
+}
+.listBlock.box.styleOne.jobsList > ul > li > article > div.jobDescription > h3 {
+    margin-bottom: 1rem;
+}
 .saveJob {
     display: none;
 }
@@ -108,16 +120,16 @@ li > figure > img {
   margin-bottom: 2rem;
 }
 .listBlock.box.styleOne.jobsList > ul > li {
+    display: flex;
     background-color: #fff;
     border: 1px solid #eee;
     border-bottom: 2px solid var(--primary);
     padding: 1rem;
     border-radius: 6px;
-
-  box-shadow: 0 0 0 1px hsla(230, 13%, 9%, 0.05),
-              0 0.3px 0.4px hsla(230, 13%, 9%, 0.02),
-              0 0.9px 1.5px hsla(230, 13%, 9%, 0.045),
-              0 3.5px 6px hsla(230, 13%, 9%, 0.09);
+    box-shadow: 0 0 0 1px hsla(230, 13%, 9%, 0.05), 0 0.3px 0.4px hsla(230, 13%, 9%, 0.02), 0 0.9px 1.5px hsla(230, 13%, 9%, 0.045), 0 3.5px 6px hsla(230, 13%, 9%, 0.09);
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 @media screen and (max-width: 736px) {
   .listBlock.box.styleOne.jobsList > ul {
