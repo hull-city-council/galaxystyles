@@ -1,4 +1,47 @@
 /* stylesheet for Editorial theme */
+
+:root{
+  --primary:#5d6169; /* dark grey */
+  --secondary:#2e5caf; /* light blue */
+   --tertiary:#1e3c72; /* dark blue */
+}
+
+
 #wrapper .toggle {
-  color: #2e5caf;
+  color: var(--secondary);
+}
+
+a:hover {
+  color: var(--tertiary) !important; 
+}
+
+#wrapper a:focus {
+    outline: 2px dotted var(--tertiary) !important;
+}
+.list--navigation li{
+  border-bottom:1px solid var(--primary);
+}
+
+.copyright { display:none; }
+
+input[type="text"]:hover, 
+input[type="password"]:hover, 
+input[type="email"]:hover, 
+input[type="tel"]:hover, 
+input[type="search"]:hover, 
+input[type="date"]:hover, 
+input[type="url"]:hover, 
+select:hover, 
+textarea:hover {
+    border-color: var(--secondary);
+    box-shadow: 0 0 0 1px var(--tertiary);
+}
+
+button, .button {
+  color: var(--secondary) !important;
+  box-shadow: inset 0 0 0 2px var(--secondary) !important;
+}
+
+.button:hover {
+    background-color: var(--tertiary);
 }
