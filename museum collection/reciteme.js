@@ -70,7 +70,7 @@ document.getElementsByClassName("site-footer__left")[0].appendChild(recitemeButt
 //document.getElementsByClassName("nav").appendChild(recitemeButtonLink);
 
 
-document.getElementById("navPanel").appendChild(recitemeButtonLinkMobile);
+// document.getElementById("navPanel").appendChild(recitemeButtonLinkMobile);
 
 const recitemeNavBtn1 = document.getElementById('enableRecite'),
 	recitemeNavBtn2 = document.getElementById('enableReciteM');
