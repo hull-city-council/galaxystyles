@@ -67,7 +67,7 @@ recitemeButtonLinkMobile.appendChild(document.createTextNode("Accessibility and 
 
 /* document.getElementById("nav").appendChild(recitemeButtonLink); */
 // document.getElementsByClassName("navigation-buttons")[0].appendChild(recitemeButtonLink);
-document.getElementsByClassName("#content > div > div > div > div:nth-child(2)").appendChild(recitemeButtonLink);
+document.getElementsByClassName("nav").appendChild(recitemeButtonLink);
 
 
 document.getElementById("navPanel").appendChild(recitemeButtonLinkMobile);
