@@ -8,12 +8,8 @@
 --tertiary: #6F457D; /* accessible version of previous A881BA */
 }
 
-a {
-    text-underline-offset: 0.2em;
-}
-
-.editor a:not(.button):active > focus {
-    color:white;
+.editor a:not(.button) {
+    background-size: 100% 105%;
 }
 
 [x-cloak] { display: none !important; }
@@ -51,7 +47,7 @@ padding: .2rem;
 }
 
 .site-footer__group a {
-    text-decoration:underline;
+    border-bottom:1px solid;
 }
 
 .menu-navigation .menu-navigation__inner {
@@ -82,7 +78,8 @@ padding: .2rem;
   padding-left: 0.2em;
 }
 .editor a:not(.button):visited {
-    color: var(--tertiary);
+     color: var(--tertiary);
+     /* text-underline-offset: 0.2em; */
 }
 
 .site-header button:focus {
