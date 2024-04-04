@@ -72,10 +72,11 @@ document.getElementsByClassName("site-footer__left")[0].appendChild(recitemeButt
 
 // document.getElementById("navPanel").appendChild(recitemeButtonLinkMobile);
 
-const recitemeNavBtn1 = document.getElementById('enableRecite'),
-	recitemeNavBtn2 = document.getElementById('enableReciteM');
+const recitemeNavBtn1 = document.getElementById('enableRecite'); //,
+	// recitemeNavBtn2 = document.getElementById('enableReciteM');
 document.addEventListener("DOMContentLoaded", function(event) {
-	[recitemeNavBtn1, recitemeNavBtn2].map(element => element.addEventListener("click", function() {
+//	[recitemeNavBtn1, recitemeNavBtn2].map(element => element.addEventListener("click", function() {
+	[recitemeNavBtn1].map(element => element.addEventListener("click", function() {
 		loadService();
 	}))
 });
