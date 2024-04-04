@@ -8,6 +8,13 @@
 --tertiary: #6F457D; /* accessible version of previous A881BA */
 }
 
+a {
+    text-underline-offset: 0.2em;
+}
+
+.editor a:not(.button):active > focus {
+    color:white;
+}
 
 [x-cloak] { display: none !important; }
 body.is-menu-visible #menu {
@@ -33,18 +40,42 @@ outline: 1px solid #fff!important;
 padding: .2rem;
 }
 
+.menu-navigation.is-open .menu-navigation__inner {
+    width: 25%;
+}
+
 #menu .close:focus {
     background-image: url(/themes/jadu-spectral/dist/css/images/close.svg) !important;
     background-position: 4.85em 1em !important;
     background-repeat: no-repeat !important;
 }
 
+.site-footer__group a {
+    text-decoration:underline;
+}
+
 .menu-navigation .menu-navigation__inner {
     background-color: var(--secondary);
 }
 
-.menu-navigation .list__link:hover, .menu-navigation .list__link:focus, .menu-navigation .list__link:visited {
+.menu-navigation .list__link:focus, .menu-navigation .list__link:visited {
     color: #ffffff;
+}
+
+.list--breadcrumb {
+   text-decoration:underline;
+    text-underline-offset: 0.2em;
+}
+.list--breadcrumb:hover {
+    background-size: unset;
+}
+
+.list--breadcrumb a:hover {
+    color: var(--secondary);
+}
+
+.menu-navigation .list__link:hover {
+    background-color: var(--primary);
 }
 
 .menu-navigation {
@@ -56,6 +87,14 @@ padding: .2rem;
 
 .site-header button:focus {
     outline: unset;
+}
+
+.nav--primary-navigation .button:hover .button__text, .nav--primary-navigation .button:focus .button__text, .nav--primary-navigation .button:active .button__text {
+ //   color: white;
+}
+
+.menu-navigation .list__link {
+    text-transform: unset;
 }
 
 .button {
