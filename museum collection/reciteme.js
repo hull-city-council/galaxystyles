@@ -66,8 +66,8 @@ recitemeButtonLink.appendChild(document.createTextNode("Accessibility and transl
 recitemeButtonLinkMobile.appendChild(document.createTextNode("Accessibility and translation"));
 
 /* document.getElementById("nav").appendChild(recitemeButtonLink); */
-// document.getElementsByClassName("navigation-buttons")[0].appendChild(recitemeButtonLink);
-document.getElementsByClassName("nav").appendChild(recitemeButtonLink);
+document.getElementsByClassName("widget-row")[0].appendChild(recitemeButtonLink);
+//document.getElementsByClassName("nav").appendChild(recitemeButtonLink);
 
 
 document.getElementById("navPanel").appendChild(recitemeButtonLinkMobile);
