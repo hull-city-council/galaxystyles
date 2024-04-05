@@ -65,17 +65,10 @@ recitemeButtonLinkMobile.setAttribute("id", "enableReciteM");
 recitemeButtonLink.appendChild(document.createTextNode("Accessibility and translation"));
 recitemeButtonLinkMobile.appendChild(document.createTextNode("Accessibility and translation"));
 
-/* document.getElementById("nav").appendChild(recitemeButtonLink); */
 document.getElementsByClassName("widget-row")[0].appendChild(recitemeButtonLink);
-//document.getElementsByClassName("nav").appendChild(recitemeButtonLink);
 
-
-// document.getElementById("navPanel").appendChild(recitemeButtonLinkMobile);
-
-const recitemeNavBtn1 = document.getElementById('enableRecite'); //,
-	// recitemeNavBtn2 = document.getElementById('enableReciteM');
+const recitemeNavBtn1 = document.getElementById('enableRecite'); 
 document.addEventListener("DOMContentLoaded", function(event) {
-//	[recitemeNavBtn1, recitemeNavBtn2].map(element => element.addEventListener("click", function() {
 	[recitemeNavBtn1].map(element => element.addEventListener("click", function() {
 		loadService();
 	}))
