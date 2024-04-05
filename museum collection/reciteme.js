@@ -68,7 +68,7 @@ recitemeButtonLinkMobile.appendChild(document.createTextNode("Accessibility and 
 var element =  document.getElementsByClassName("widget-row")[0];
 if (typeof(element) == 'undefined' && element == null)
 {
-  element = document.getElementsByClassName("page-header")[0];
+  element = document.getElementsByClassName("nav--pages-in")[0];
 }
 element.appendChild(recitemeButtonLink);
 
