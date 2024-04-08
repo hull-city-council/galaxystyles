@@ -64,7 +64,7 @@ color: black;
 input[type="button"]:focus, input[type="submit"]:focus, a:focus, *:focus {
     outline: 2px dotted var(--secondary);
     color: black;
-    background-color: var(--primary);
+  //  background-color: var(--primary);
 }
 
 #js-menu-toggle > li:nth-child(2), #js-menu-toggle > li:nth-child(3), #navPanel > nav > a:nth-child(5), #navPanel > nav > a:nth-child(6) {
@@ -93,9 +93,7 @@ a {
 a.image-link {
   border: unset;
 }
-a:hover{
-color: var(--secondary);
-}
+a:hover{  color: black; }
 /* Select */
 input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="search"], select, textarea{
 border: 1px solid var(--primary);
@@ -172,9 +170,7 @@ label[for="postcode"]
 
 
 /* Banner */
-#banner {
-background-size: cover !important; 
-}
+#banner {background-size: cover !important;}
 
 .supplement__heading {
 font-size: 1.8em !important;
