@@ -3,7 +3,7 @@
 
 
 :root{
---primary: #676E8E /* formerly #7A839E; */
+--primary: #676E8E;
 --secondary: #F2D2EC;
 --tertiary: #DEDEDD;
 }
@@ -80,15 +80,17 @@ background-color: var(--primary);
 
 /* Buttons */
 input[type="submit"], input[type="reset"], input[type="button"], .button, input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, .button.primary{
-background-color: var(--primary); color:white
+  background-color: var(--primary) !important;
+  color:white
 }
+
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:hover, input[type="submit"].primary:hover, input[type="reset"].primary:hover, input[type="button"].primary:hover, .button.primary:hover{
 background-color: var(--secondary);
 color: black;
 }
 /* Links */
 a {
-  color: var(--primary);
+   color: var(--primary);
 }
 a.image-link {
   border: unset;
@@ -102,6 +104,11 @@ border: 1px solid var(--primary);
 input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover, input[type="date"]:hover, input[type="search"]:hover, select:hover, textarea:hover, input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="date"]:focus, input[type="search"]:focus, select:focus, textarea:focus {
   border-color: var(--secondary);
   box-shadow: 0 0 0 2px var(--secondary);
+}
+
+input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"].disabled, input[type="reset"]:disabled, input[type="button"].disabled, input[type="button"]:disabled, .button.disabled, .button:disabled {
+    opacity: 0.5;
+  background-color: var(--primary) !important;
 }
 
 /* Search */
