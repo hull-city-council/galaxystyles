@@ -108,7 +108,8 @@ input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hove
 
 input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"].disabled, input[type="reset"]:disabled, input[type="button"].disabled, input[type="button"]:disabled, .button.disabled, .button:disabled {
     opacity: 0.5;
-  background-color: var(--primary) !important;
+    background-color: var(--primary) !important;
+    color:white !important;
 }
 
 /* Search */
