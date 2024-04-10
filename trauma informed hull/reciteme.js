@@ -54,13 +54,6 @@ define = function(a, b, c) {
 	almondDefine(a, b, c);
 };
 
-/* 
-<a href="#" 
-class="button button--icon list__link" 
-id="enableReciteMe-js" 
-title="Listen and translate with ReciteMe">
-<span class="icon-container"><span class="icon icon-accessibility"></span></span><span class="button__text">Accessibility tools</span></a>
-*/
 const recitemeButtonLink = document.createElement("a"),
 	recitemeButtonLinkMobile = document.createElement("a");
 recitemeButtonLink.setAttribute("id", "enableRecite");
