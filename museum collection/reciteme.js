@@ -76,5 +76,8 @@ const recitemeNavBtn1 = document.getElementById('enableRecite');
 document.addEventListener("DOMContentLoaded", function(event) {
 	[recitemeNavBtn1].map(element => element.addEventListener("click", function() {
 		loadService();
-	}))
+	}));
+	[recitemeNavBtn1].map(element => element.addEventListener("keypress", function() {
+		loadService();
+	}));
 });
