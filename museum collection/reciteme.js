@@ -45,6 +45,7 @@ function loadService(c) {
 		})
 	})
 }
+
 "true" == _rc("Recite.Persist") && loadService();
 if (autoLoad && "false" != _rc("Recite.Persist") || frag) document.addEventListener ? document.addEventListener("DOMContentLoaded", function(c) {
 	loadService()
