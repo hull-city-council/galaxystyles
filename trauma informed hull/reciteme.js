@@ -54,15 +54,17 @@ define = function(a, b, c) {
 	almondDefine(a, b, c);
 };
 const recitemeButtonLink = document.createElement("a"),
-	recitemeButtonLinkMobile = document.createElement("a");
+	recitemeButtonLinkMobile = document.createElement("a"),
+	recitemeul = document.createElement("ul"),
+	recitemeli = document.createElement("li");
 recitemeButtonLink.setAttribute("id", "enableRecite");
 recitemeButtonLink.setAttribute("class", "button fit");
-recitemeButtonLink.setAttribute("tabIndex", "3");
 recitemeButtonLinkMobile.setAttribute("class", "link depth-1");
 recitemeButtonLinkMobile.setAttribute("id", "enableReciteM");
-recitemeButtonLinkMobile.setAttribute("tabIndex", "3");
 recitemeButtonLink.appendChild(document.createTextNode("Accessibility and translation"));
 recitemeButtonLinkMobile.appendChild(document.createTextNode("Accessibility and translation"));
+document.getElementById("nav").appendChild(recitemeul);
+document.getElementById("nav").appendChild(recitemeli);
 document.getElementById("nav").appendChild(recitemeButtonLink);
 document.getElementById("navPanel").appendChild(recitemeButtonLinkMobile);
 const recitemeNavBtn1 = document.getElementById('enableRecite'),
