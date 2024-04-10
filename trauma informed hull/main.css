@@ -64,7 +64,7 @@ color: black;
 input[type="button"]:focus, input[type="submit"]:focus, a:focus, *:focus {
     outline: 2px dotted var(--primary);
     color: black;
-  //  background-color: var(--primary);
+    background-color: var(--secondary) !important;
 }
 
 #enableRecite:focus {
