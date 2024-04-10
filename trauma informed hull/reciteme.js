@@ -53,11 +53,21 @@ define = function(a, b, c) {
 	}
 	almondDefine(a, b, c);
 };
+
+/* 
+<a href="#" 
+class="button button--icon list__link" 
+id="enableReciteMe-js" 
+title="Listen and translate with ReciteMe">
+<span class="icon-container"><span class="icon icon-accessibility"></span></span><span class="button__text">Accessibility tools</span></a>
+*/
 const recitemeButtonLink = document.createElement("a"),
 	recitemeButtonLinkMobile = document.createElement("a"),
 	recitemeul = document.createElement("ul"),
 	recitemeli = document.createElement("li");
 recitemeButtonLink.setAttribute("id", "enableRecite");
+recitemeButtonLink.setAttribute("href", "#");
+recitemeButtonLink.setAttribute("tabIndex", "0");
 recitemeButtonLink.setAttribute("class", "button fit");
 recitemeButtonLinkMobile.setAttribute("class", "link depth-1");
 recitemeButtonLinkMobile.setAttribute("id", "enableReciteM");
