@@ -59,6 +59,7 @@ recitemeButtonLink.setAttribute("id", "enableRecite");
 recitemeButtonLink.setAttribute("class", "button fit");
 recitemeButtonLinkMobile.setAttribute("class", "link depth-1");
 recitemeButtonLinkMobile.setAttribute("id", "enableReciteM");
+recitemeButtonLinkMobile.setAttribute("tabIndex", "3");
 recitemeButtonLink.appendChild(document.createTextNode("Accessibility and translation"));
 recitemeButtonLinkMobile.appendChild(document.createTextNode("Accessibility and translation"));
 document.getElementById("nav").appendChild(recitemeButtonLink);
