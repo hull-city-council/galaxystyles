@@ -62,25 +62,25 @@ title="Listen and translate with ReciteMe">
 <span class="icon-container"><span class="icon icon-accessibility"></span></span><span class="button__text">Accessibility tools</span></a>
 */
 const recitemeButtonLink = document.createElement("a"),
-	recitemeButtonLinkMobile = document.createElement("a"),
-	recitemeul = document.createElement("ul"),
-	recitemeli = document.createElement("li");
+	recitemeButtonLinkMobile = document.createElement("a");
 recitemeButtonLink.setAttribute("id", "enableRecite");
 recitemeButtonLink.setAttribute("href", "#");
-recitemeButtonLink.setAttribute("tabIndex", "0");
+recitemeButtonLink.setAttribute("tabindex", "0");
 recitemeButtonLink.setAttribute("class", "button fit");
 recitemeButtonLinkMobile.setAttribute("class", "link depth-1");
 recitemeButtonLinkMobile.setAttribute("id", "enableReciteM");
+recitemeButtonLinkMobile.setAttribute("tabindex", "0");
 recitemeButtonLink.appendChild(document.createTextNode("Accessibility and translation"));
 recitemeButtonLinkMobile.appendChild(document.createTextNode("Accessibility and translation"));
-document.getElementById("nav").appendChild(recitemeul);
-recitemeul.appendChild(recitemeli);
-recitemeli.appendChild(recitemeButtonLink);
+document.getElementById("nav").appendChild(recitemeButtonLink);
 document.getElementById("navPanel").appendChild(recitemeButtonLinkMobile);
 const recitemeNavBtn1 = document.getElementById('enableRecite'),
 	recitemeNavBtn2 = document.getElementById('enableReciteM');
 document.addEventListener("DOMContentLoaded", function(event) {
 	[recitemeNavBtn1, recitemeNavBtn2].map(element => element.addEventListener("click", function() {
 		loadService();
-	}))
+	}));
+	[recitemeNavBtn1, recitemeNavBtn2].map(element => element.addEventListener("keypress", function() {
+		loadService();
+	}));
 });
