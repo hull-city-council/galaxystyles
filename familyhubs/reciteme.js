@@ -57,8 +57,10 @@ const recitemeButtonLink = document.createElement("a"),
 	recitemeButtonLinkMobile = document.createElement("a");
 recitemeButtonLink.setAttribute("id", "enableRecite");
 recitemeButtonLink.setAttribute("class", "button fit");
+recitemeButtonLink.setAttribute("tabindex", "0");
 recitemeButtonLinkMobile.setAttribute("class", "link depth-1");
 recitemeButtonLinkMobile.setAttribute("id", "enableReciteM");
+recitemeButtonLinkMobile.setAttribute("tabindex", "0");
 recitemeButtonLink.appendChild(document.createTextNode("Accessibility and translation"));
 recitemeButtonLinkMobile.appendChild(document.createTextNode("Accessibility and translation"));
 document.getElementById("nav").appendChild(recitemeButtonLink);
@@ -66,7 +68,7 @@ document.getElementById("navPanel").appendChild(recitemeButtonLinkMobile);
 const recitemeNavBtn1 = document.getElementById('enableRecite'),
 	recitemeNavBtn2 = document.getElementById('enableReciteM');
 document.addEventListener("DOMContentLoaded", function(event) {
-	[recitemeNavBtn1, recitemeNavBtn2].map(element => element.addEventListener("click", function() {
+	[recitemeNavBtn1, recitemeNavBtn2].map(element => element.addEventListener("submit", function() {
 		loadService();
 	}))
 });
