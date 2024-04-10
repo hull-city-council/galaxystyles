@@ -57,7 +57,7 @@ const recitemeButtonLink = document.createElement("a"),
 	recitemeButtonLinkMobile = document.createElement("a");
 recitemeButtonLink.setAttribute("id", "enableRecite");
 recitemeButtonLink.setAttribute("class", "button fit");
-recitemeButtonLinkMobile.setAttribute("tabIndex", "3");
+recitemeButtonLink.setAttribute("tabIndex", "3");
 recitemeButtonLinkMobile.setAttribute("class", "link depth-1");
 recitemeButtonLinkMobile.setAttribute("id", "enableReciteM");
 recitemeButtonLinkMobile.setAttribute("tabIndex", "3");
