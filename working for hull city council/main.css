@@ -58,8 +58,11 @@ padding: .2rem;
     color: #ffffff;
 }
 
-.list--breadcrumb {
+.list__item a {
    text-decoration:underline;
+}
+
+.list--breadcrumb {
     text-underline-offset: 0.2em;
     /* Silktide 'Ensure interactive components are far enough apart' - too close in mobile view when breadcrumb goes over 2 lines or more - added line height */
     line-height: 1.6em;  
