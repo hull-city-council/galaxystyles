@@ -46,10 +46,6 @@ padding: .2rem;
     background-repeat: no-repeat !important;
 }
 
-.site-footer__group a {
-    border-bottom:1px solid;
-}
-
 .menu-navigation .menu-navigation__inner {
     background-color: var(--secondary);
 }
