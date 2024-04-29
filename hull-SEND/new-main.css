@@ -98,7 +98,6 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
     font-weight: 700;
     margin: 1.5rem 4px 4px;
     padding: .75rem 2.25rem;
-    position: relative;
     text-align: center;
     text-decoration: none;
     text-transform: unset;
@@ -124,7 +123,7 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
 }
 
 .list--skip-links .list__link:link, .list--skip-links .list__link:hover, .list--skip-links .list__link:active, .list--skip-links .list__link:focus{
-    background-color: var(--primary);
+    background-color: var(--tertiary);
 }
 
 /*
