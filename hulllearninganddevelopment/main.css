@@ -22,6 +22,14 @@ a:hover {
   border-bottom:1px solid var(--primary);
 }
 
+.menu > ul > li {
+  border-top: unset;
+}
+
+.menu ul a:hover, .menu ul span:hover {
+    color: var(--tertiary) !important;
+}
+
 .copyright { display:none; }
 
 input[type="text"]:hover, 
