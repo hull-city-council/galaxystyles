@@ -35,6 +35,15 @@ a:hover {
   border-bottom-color:var(--tertiary);
 }
 
+.listing__summary {
+  color:var(--tertiary);
+}
+.meta--date {
+  color: var(--tertiary);
+}
+.listing__link {
+  border-bottom: dotted 1px var(--tertiary);
+}
 
 .menu ul a:hover, .menu ul span:hover {
     color: var(--tertiary) !important;
