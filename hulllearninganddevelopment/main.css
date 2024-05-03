@@ -26,6 +26,15 @@ a:hover {
   border-top: unset;
 }
 
+
+.breadcrumb a {
+  color:var(--tertiary);
+}
+.breadcrumb a:hover {
+  border-bottom-color:var(--tertiary);
+}
+
+
 .menu ul a:hover, .menu ul span:hover {
     color: var(--tertiary) !important;
 }
