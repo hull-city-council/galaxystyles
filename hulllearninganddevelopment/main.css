@@ -85,3 +85,7 @@ button, .button {
 label[for=postcode] {
   display:none;
 }
+
+.list__link {
+  color:var(--tertiary) !important
+}
