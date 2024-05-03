@@ -64,6 +64,9 @@ textarea:hover {
 .button.primary { 
   color:var(--secondary) !important;
 }
+.button.primary:hover { 
+  color:white !important;
+}
 
 
 .button:hover {
