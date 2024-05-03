@@ -67,7 +67,7 @@ textarea:hover {
 
 
 .button:hover {
-  background-color: var(--secondary);
+  background-color: var(--secondary) !important;
   box-shadow: inset 0 0 0 2px var(--tertiary) !important;
 }
 
