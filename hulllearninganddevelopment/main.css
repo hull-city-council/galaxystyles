@@ -13,6 +13,7 @@
 
 a:hover {
   color: var(--tertiary) !important; 
+  border-bottom-color:  var(--tertiary) !important; 
 }
 
 #wrapper a:focus {
