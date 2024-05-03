@@ -251,10 +251,8 @@ a.image-link:hover {
 
 
 .widget-image .image {
-    background: #fff;
     border-bottom: unset;
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,65) 90%,rgba(0,0,0,0.0) 0%);
-    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,65) 90%,rgba(0,0,0,0.0) 0%);
+    margin-bottom: 1rem;
 }
 
 .image-link:hover .image__caption, .image-link:focus .image__caption, .image-link:active .image__caption {
