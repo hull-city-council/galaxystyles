@@ -429,3 +429,16 @@ blockquote p:first-child::before {
     color: #000 !important;
     content: counter(list_item_count);
 }
+
+/* added for ticket 338321 */
+
+.page__heading-container .page-heading--subtext {
+    color: black !important;
+}
+
+@media screen and (min-width: 769px)
+.list--record::before, .list--navigation::before {
+  background-color: unset;
+}
+
+/* end 338321 */
