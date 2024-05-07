@@ -436,7 +436,6 @@ blockquote p:first-child::before {
     color: black !important;
 }
 
-@media screen and (min-width: 769px)
 .list--record::before, .list--navigation::before {
   background-color: unset;
 }
