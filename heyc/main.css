@@ -100,7 +100,7 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
 .site-footer {
     border-top: 30px solid;
     border-image:url("data:image/svg+xml,%3Csvg viewBox='0 268.8306 1971.2 92.9' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%2321424F;%7D .st1%7Bfill:%23B2C53E;%7D .st2%7Bfill:%2340B1D8;%7D%0A%3C/style%3E%3C/defs%3E%3Cg transform='matrix(1, 0, 0, 1, -300, 168.83055114746094)'%3E%3Cg transform='matrix(1, 0, 0, 1, 325.600006, -84.899994)'%3E%3Cpath class='st1' d='M526.2,233.7c-8.3-28.1-36.1-48.8-69.1-48.8H-25.6v48.8H526.2z'/%3E%3Cg%3E%3Cpath class='st2' d='M524.6,229c8.3,28.1,36.1,48.8,69.1,48.8h1351.9V229H524.6z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    border-image-slice: 100;
+    border-image-slice: 70;
     background-color: #fff;
 }
 .site-footer__text, .site-footer__links, .site-footer__link {
