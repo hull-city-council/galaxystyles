@@ -1,11 +1,13 @@
 
 
+
+
 /* leaving care hull */
 
 :root{
 --lightgreen: #CDFF97; 
 --green: #92d050; 
---darkgreen: #DEDEDD; 
+--darkgreen: #00b050; 
 --dartmouthgreen: #005b29
 --greengrey: #eaf1e2
 }
@@ -16,3 +18,10 @@
   display:none;
 }
 
+#header > a > h1 {
+  color:black !important;
+}
+
+#header {
+  background-color: var(--darkgreen);
+}
