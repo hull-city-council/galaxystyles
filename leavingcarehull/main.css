@@ -2,6 +2,7 @@
 
 
 
+
 /* leaving care hull */
 
 :root{
@@ -24,4 +25,9 @@
 
 #header {
   background-color: var(--darkgreen);
+}
+
+#nav > ul > li > ul > li a:hover {
+    background: var(--lightgreen);
+    color: #000000;
 }
