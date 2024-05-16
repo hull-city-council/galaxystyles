@@ -9,3 +9,7 @@
 --dartmouthgreen: 
 --greengrey: 
 }
+
+.p {
+  color:var(--darkgreen);
+}
