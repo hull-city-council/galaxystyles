@@ -10,6 +10,9 @@
 --greengrey: #eaf1e2
 }
 
-.p {
-  color:var(--darkgreen);
+#js-menu-toggle > li:nth-child(2),
+#js-menu-toggle > li:nth-child(3)
+{
+  display:none;
 }
+
