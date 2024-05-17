@@ -65,3 +65,8 @@ input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:ac
   outline: 2px dotted var(--green) !important;
   color:black;
 }
+
+
+.list__item > a {
+    color: var(--dartmouthgreen) !important
+}
