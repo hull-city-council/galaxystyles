@@ -1,3 +1,46 @@
+/* leaving care hull */
+
+:root{
+--lightgreen: #CDFF97; 
+--green: #92d050; 
+--darkgreen: #00b050; 
+--dartmouthgreen: #005b29
+--greengrey: #eaf1e2
+}
+
+#js-menu-toggle > li:nth-child(2),
+#js-menu-toggle > li:nth-child(3)
+{
+  display:none;
+}
+
+#header > a > h1 {
+  color:black !important;
+}
+
+#header {
+  background-color: var(--darkgreen);
+}
+
+#js-menu-toggle > li > a {
+  color:black !important;
+}
+
+#js-menu-toggle > li:nth-child(1) > a:focus {
+    outline: 2px dotted var(--lightgreen);
+}
+
+#footer {
+  background-color: var(--darkgreen);
+}
+
+#footer > ul > li {
+  color:black;
+}
+
+#footer > ul > li:nth-child(2) {
+  display: none;
+}
 
 
 
