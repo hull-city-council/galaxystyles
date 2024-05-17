@@ -66,7 +66,6 @@ input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:ac
   color:black;
 }
 
-
 .list__item > a {
-    color: var(--dartmouthgreen) !important
+    color: var(--dartmouthgreen) !important;
 }
