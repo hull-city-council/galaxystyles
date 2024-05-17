@@ -56,8 +56,8 @@ ul.alt li, ul.list--listing li {
 }
 
 .button {
-  background-color: var(--darkgreen);
-  color: black;
+  background-color: var(--darkgreen) !important;
+  color: black !important;
 }
 
 input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, .button:active {
