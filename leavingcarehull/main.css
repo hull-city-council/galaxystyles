@@ -69,3 +69,11 @@ input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:ac
 .list__item > a {
     color: var(--dartmouthgreen) !important;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    color: black !important;
+}
+
+p {
+  color:black !important;
+}
