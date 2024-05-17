@@ -54,3 +54,14 @@ ul.alt li, ul.list--listing li {
     padding: 0.5em;
     display: inline;
 }
+
+.button {
+  background-color: var(--darkgreen);
+  color: black;
+}
+
+input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, .button:active {
+  background-color: var(--green) !important;
+  outline: 2px dotted var(--green) !important;
+  color:black;
+}
