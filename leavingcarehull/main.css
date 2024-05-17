@@ -27,7 +27,10 @@
   background-color: var(--darkgreen);
 }
 
-#nav > ul > li > ul > li a:hover {
-    background: var(--lightgreen);
-    color: #000000;
+#js-menu-toggle > li > a {
+  color:black !important;
+}
+
+#js-menu-toggle > li:nth-child(1) > a:focus {
+    outline: 2px dotted var(--lightgreen);
 }
