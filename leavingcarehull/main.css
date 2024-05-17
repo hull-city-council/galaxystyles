@@ -77,3 +77,11 @@ h1, h2, h3, h4, h5, h6 {
 p {
   color:black !important;
 }
+
+#js-menu-toggle > li {
+  color:black !important;
+}
+
+#nav > ul > li > ul > li a:hover {
+    background-color: var(--darkgreen);
+}
