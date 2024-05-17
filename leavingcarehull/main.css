@@ -32,6 +32,7 @@
 
 #footer {
   background-color: var(--darkgreen);
+  padding: 1em 0 3em 0;
 }
 
 #footer > ul > li {
@@ -42,38 +43,14 @@
   display: none;
 }
 
-
-
-
-
-/* leaving care hull */
-
-:root{
---lightgreen: #CDFF97; 
---green: #92d050; 
---darkgreen: #00b050; 
---dartmouthgreen: #005b29
---greengrey: #eaf1e2
+/* from doc This is the css we have amended via inspect element -  */
+.col-3.col-12-mobilep {
+    width: 100%;
 }
-
-#js-menu-toggle > li:nth-child(2),
-#js-menu-toggle > li:nth-child(3)
-{
-  display:none;
+.col-9.col-12-mobilep {
+    width: 100%;
 }
-
-#header > a > h1 {
-  color:black !important;
-}
-
-#header {
-  background-color: var(--darkgreen);
-}
-
-#js-menu-toggle > li > a {
-  color:black !important;
-}
-
-#js-menu-toggle > li:nth-child(1) > a:focus {
-    outline: 2px dotted var(--lightgreen);
+ul.alt li, ul.list--listing li {
+    padding: 0.5em;
+    display: inline;
 }
