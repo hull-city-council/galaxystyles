@@ -1,4 +1,3 @@
-
 var serviceUrl = "//api.reciteme.com/asset/js?key=";
 var serviceKey = "f6cd075d8f4872e8017e5b50baf4b22c6eabd288";
 var options = {};
@@ -17,7 +16,7 @@ function loadScript(c, b) {
 		b()
 	});
 	a.src = c;
-	document.getElementsByClassName("symbol")[0].appendChild(a);
+	document.getElementsByTagName("head")[0].appendChild(a)
 }
 
 function _rc(c) {
@@ -54,12 +53,16 @@ define = function(a, b, c) {
 	}
 	almondDefine(a, b, c);
 };
+
 const recitemeButtonLink = document.createElement("a"),
 	recitemeButtonLinkMobile = document.createElement("a");
 recitemeButtonLink.setAttribute("id", "enableRecite");
-recitemeButtonLink.setAttribute("class", "button fit recite_button");
+recitemeButtonLink.setAttribute("href", "#");
+recitemeButtonLink.setAttribute("tabindex", "0");
+recitemeButtonLink.setAttribute("class", "button fit");
 recitemeButtonLinkMobile.setAttribute("class", "link depth-1");
 recitemeButtonLinkMobile.setAttribute("id", "enableReciteM");
+recitemeButtonLinkMobile.setAttribute("tabindex", "0");
 recitemeButtonLink.appendChild(document.createTextNode("Accessibility and translation"));
 recitemeButtonLinkMobile.appendChild(document.createTextNode("Accessibility and translation"));
 document.getElementById("nav").appendChild(recitemeButtonLink);
@@ -69,5 +72,8 @@ const recitemeNavBtn1 = document.getElementById('enableRecite'),
 document.addEventListener("DOMContentLoaded", function(event) {
 	[recitemeNavBtn1, recitemeNavBtn2].map(element => element.addEventListener("click", function() {
 		loadService();
-	}))
+	}));
+	[recitemeNavBtn1, recitemeNavBtn2].map(element => element.addEventListener("keypress", function() {
+		loadService();
+	}));
 });
