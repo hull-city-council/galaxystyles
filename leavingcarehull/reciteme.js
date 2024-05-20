@@ -17,7 +17,7 @@ function loadScript(c, b) {
 		b()
 	});
 	a.src = c;
-	document.getElementsById("js-menu-toggle")[0].appendChild(a);
+	document.getElementsByClassName("symbol")[0].appendChild(a);
 }
 
 function _rc(c) {
