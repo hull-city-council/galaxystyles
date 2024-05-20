@@ -86,3 +86,8 @@ p {
 #nav > ul > li > ul > li a:hover {
     background-color: var(--darkgreen);
 }
+
+#header nav{
+  display: flex;
+}
+
