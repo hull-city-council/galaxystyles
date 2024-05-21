@@ -20,7 +20,7 @@
 }
 
 #header {
-  background-color: var(--darkgreen);
+  background-color: var(--darkgreen) !important;
 }
 
 #js-menu-toggle > li > a {
