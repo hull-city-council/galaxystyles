@@ -105,3 +105,12 @@ p {
 input[type="button"]:focus, input[type="submit"]:focus, a:focus {
     outline: 2px dotted var(--darkgreen);
 }
+
+.recite-ele-style > a {
+  color:black !important; 
+}
+
+input[type="search"]:focus {
+  border-color:var(--darkgreen);
+  box-shadow: 0 0 0 2px var(--darkgreen);
+}
