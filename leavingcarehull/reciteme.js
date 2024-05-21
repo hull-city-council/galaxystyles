@@ -60,7 +60,7 @@ recitemeButtonLink.setAttribute("id", "enableRecite");
 recitemeButtonLink.setAttribute("href", "#");
 recitemeButtonLink.setAttribute("tabindex", "0");
 recitemeButtonLink.setAttribute("class", "button fit");
-recitemeButtonLink.setAttribute("style", "margin-top:3px");
+recitemeButtonLink.setAttribute("style", "margin-top:3px; box-shadow: unset;");
 recitemeButtonLinkMobile.setAttribute("class", "link depth-1");
 recitemeButtonLinkMobile.setAttribute("id", "enableReciteM");
 recitemeButtonLinkMobile.setAttribute("tabindex", "0");
