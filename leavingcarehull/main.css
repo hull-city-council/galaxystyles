@@ -68,7 +68,8 @@ input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:ac
 }
 
 .list__item > a {
-    color: var(--dartmouthgreen) !important;
+  color: var(--dartmouthgreen) !important;
+  font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
