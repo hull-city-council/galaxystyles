@@ -91,3 +91,12 @@ p {
   display: flex;
 }
 
+#js-menu-toggle > li:nth-child(1) > a {
+  background-color: var(--darkgreen) !important;
+  color: black !important;
+  border: 9px;
+  width:10em;
+  text-align:center;
+  margin-right:30px;
+  font-weight: 400;
+}
