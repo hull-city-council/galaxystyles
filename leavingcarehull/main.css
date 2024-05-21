@@ -100,3 +100,7 @@ p {
   margin-right:30px;
   font-weight: 400;
 }
+
+input[type="button"]:focus, input[type="submit"]:focus, a:focus {
+    outline: 2px dotted var(--darkgreen);
+}
