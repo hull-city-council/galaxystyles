@@ -289,6 +289,14 @@ a:focus, a:hover, a:active {
     text-decoration: underline dotted;
     font-weight: bold;
 }
+.site-footer__group .list__link:hover {
+    font-weight: bold;
+}
+.site-footer__group .list__link {
+    color: var(--primary);
+    font-weight: 400;
+    text-decoration: underline dotted;
+}
 
 /* Hide submit new event button */
 #content > div > div > section > a {
