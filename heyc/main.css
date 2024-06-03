@@ -262,6 +262,11 @@ a:focus, a:hover, a:active {
 /*
 * Documents
 */
+.nav--pages-in .nav__heading {
+    color: var(--primary);
+    ffont-family: "Alfa Slab One", serif;
+    text-transform: unset;
+}
 .nav--pages-in {
     background-color: var(--secondary);
     color: var(--primary);
