@@ -9,11 +9,12 @@
 /*
 * Typography
 */
-h1, .h1, h2, .h2, h3, .form__heading, .h3, h4, .h4, h5, .h5, h6, .h6,.listing .listing__link {
+h1, .h1, h2, .h2, h3, .form__heading, .h3, h4, .h4, h5, .h5, h6, .h6,.listing .listing__link, .nav--pages-in .nav__heading {
   color: var(--primary);
   font-family: "Alfa Slab One", serif;
   font-weight: 400;
   font-style: normal;
+  text-transform: unset;
 }
 
 h3, .form__heading, .h3, .gamma {
@@ -258,6 +259,38 @@ a:focus, a:hover, a:active {
     content: counter(list_item_count, numbers);
 }
 
+/*
+* Documents
+*/
+.nav--pages-in {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+.nav--pages-in .nav__list {
+    background-color: var(--secondary);
+}
+.nav--pages-in .nav__list::before{
+   border-color: var(--secondary) transparent transparent;
+}
+.list--numbered li::before, .editor ol:not([class]):not([type]) li::before, .list--ordered li::before {
+    background-color: var(--primary);
+    color: var(--primary);
+}
+a.list__link {
+    text-decoration: underline dotted;
+}
+a.list__link {
+    text-decoration: underline dotted;
+}
+a.list__link:hover {
+   font-weight: bold;
+}
+.pagination {
+    background-color: #fff;
+}
+.pagination__item--next::after {
+    border-left: 4px solid var(--tertiary);
+}
 /*
 * Footer
 */
