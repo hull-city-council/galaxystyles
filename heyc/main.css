@@ -268,14 +268,14 @@ a:focus, a:hover, a:active {
     text-transform: unset;
 }
 .nav--pages-in {
-    background-color: var(--secondary);
+    background-color: #f7f7f7;
     color: var(--primary);
 }
 .nav--pages-in .nav__list {
-    background-color: var(--secondary);
+    background-color: #f7f7f7;
 }
 .nav--pages-in .nav__list::before{
-   border-color: var(--secondary) transparent transparent;
+   border-color: #f7f7f7 transparent transparent;
 }
 .list--numbered li::before, .editor ol:not([class]):not([type]) li::before, .list--ordered li::before {
     background-color: var(--primary);
@@ -287,8 +287,9 @@ a.list__link {
 a.list__link {
     text-decoration: underline dotted;
 }
-a.list__link:hover {
+a.list__link:hover,a.list__link:active, a.list__link:focus {
    font-weight: bold;
+   text-decoration: underline;
 }
 .pagination {
     background-color: #fff;
