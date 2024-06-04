@@ -294,7 +294,7 @@ a.list__link:hover,a.list__link:active, a.list__link:focus {
 .pagination {
     background-color: #fff;
 }
-.pagination__item--next::after {
+.pagination__item--next::after, .pagination__item--previous::after {
     border-left: 4px solid var(--tertiary);
 }
 /*
