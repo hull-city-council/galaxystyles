@@ -125,3 +125,7 @@ input[type="search"]:hover, select:hover, textarea:hover {
     border-color: var(--dartmouthgreen);
     box-shadow: 0 0 0 2px var(--dartmouthgreen);
 }
+
+ul.alt li, ul.list--listing li {
+    border-top: unset;
+}
