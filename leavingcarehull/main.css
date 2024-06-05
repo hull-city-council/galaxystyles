@@ -135,3 +135,15 @@ ul.alt li, ul.list--listing li {
   font-weight: 400;
 }
 
+
+
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+input[type="email"]:focus, 
+input[type="date"]:focus, 
+input[type="search"]:focus, 
+select:focus, 
+textarea:focus {
+    box-shadow: 0 0 0 2px var(--green) !important;
+    border-color: var(--green) !important;
+}
