@@ -129,3 +129,9 @@ input[type="search"]:hover, select:hover, textarea:hover {
 ul.alt li, ul.list--listing li {
     border-top: unset;
 }
+
+.copyright > li {
+  color: black !important;
+  font-weight: 400;
+}
+
