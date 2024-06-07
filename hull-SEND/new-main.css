@@ -43,7 +43,9 @@ h4 {
 .site-header{
     background-color: var(--primary);
 }
-.nav--primary-navigation .button__text, .nav--primary-navigation .button:hover .button__text {color: var(--tertiary);}
+.nav--primary-navigation .button__text, .nav--primary-navigation .button:hover .button__text {
+  color: #000;
+}
 .toggle-icon::before, .toggle-icon::after, .toggle-icon .toggle-icon__line {
     background-color: var(--tertiary);
 }
@@ -115,6 +117,7 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover, button#enableRecite:
     border-radius: 8px;
 }
 .button, .button:visited, .form__label--upload, .form__label--image-upload, .widget--myaccount-sign-in a, .widget--myaccount-api-links a, .widget--myaccount-organisation-account-links a, .widget--myaccount-organisation-links a, .form__label--upload:visited, .form__label--image-upload:visited, .widget--myaccount-sign-in a:visited, .widget--myaccount-api-links a:visited, .widget--myaccount-organisation-account-links a:visited, .widget--myaccount-organisation-links a:visited {
+    font-size: clamp(16px, calc(0.9375rem + ((1vw - 7.68px) * 0.434)), 20px);
     background-color: var(--secondary);
     border: unset;
     border-radius: 0px;
@@ -277,11 +280,6 @@ a.image-link:hover {
     color: #fff;
 }
 
-.nav--social-links .icon {
-    height: 2.5rem;
-    width: 2.5rem;
-}
-
 .site-footer__group .list__link {
     font-size: .9rem;
     color: #000;
@@ -437,7 +435,12 @@ blockquote p:first-child::before {
     color: #000 !important;
     content: counter(list_item_count);
 }
-
+p.cta-banner__description {
+    color: #000;
+}
+.download__meta{
+  font-size: 1rem;
+}
 /* added for ticket 338321 */
 
 .page__heading-container .page-heading--subtext {
