@@ -152,3 +152,12 @@ textarea:focus {
           background-size: cover !important;
 }
 
+/* hide sign-in and register on mobile view - hard coded by id - yuk */
+#navPanel > nav > a:nth-child(6) {
+  display:none;
+}
+
+#navPanel > nav > a:nth-child(7) {
+  display:none;
+}
+
