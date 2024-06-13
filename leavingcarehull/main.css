@@ -147,3 +147,8 @@ textarea:focus {
     box-shadow: 0 0 0 2px var(--green) !important;
     border-color: var(--green) !important;
 }
+
+#banner {
+          background-size: cover !important;
+}
+
