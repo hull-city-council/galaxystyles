@@ -45,12 +45,7 @@
 }
 
 /* from doc This is the css we have amended via inspect element -  */
-.col-3.col-12-mobilep {
-    width: 100%;
-}
-.col-9.col-12-mobilep {
-    width: 100%;
-}
+
 ul.alt li, ul.list--listing li {
     padding: 0.5em;
     display: inline;
