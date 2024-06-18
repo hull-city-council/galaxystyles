@@ -156,3 +156,7 @@ textarea:focus {
   display:none;
 }
 
+#page-wrapper > section:nth-child(4) > div > div > div {
+    width: unset;
+}
+
