@@ -110,5 +110,5 @@ label[for=postcode] {
 }
 
 .list--skip-links .list__link:link, .list--skip-links .list__link:hover, .list--skip-links .list__link:active, .list--skip-links .list__link:focus {
-    background-color: f5f6f7;
+    background-color: f5f6f7 !important;
 }
