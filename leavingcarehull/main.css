@@ -156,7 +156,12 @@ textarea:focus {
   display:none;
 }
 
+/* for home pages */
 #page-wrapper > section:nth-child(4) > div > div > div {
+    width: unset;
+}
+/* for non-home pages */
+#page-wrapper > section:nth-child(3) > div > div > div {
     width: unset;
 }
 
