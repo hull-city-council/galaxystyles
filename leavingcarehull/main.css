@@ -62,6 +62,10 @@ input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:ac
   color:black;
 }
 
+input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, .button.primary {
+    color: unset;
+}
+
 .list__item > a {
   color: var(--dartmouthgreen) !important;
   font-weight:400;
