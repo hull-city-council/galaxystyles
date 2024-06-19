@@ -9,6 +9,10 @@
 --greengrey: #eaf1e2;
 }
 
+a {
+    color: var(--dartmouthgreen);
+}
+
 #js-menu-toggle > li:nth-child(2),
 #js-menu-toggle > li:nth-child(3)
 {
@@ -167,5 +171,10 @@ textarea:focus {
 /* for non-home pages */
 #page-wrapper > section:nth-child(3) > div > div > div {
     width: unset;
+}
+
+/* hide event submit button */
+#main > div > div > div.col-4.col-12-narrow > a {
+  display: none;
 }
 
