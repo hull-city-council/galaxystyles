@@ -66,6 +66,7 @@ ul.alt li, ul.list--listing li {
 .button {
   background-color: var(--darkgreen) !important;
   color: black !important;
+  min-width:20%;
 }
 
 #main > div > div > div.col-12.col-12-narrow > div> div > div > div > div > p > a {
