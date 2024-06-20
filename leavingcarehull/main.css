@@ -66,14 +66,10 @@ ul.alt li, ul.list--listing li {
 .button {
   background-color: var(--darkgreen) !important;
   color: black !important;
-  padding: 0;
 }
 
-.button[name="filterList"] {
-  padding:1em; 
-  display: inline-flex;
-  align-items: center;
-  font-size:20px;
+#main > div > div > div.col-12.col-12-narrow > div> div > div > div > div > p > a {
+  padding:0;
 }
 
 input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, .button:active {
