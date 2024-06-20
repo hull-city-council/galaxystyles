@@ -207,3 +207,7 @@ textarea:focus {
   font-weight:400;
 }
 
+.widget-width {
+  padding: 0 1.0rem;
+}
+
