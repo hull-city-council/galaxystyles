@@ -11,6 +11,10 @@
   color: var(--secondary);
 }
 
+a {
+  color:var(--secondary) !important;
+}
+
 a:hover {
   color: var(--tertiary) !important; 
   border-bottom-color:  var(--tertiary) !important; 
