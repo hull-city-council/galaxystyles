@@ -67,6 +67,7 @@ ul.alt li, ul.list--listing li {
   background-color: var(--darkgreen) !important;
   color: black !important;
   padding: 0;
+  text-align:center;
 }
 
 input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, .button:active {
