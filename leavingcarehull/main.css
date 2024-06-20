@@ -67,7 +67,7 @@ input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:ac
 }
 
 input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, .button.primary {
-    color: unset !important;
+    color: black !important;
 }
 
 .list__item > a {
