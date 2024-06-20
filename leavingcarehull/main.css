@@ -67,7 +67,13 @@ ul.alt li, ul.list--listing li {
   background-color: var(--darkgreen) !important;
   color: black !important;
   padding: 0;
-  text-align:center;
+}
+
+.button[name="filterList"] {
+  padding:1em; 
+  display: inline-flex;
+  align-items: center;
+  font-size:20px;
 }
 
 input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, .button:active {
