@@ -190,3 +190,15 @@ textarea:focus {
   display: none;
 }
 
+
+.listing--featured {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.listing {
+   border-radius: 0.375em;
+   border: solid 1px black;
+   padding: 1.5em;
+}
+
