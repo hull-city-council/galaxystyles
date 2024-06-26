@@ -125,6 +125,8 @@ input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hove
         float:left;
         clear:both;
         display:block;
-
+    }
+    #header > a > strong {
+        display:none;
     }
 }
