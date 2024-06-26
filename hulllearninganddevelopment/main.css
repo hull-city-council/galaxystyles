@@ -127,7 +127,8 @@ label[for=postcode] {
 }
 
 @media all and (max-width:768px){
-    #header > a > strong {
-        display:none;
+    #enableRecite {
+      margin-top: 8em;
+      margin-right:16em;
     }
 }
