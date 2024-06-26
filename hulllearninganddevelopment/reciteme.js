@@ -1,4 +1,3 @@
-
 var serviceUrl = "//api.reciteme.com/asset/js?key=";
 var serviceKey = "f6cd075d8f4872e8017e5b50baf4b22c6eabd288";
 var options = {};
