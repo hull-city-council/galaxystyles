@@ -125,3 +125,9 @@ label[for=postcode] {
 #content > div > div > div.col-4.col-12-medium {
   display:none;
 }
+
+@media all and (max-width:768px){
+    #header > a > strong {
+        display:none;
+    }
+}
