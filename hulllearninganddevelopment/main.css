@@ -95,8 +95,12 @@ textarea:hover {
   border-bottom: solid 5px var(--secondary);
   padding-top:1em;
 }
-.icons .list__item{
-  display: none;
+
+header > ul > li:nth-child(1) {
+ display: none;
+}
+#header > ul > li:nth-child(2) {
+ display: none;
 }
 
 *:focus {
