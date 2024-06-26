@@ -56,7 +56,7 @@ define = function(a, b, c) {
 var arr = ["li"]
 let el = arr.reduceRight((el, n) => {
 		let d = document.createElement(n)
-		d.setAttribute('class', 'list__item')
+		d.setAttribute('class', 'list_item')
 		d.appendChild(el)
 		return d
 	},
