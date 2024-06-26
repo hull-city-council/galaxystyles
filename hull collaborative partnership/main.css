@@ -126,7 +126,7 @@ input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hove
         clear:both;
         display:block;
     }
-    #header > a > strong {
-        display:none;
+    #enableRecite {
+      margin-top: 8em;
     }
 }
