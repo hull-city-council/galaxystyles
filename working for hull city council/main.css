@@ -275,4 +275,7 @@ background-color: var(--secondary);
     background-color:var(--secondary);
     color:white !important;
   }
+  .menu-navigation__inner {
+    width:100% !important;
+   }
 }
