@@ -65,7 +65,7 @@ let el = arr.reduceRight((el, n) => {
 	reciteMeButton.setAttribute('class', 'button button--primary button--icon list__link'),
 	reciteMeButton.setAttribute('title', 'Open accessibility and translation tools'),
 	reciteMeButton.innerHTML = '<span class="icon icon-accessibility"></span><span class="button__text">Accessibility tools</span>')
-document.querySelector("#js-search-toggle > span.icon.toggle-icon.toggle-icon--search").appendChild(el);
+document.querySelector("#top > div.container > nav > div.navigation-buttons > ul > li:nth-child(2)").appendChild(el);
 document.addEventListener("DOMContentLoaded", function(event) {
 	[reciteMeButton].map(element => element.addEventListener("click", function() {
 		loadService();
