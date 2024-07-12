@@ -140,11 +140,11 @@ outline: 2px dotted var(--secondary);
 */
 
 /* hide html5 copyright */
-/*
+
 #footer > ul > li:nth-child(2) {
   display:none;
 }
-
+/*
 .list__link {
   color:black !important;
 }
