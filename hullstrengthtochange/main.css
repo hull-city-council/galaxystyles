@@ -37,7 +37,7 @@ header h1,
 
 input[type="button"]:focus, input[type="submit"]:focus, a:focus, *:focus{
     outline: 2px dotted var(--secondary);
-    background-color:var(--tertiary);
+    background-color:var(--tertiary) !important;
 }
 
 input[type="submit"], input[type="reset"], input[type="button"], .button{
@@ -45,7 +45,7 @@ input[type="submit"], input[type="reset"], input[type="button"], .button{
 }    
 
 input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, .button:active {
-    background-color: #585858;
+    background-color: #585858 !important;
 }
 
 
