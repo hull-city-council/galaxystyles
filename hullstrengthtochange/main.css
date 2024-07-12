@@ -49,6 +49,9 @@ input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:ac
     background-color: #585858 !important;
 }
 
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:hover {
+    background-color: #737373 !important;
+}
 
 #js-menu-toggle > li:nth-child(2), 
 #js-menu-toggle > li:nth-child(3), 
