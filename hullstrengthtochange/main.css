@@ -2,7 +2,7 @@
 
 :root{
 --primary: #black;
---secondary: #C21741;
+--secondary: #BD4521;
 --tertiary: #f7f7f7;
 }
 
@@ -92,4 +92,9 @@ display: none;
 /* Hide banner heading */
 #banner > h2{
     display: none;
+}
+
+#header #nav a:focus {
+    outline: 2px solid #fff;
+    background-color:var(--secondary)
 }
