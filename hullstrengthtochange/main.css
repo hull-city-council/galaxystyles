@@ -1,10 +1,9 @@
 /* Hull Strength To Change */
 
 :root{
---primary: #F3A119;
+--primary: #black;
 --secondary: #C21741;
---tertiary: #EB6D13;
---quarternary: #CC1918; 
+--tertiary: #f7f7f7;
 }
 
 /* Font */
@@ -13,6 +12,15 @@ body, input, select, textarea, h1, h2, h3, h4, h5, h6{
   font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
   letter-spacing: unset !important;
   color: #4e4e4e;
+}
+
+
+.box {
+    background-color: var(--tertiary);
+}
+
+#page-wrapper {
+    background-color:black;
 }
 
 /* Test */
@@ -115,6 +123,8 @@ outline: 2px dotted var(--secondary);
     margin: 1em;
     border-top: unset;
 }
+
+
 
 /*
 #header{
