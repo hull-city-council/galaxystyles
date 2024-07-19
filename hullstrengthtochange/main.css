@@ -8,7 +8,7 @@
 
 /* Font */
 
-body, input, select, textarea, h1, h2, h3, h4, h5, h6{
+body, input, select, textarea, h1, h2, h3, h4, h5, h6, p{
   font-family: Roboto,Arial,Helvetica Neue,Helvetica,sans-serif; 
   letter-spacing: unset !important;
   color: black;
