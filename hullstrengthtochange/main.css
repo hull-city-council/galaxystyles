@@ -27,6 +27,10 @@ header h1,
     background-color: var(--primary) !important;
 }
 
+#footer {
+    padding: 2em, 0, 2em 0;
+}
+
 .box {
     background-color: var(--tertiary);
 }
