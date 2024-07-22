@@ -12,6 +12,8 @@ body, input, select, textarea, h1, h2, h3, h4, h5, h6, p{
   font-family: Roboto,Arial,Helvetica Neue,Helvetica,sans-serif; 
   letter-spacing: unset !important;
   color: black;
+  font-weight: 500;
+  hyphens: unset;
 }
 
 nav {
