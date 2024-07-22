@@ -30,7 +30,10 @@ header h1,
 }
 
 #footer {
-    padding: 2em, 0, 2em 0;
+    padding: unset !important;
+}
+#footer {
+    padding: 1em !important;
 }
 
 .box {
