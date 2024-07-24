@@ -79,6 +79,10 @@ input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hove
   display: none;
 }
 
+#nav > ul > li > ul > li a:hover {
+  background: unset !important;
+}
+
 #navPanel > nav > a:nth-child(10){
     display:none;
 }
