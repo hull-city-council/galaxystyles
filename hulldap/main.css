@@ -120,6 +120,10 @@ display: none;
     display: none;
 }
 
+#banner { 
+    background-image: unset !important;
+}
+
 #header #nav a:focus {
     outline: 2px solid #fff;
     background-color:var(--secondary)
