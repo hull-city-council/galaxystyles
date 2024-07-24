@@ -1,0 +1,122 @@
+/* Hull Domestic Abuse Partnership */
+
+:root{
+--primary: black;
+--secondary: #BD4521;
+--tertiary: #f7f7f7;
+}
+
+/* Font */
+
+body, input, select, textarea, h1, h2, h3, h4, h5, h6, p{
+  font-family: Roboto,Arial,Helvetica Neue,Helvetica,sans-serif; 
+  letter-spacing: unset !important;
+  color: black;
+  font-weight: 500;
+  hyphens: unset;
+}
+
+p {
+  font-weight: 400 !important;
+}
+
+nav {
+    margin-right:5em; 
+}
+
+header h1,
+.breadcrumb {
+    color:var(--tertiary) !important;
+}
+
+#header {
+    background-color: var(--primary) !important;
+}
+
+#header.alt {
+    position: fixed !important;
+}
+#header.reveal {
+    position: fixed !important;
+}
+
+
+#footer {
+    padding: 1em !important;
+}
+
+.box {
+    background-color: var(--tertiary);
+}
+
+#page-wrapper {
+    background-color:black;
+}
+
+input[type="button"]:focus, input[type="submit"]:focus, a:focus, *:focus{
+    outline: 2px dotted var(--secondary);
+    background-color:var(--tertiary) !important;
+    color: var(--primary) !important;
+}
+
+input[type="submit"], input[type="reset"], input[type="button"], .button{
+    background-color:black !important;
+}    
+
+input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, .button:active {
+    background-color: #585858 !important;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:hover {
+    background-color: #737373 !important;
+}
+
+#js-menu-toggle > li:nth-child(2), 
+#js-menu-toggle > li:nth-child(3), 
+#navPanel > nav > a:nth-child(5), 
+#navPanel > nav > a:nth-child(6),
+#navPanel > nav > a:nth-child(7){
+  display: none;
+}
+
+#navPanel > nav > a:nth-child(10){
+    display:none;
+}
+#navPanel > nav > a:nth-child(11) {
+    display:none;
+}
+
+
+/* */
+#page-wrapper > section > div > div > div {
+    width: 100%;
+}
+
+#page-wrapper > section > div > div > div > ul >li {
+    display:inline;
+    margin: 1em;
+    border-top: unset;
+}
+
+
+/* hide html5 copyright */
+
+#footer > ul > li:nth-child(2) {
+  display:none;
+}
+
+/* Hide submit new event button */
+
+#main > div > div > div.col-4.col-12-narrow > a.button.button--primary.button--block {
+display: none;
+}
+
+/* Hide banner heading */
+#banner > h2{
+    display: none;
+}
+
+#header #nav a:focus {
+    outline: 2px solid #fff;
+    background-color:var(--secondary)
+}
