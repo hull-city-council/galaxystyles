@@ -130,7 +130,7 @@ display: none;
     padding: 0em 0 16em 0;
   }  
   #page-wrapper > section > div > div > div > ul >li {
-    display:inline;
+   /* display:inline; */
     margin: 1em;
     border-top: unset;
   }
