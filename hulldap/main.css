@@ -28,13 +28,6 @@ nav {
     margin-right:4em; 
 }
 
-header h1,
-.breadcrumb {
-    color:var(--tertiary) !important;
-}
-.breadcrumb a {
-  color:var(--tertiary) !important;
-}
 
 #header {
     background-color: var(--primary) !important;
