@@ -53,11 +53,11 @@ header h1,
 }
 
 .box {
-    background-color: var(--tertiary);
+    background-color: white;
 }
 
 #page-wrapper {
-    background-color:black;
+    background-color:var(--tertiary);
 }
 
 input[type="button"]:focus, input[type="submit"]:focus, a:focus, *:focus{
