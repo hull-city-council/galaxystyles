@@ -103,11 +103,7 @@ input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hove
     width: 100%;
 }
 
-#page-wrapper > section > div > div > div > ul >li {
-    display:inline;
-    margin: 1em;
-    border-top: unset;
-}
+
 
 
 /* hide html5 copyright */
@@ -140,6 +136,11 @@ display: none;
   #banner {
     padding: 0em 0 16em 0;
   }  
+  #page-wrapper > section > div > div > div > ul >li {
+    display:inline;
+    margin: 1em;
+    border-top: unset;
+  }
 } 
 
 @media screen and (max-width:480px) {
