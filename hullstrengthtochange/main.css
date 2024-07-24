@@ -33,6 +33,14 @@ header h1,
     background-color: var(--primary) !important;
 }
 
+#header.alt {
+    position: fixed !important;
+}
+#header.reveal {
+    position: fixed !important;
+}
+
+
 #footer {
     padding: 1em !important;
 }
