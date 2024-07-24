@@ -80,7 +80,7 @@ input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hove
 }
 
 #nav > ul > li > ul > li a:hover {
-  background: unset !important;
+  background: var(--secondary) !important;
 }
 
 #navPanel > nav > a:nth-child(10){
