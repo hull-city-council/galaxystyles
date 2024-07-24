@@ -128,3 +128,17 @@ display: none;
     outline: 2px solid #fff;
     background-color:var(--secondary)
 }
+
+@media screen and (max-width:1680px) {
+  #banner {
+    padding: 0em 0 16em 0;
+  }  
+} 
+
+@media screen and (max-width:480px) {
+  #banner {
+    padding: 0em 3em 4em 3em;
+  }  
+} 
+
+
