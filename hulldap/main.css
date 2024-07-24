@@ -60,15 +60,15 @@ input[type="button"]:focus, input[type="submit"]:focus, a:focus, *:focus{
 }
 
 input[type="submit"], input[type="reset"], input[type="button"], .button{
-    background-color:black !important;
+    background-color:var(--primary) !important;
 }    
 
 input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, .button:active {
-    background-color: #585858 !important;
+    background-color: var(--secondary) !important;
 }
 
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:hover {
-    background-color: #737373 !important;
+    background-color: var(--secondary) !important;
 }
 
 #js-menu-toggle > li:nth-child(2), 
