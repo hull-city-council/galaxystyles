@@ -21,7 +21,7 @@ p {
 }
 
 a {
-    color: var(--primary) !important;
+    color: var(--primary);
 }
 
 nav {
