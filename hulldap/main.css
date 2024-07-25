@@ -141,7 +141,7 @@ display: none;
 
 @media screen and (max-width: 840px) {
     body.navPanel-visible #navPanel {
-        background-color: var(--primary);
+      background-color: var(--primary);
     }
 }
 
