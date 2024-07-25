@@ -42,11 +42,12 @@ nav {
 
 
 #footer {
-    padding: 1em !important;
+    padding: 1em 0 £em 0 !important;
+    background-color: #F7F7F7;
 }
 
 .box {
-    background-color: white;
+    background-color: #F7F7F7;
 }
 
 #page-wrapper {
