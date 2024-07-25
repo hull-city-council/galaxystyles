@@ -27,13 +27,15 @@
 
 .modal__header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 
 .modal__close {
   background: transparent;
   border: 0;
+  margin: unset;
+  padding: unset;
 }
 
 .modal__header .modal__close:before { content: "\2715"; }
