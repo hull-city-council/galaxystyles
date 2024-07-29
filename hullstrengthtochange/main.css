@@ -38,6 +38,10 @@ header h1,
 }
 #header.reveal {
     position: fixed !important;
+    -moz-animation: unset;
+    -webkit-animation: unset;
+    -ms-animation: unset;
+    animation: unset;
 }
 
 
