@@ -137,6 +137,7 @@ display: none;
 
 #banner { 
     background-image: unset !important;
+    padding: 0 0 0 0;
 }
 
 #header #nav a:focus {
