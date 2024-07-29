@@ -38,6 +38,15 @@ nav {
 }
 #header.reveal {
     position: fixed !important;
+    -moz-animation: unset;
+    -webkit-animation: unset;
+    -ms-animation: unset;
+    animation: unset;
+}
+
+
+#header.reveal {
+    
 }
 
 
