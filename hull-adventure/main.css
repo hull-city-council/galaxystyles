@@ -608,6 +608,6 @@ li.list__item_rating.page-rating {
     border-color: var(--secondary);
 }
 a.list__link.gm_sidebar_anchor {
-    background: var(--primary);
+    background: var(--primary) !important;
     color: white;
 }
