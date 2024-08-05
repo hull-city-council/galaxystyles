@@ -598,3 +598,16 @@ blockquote p:first-child::before {
 #content > div > div > section > a {
     display: none;
 }
+
+/* Feedback buttons */
+h2.site-rating__heading {
+    color: white;
+}
+li.list__item_rating.page-rating {
+    background: var(--primary);
+    border-color: var(--secondary);
+}
+a.list__link.gm_sidebar_anchor {
+    background: var(--primary);
+    color: white;
+}
