@@ -1,6 +1,6 @@
 :root{
-	--orange: #f6a800;
-	--grey:#616161;
+--orange: #f6a800;
+--grey:#616161;
 }
 
 #menu ul + h2,
@@ -22,4 +22,15 @@ background-color: var(--orange);
     background-image: url(https://www.hullfostering.co.uk/themes/jadu-spectral/dist/css/images/close.svg) !important;
     background-position: 4.85em 1em !important;
     background-repeat: no-repeat !important;
+}
+
+
+.feedback-wrapper {
+    background: white;
+}
+.site-rating__heading {
+    font-size: 1rem;
+}
+a.list__link.gm_sidebar_anchor {
+    color: #000;
 }
