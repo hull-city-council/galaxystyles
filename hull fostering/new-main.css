@@ -215,6 +215,12 @@ a.image-link:hover {
     color: #000;
 }
 
+@media screen and (max-width: 959px) {
+    .site-footer .container {
+        padding: 2rem 0 !important;
+    }
+}
+
 .site-footer {
     background-color: var(--primary);
     padding: 5rem 0;
