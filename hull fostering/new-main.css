@@ -78,6 +78,8 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
     bottom: .5rem;
     z-index: 995;
     padding: .8rem;
+    width: 100%;
+    justify-content: flex-end;
 }
 
 /*
@@ -103,7 +105,7 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
     white-space: normal;
     border-radius: 8px;
 }
-.button-sticky,.buttonbutton-sticky:visited {
+.button.button-sticky,.button.button-sticky:visited {
     -webkit-appearance: none;
     background-color: var(--secondary);
     color: #000000;
@@ -116,6 +118,11 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
     vertical-align: middle;
     border-radius: 8px;
     border: 2px solid;
+}
+@media screen and (max-width: 599px) {
+    .button.button-sticky {
+        width: 100% !important;
+    }
 }
 
 .button:hover{
