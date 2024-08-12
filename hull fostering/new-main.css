@@ -70,12 +70,24 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
 .site-search--header .button{
     background-color: var(--secondary) !important;
 }
+
+.sticky-container {
+    position: fixed;
+    right: 0;
+    display: flex;
+    bottom: .5rem;
+    z-index: 995;
+    padding: .8rem;
+}
+
 /*
 * Buttons
 */
 .button,.button:visited,.form__label--upload,.form__label--image-upload,.widget--myaccount-sign-in a,.widget--myaccount-api-links a,.widget--myaccount-organisation-account-links a,.widget--myaccount-organisation-links a,.form__label--upload:visited,.form__label--image-upload:visited,.widget--myaccount-sign-in a:visited,.widget--myaccount-api-links a:visited,.widget--myaccount-organisation-account-links a:visited,.widget--myaccount-organisation-links a:visited {
     -webkit-appearance: none;
-    background-color: var(--secondary);
+    background-color: var(--primary);
+    border: unset;
+    border-radius: 8px;
     color: #000000;
     cursor: pointer;
     display: inline-block;
@@ -91,11 +103,21 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
     white-space: normal;
     border-radius: 8px;
 }
-.button, .button:visited, .form__label--upload, .form__label--image-upload, .widget--myaccount-sign-in a, .widget--myaccount-api-links a, .widget--myaccount-organisation-account-links a, .widget--myaccount-organisation-links a, .form__label--upload:visited, .form__label--image-upload:visited, .widget--myaccount-sign-in a:visited, .widget--myaccount-api-links a:visited, .widget--myaccount-organisation-account-links a:visited, .widget--myaccount-organisation-links a:visited {
-    background-color: var(--primary);
-    border: unset;
+.button-sticky,.buttonbutton-sticky:visited {
+    -webkit-appearance: none;
+    background-color: var(--secondary);
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1.5rem 4px 4px;
+    padding: .75rem 2.25rem;
+    text-decoration: none;
+    text-transform: unset;
+    vertical-align: middle;
     border-radius: 8px;
+    border: 2px solid;
 }
+
 .button:hover{
     background-color: #10474C;
     color: #fff;
