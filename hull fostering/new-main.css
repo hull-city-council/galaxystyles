@@ -78,7 +78,7 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
     bottom: .5rem;
     z-index: 995;
     padding: .8rem;
-    width: 100%;
+    width: 30%;
     justify-content: flex-end;
 }
 
@@ -123,6 +123,9 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
     .button.button-sticky {
         width: 100% !important;
     }
+  .sticky-container {
+      width: 100% !important;
+  }
 }
 
 .button:hover{
