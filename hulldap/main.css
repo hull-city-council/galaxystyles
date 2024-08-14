@@ -16,9 +16,24 @@ body, input, select, textarea, h1, h2, h3, h4, h5, h6, p{
   hyphens: unset;
 }
 
-body.landing #main {
-    margin-top: unset;
+#banner {
+    background-attachment: scroll, fixed;
+    background-color: var(--primary);
 }
+@media screen and (max-width: 1680px) {
+    #banner {
+        padding: 9em 0 8em 0;
+    }
+}
+
+@media screen and (max-width: 736px) {
+      #banner {
+        padding: 7em 0 10em 0;
+    }
+}
+  body.landing #main {
+      margin-top: -7em;
+  }
 
 p {
   font-weight: 400 !important;
@@ -47,12 +62,6 @@ nav {
     -ms-animation: unset;
     animation: unset;
 }
-
-
-#header.reveal {
-    
-}
-
 
 #footer {
     padding: 1em !important;
@@ -130,32 +139,14 @@ input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hove
 display: none;
 }
 
-/* Hide banner heading */
-#banner > h2{
-    display: none;
-}
 
-#banner { 
-    background-image: unset !important;
-    padding: 0 0 0 0;
-}
 
 #header #nav a:focus {
     outline: 2px solid #fff;
     background-color:var(--secondary)
 }
 
-@media screen and (max-width:1680px) {
-  #banner {
-    padding: 0em 0 16em 0;
-  }  
-} 
 
-@media screen and (max-width:480px) {
-  #banner {
-    padding: 0em 3em 4em 3em;
-  }  
-} 
 
 @media screen and (max-width: 840px) {
     body.navPanel-visible #navPanel {
