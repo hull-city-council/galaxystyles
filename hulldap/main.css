@@ -17,8 +17,9 @@ body, input, select, textarea, h1, h2, h3, h4, h5, h6, p{
 }
 
 #banner {
-    background-attachment: scroll, fixed;
-    background-color: var(--primary);
+  background-attachment: scroll, fixed;
+  background-color: var(--primary);
+  padding: 12em 0 12em 0;
 }
 @media screen and (max-width: 1680px) {
     #banner {
