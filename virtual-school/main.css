@@ -170,6 +170,9 @@ color:white;
   background-color: var(--primary);
 }
 
+#banner h1 {
+  font-style: italic;
+}
 
 #footer {
 background-color: var(--primary);
