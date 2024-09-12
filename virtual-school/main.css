@@ -63,6 +63,7 @@ outline-offset: 1px;
 }
 #header{
 background-color: var(--primary);
+border-bottom: 2px solid white;
 }
 
 /* Buttons */
