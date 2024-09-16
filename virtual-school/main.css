@@ -171,7 +171,11 @@ color:white;
 }
 
 #banner h1 {
+  color: #ffc2ed;
+  font-size: 5em;
+  text-shadow: 3px 3px #f7ef39;
   font-style: italic;
+  font-weight: bold;
 }
 
 #footer {
