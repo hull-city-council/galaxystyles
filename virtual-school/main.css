@@ -23,7 +23,12 @@ font-size: 1.7rem;
 
 ul.alt li, ul.list--listing li {
     padding: 0.5em;
-   // display: inline;
+    display: inline;
+    border-top: unset;
+}
+
+#page-wrapper > section:nth-child(4) > div > div > div {
+    width: unset;
 }
 
 /* Menu */
