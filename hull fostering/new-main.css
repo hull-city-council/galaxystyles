@@ -178,6 +178,8 @@ a.image-link:hover {
     -webkit-transition: unset;
     -o-transition: unset;
     transition: unset;
+    padding: 3px;
+    outline-color: black !important;
 }
 .menu-navigation .menu-navigation__inner {
     background-color: var(--primary);
