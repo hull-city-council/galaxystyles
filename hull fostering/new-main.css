@@ -149,7 +149,7 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
 * Links
 */
 *:focus:not(main) {
-    outline: 3px solid var(--primary) !important;
+    outline: 3px solid black !important;
 }
 
 .list--breadcrumb a {
@@ -275,7 +275,7 @@ a.image-link:hover {
 .editor a:not(.button):hover {
     background-image: unset;
     text-decoration: underline;
-    text-decoration-color: var(--primary);
+    text-decoration-color: black;
     text-decoration-thickness: 2px;
 }
 
