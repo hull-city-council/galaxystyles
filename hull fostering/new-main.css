@@ -142,6 +142,7 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
 
 .list--skip-links .list__link:link, .list--skip-links .list__link:hover, .list--skip-links .list__link:active, .list--skip-links .list__link:focus{
     background-color: var(--primary);
+    color:black;
 }
 
 /*
@@ -149,6 +150,10 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
 */
 *:focus:not(main) {
     outline: 3px solid var(--primary) !important;
+}
+
+.list--breadcrumb a {
+    text-decoration: underline;
 }
 
 .page-header, .breadcrumb {
