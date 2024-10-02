@@ -59,6 +59,7 @@ define = function(a, b, c) {
 const recitemeButtonLink = document.createElement("a"),
 	recitemeButtonLinkMobile = document.createElement("a");
 recitemeButtonLink.setAttribute("id", "enableRecite");
+recitemeButtonLink.setAttribute("href", "#");
 recitemeButtonLink.setAttribute("class", "button fit recite_button");
 recitemeButtonLink.setAttribute("style", "margin-bottom: 0.8em;");
 recitemeButtonLinkMobile.setAttribute("class", "link depth-1");
