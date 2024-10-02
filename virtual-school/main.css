@@ -53,17 +53,21 @@ background-color: var(--primary);
         background-color: var(--primary) !important;  
     }
 @media screen and (max-width: 840px){
-#navButton .toggle:before, #navPanel{
-  background-color: var(--secondary);
-}
-#navPanel .link.depth-0{
-  font-weight: 600;
-}
-a.toggle:focus:before{
-  outline: 2px solid var(--secondary);
-  
-}
-
+    #navButton .toggle:before, #navPanel{
+      background-color: var(--secondary);
+    }
+    #navPanel .link.depth-0{
+      font-weight: 600;
+    }
+    a.toggle:focus:before{
+      outline: 2px solid var(--secondary);
+    }
+    #navPanel > nav > a:nth-child(10) {
+        display:none;
+    }
+    #navPanel > nav > a:nth-child(11) {
+        display:none;
+    }  
 }
 input[type="button"]:focus, input[type="submit"]:focus, a:focus, *:focus{
 outline: 2px solid var(--secondary);
