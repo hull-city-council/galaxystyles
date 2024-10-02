@@ -73,6 +73,9 @@ a.list__link:focus{
     #navPanel > nav > a:nth-child(11) {
         display:none;
     }  
+    #navPanel .link:focus {
+    	color:white;
+	}
 }
 input[type="button"]:focus, input[type="submit"]:focus, a:focus, *:focus{
 outline: 2px solid var(--secondary);
