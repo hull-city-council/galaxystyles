@@ -53,9 +53,10 @@ border-top: 0;
 #nav > ul > li > ul > li a:hover{
 background-color: var(--primary);
 }
-    a.list__link:focus{
-        background-color: var(--primary) !important;  
-    }
+a.list__link:focus{
+    background-color: var(--primary) !important;  
+    color: white !important;
+}
 @media screen and (max-width: 840px){
     #navButton .toggle:before, #navPanel{
       background-color: var(--secondary);
