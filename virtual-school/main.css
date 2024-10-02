@@ -30,6 +30,10 @@ ul.alt li, ul.list--listing li {
 #page-wrapper > section:nth-child(4) > div > div > div {
     width: unset;
 }
+/* give extra space for bottom menu to display fully inline */
+#page-wrapper > section > div > div > div {
+    width: unset;
+}
 
 /* Menu */
 #header nav{
