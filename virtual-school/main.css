@@ -35,6 +35,11 @@ ul.alt li, ul.list--listing li {
     width: unset;
 }
 
+/* hide html5-up copyright */
+#footer > ul > li:nth-child(2) {
+    display:none;
+}
+
 /* Menu */
 #header nav{
 right: 6.75em;
