@@ -14,6 +14,13 @@ body, input, select, textarea, h1, h2, h3, h4, h5, h6{
   color: #4e4e4e;
 }
 
+.list--skip-links .list__link:link, .list--skip-links .list__link:hover, .list--skip-links .list__link:active, .list--skip-links .list__link:focus{
+  color: #fff !important;
+}
+#header .logo > *{
+  color: #000;
+}
+
 #nav a {
   border-bottom: 1px solid black!important;
   border-radius:unset !important;
@@ -25,6 +32,7 @@ body, input, select, textarea, h1, h2, h3, h4, h5, h6{
 
 #header > a > h1 {
   color:black !important;
+  -webkit-text-stroke: 1px #000;
 }
 
 strong, b{
