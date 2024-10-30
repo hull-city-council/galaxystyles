@@ -55,8 +55,6 @@ a:hover {
     color: var(--tertiary) !important;
 }
 
-.copyright { display:none; }
-
 input[type="text"]:hover, 
 input[type="password"]:hover, 
 input[type="email"]:hover, 
@@ -83,7 +81,6 @@ textarea:hover {
   color:white !important;
 }
 
-
 .button:hover {
   background-color: var(--secondary) !important;
   box-shadow: inset 0 0 0 2px var(--tertiary) !important;
@@ -98,21 +95,11 @@ textarea:hover {
   padding-top:1em;
 }
 
-header > ul > li:nth-child(1) {
- display: none;
-}
-#header > ul > li:nth-child(2) {
- display: none;
-}
-
 *:focus {
     outline: 2px dotted var(--secondary);
 }
 
-#postcode {
-  display:none;
-}
-label[for=postcode] {
+header > ul > li:nth-child(1), #header > ul > li:nth-child(2), #postcode, label[for=postcode], #content > div > div > div.col-4.col-12-medium, .copyright {
   display:none;
 }
 
@@ -124,14 +111,11 @@ label[for=postcode] {
     background-color: #f5f6f7 !important;
 }
 
-#content > div > div > div.col-4.col-12-medium {
-  display:none;
+ul.list.list--record > li {
+    padding: .5rem 0;
 }
 
 @media all and (max-width:768px){
-    #enableRecite {
-/*       margin-top: 8em; */
-    }
   #header .logo {
     flex-direction: column;
   }
