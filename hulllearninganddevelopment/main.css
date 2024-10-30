@@ -1,12 +1,14 @@
 /* stylesheet for Editorial theme */
 
 :root{
-  --primary:#5d6169; /* dark grey */
+  --primary:#4C5357; /* dark grey */
   --secondary:#2e5caf; /* light blue */
    --tertiary:#1e3c72; /* dark blue */
 }
 
-
+body {
+  color: var(--primary);
+}
 #wrapper .toggle {
   color: var(--secondary);
 }
@@ -128,6 +130,10 @@ label[for=postcode] {
 
 @media all and (max-width:768px){
     #enableRecite {
-      margin-top: 8em;
+/*       margin-top: 8em; */
     }
+  #header .logo {
+    flex-direction: column;
+  }
 }
+    
