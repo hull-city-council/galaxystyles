@@ -67,18 +67,18 @@ let el = arr.reduceRight(
     d.appendChild(el);
     return d;
   },
-  (reciteMeButton = document.createElement("button")),
+  (reciteMeButton = document.createElement("a")),
   reciteMeButton.setAttribute("id", "enableRecite"),
   reciteMeButton.setAttribute(
     "class",
-    "button button--primary button--icon list__link",
+    "list__link",
   ),
   reciteMeButton.setAttribute(
     "title",
     "Open accessibility and translation tools",
   ),
   (reciteMeButton.innerHTML =
-    '<span class="icon icon-accessibility"></span><span class="button__text">Accessibility tools</span>'),
+    'Accessibility tools'),
 );
 document.querySelector("#js-menu-toggle > ul").appendChild(el);
 
