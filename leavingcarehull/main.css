@@ -23,20 +23,14 @@ body {
   font-weight:400;
 }
 
-ul li {
-  color:black !important;
+#header .logo > *, #header > a > h1, ul li, #js-menu-toggle > li > a, #footer > ul > li, h1, h2, h3, h4, h5, h6, p, #js-menu-toggle > li, .recite-ele-style > a, input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, .button.primary  {
+  color: #000 !important;
 }
-
-#header > a > h1 {
-  color:black !important;
-}
-
 #header {
   background-color: var(--darkgreen) !important;
 }
-
-#js-menu-toggle > li > a {
-  color:black !important;
+#banner h1{
+  display: none;
 }
 
 #js-menu-toggle > li:nth-child(1) > a:focus {
@@ -48,9 +42,6 @@ ul li {
   padding: 1em 0 3em 0;
 }
 
-#footer > ul > li {
-  color:black;
-}
 
 #footer > ul > li:nth-child(2) {
   display: none;
@@ -79,25 +70,9 @@ input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:ac
   color:black;
 }
 
-input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, .button.primary {
-    color: black !important;
-}
-
 .list__item > a {
   color: var(--dartmouthgreen) !important;
   font-weight:400;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: black !important;
-}
-
-p {
-  color:black !important;
-}
-
-#js-menu-toggle > li {
-  color:black !important;
 }
 
 #nav > ul > li > ul > li a:hover {
@@ -126,13 +101,9 @@ input[type="button"]:focus, input[type="submit"]:focus, a:focus {
     outline: 2px dotted var(--darkgreen);
 }
 
-.recite-ele-style > a {
-  color:black !important; 
-}
-
 input[type="search"] {
-  border-color:var(--darkgreen);
-  box-shadow: 0 0 0 2px var(--darkgreen);
+  border-color: #000;
+  box-shadow: 0 0 0 2px #000;
   background-color: var(--greengrey) !important;
 }
 
@@ -141,7 +112,6 @@ input[type="search"]:hover, select:hover, textarea:hover {
     border-color: var(--dartmouthgreen);
     box-shadow: 0 0 0 2px var(--dartmouthgreen);
 }
-
 ul.alt li, ul.list--listing li {
     border-top: unset;
 }
@@ -212,3 +182,10 @@ textarea:focus {
   padding: 0 1.0rem;
 }
 
+#skip-links > ul > li > a {
+    color: var(--darkgreen) !important;
+}
+
+#navPanel > nav > a:nth-child(5) {
+  display: none;
+}
