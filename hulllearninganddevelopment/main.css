@@ -111,8 +111,9 @@ header > ul > li:nth-child(1), #header > ul > li:nth-child(2), #postcode, label[
     background-color: #f5f6f7 !important;
 }
 
-ul.list.list--record > li {
-    padding: .5rem 0;
+ul.list.list--record > li, ul.list.list--navigation.list--2up > li {
+  padding: .5rem 0;
+  border: unset;
 }
 
 @media all and (max-width:768px){
