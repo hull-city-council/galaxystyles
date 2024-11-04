@@ -13,3 +13,10 @@ display: none;
     background-position: 4.85em 1em !important;
     background-repeat: no-repeat !important;
 }
+input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="search"], select, textarea {
+  border: 1px solid #000 !important;
+} 
+input[type="submit"], input[type="reset"], input[type="button"], button, .button {
+  white-space: normal !important;
+  height: unset !important;
+}
