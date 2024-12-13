@@ -192,6 +192,11 @@ a {
     background-color: var(--dark);
 }
 
+/* ticket 348499 */
+.list--numbered li::before,.editor ol:not([class]):not([type]) li::before,.list--ordered li::before {
+    content: counter(list_item_count, numbers);
+}
+
 /*
 * Links
 */
