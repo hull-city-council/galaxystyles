@@ -697,3 +697,9 @@ blockquote p:first-child::before {
 .gm_sidebar_rh{
     z-index: 994 !important;
 }
+
+@media screen and (min-width: 400px){
+    table, th, td, tr {
+        border: 1px solid !important;
+    }
+}
