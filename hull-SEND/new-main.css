@@ -1003,3 +1003,9 @@ p.cludo-search-results-item__description{
 @media screen and (min-width: 760px){
 #cludo-search-results .col-md-9{width:75%;}
 }
+
+@media screen and (min-width: 400px){
+    table, th, td, tr {
+        border: 1px solid !important;
+    }
+}
