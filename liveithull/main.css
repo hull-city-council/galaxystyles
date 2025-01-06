@@ -184,3 +184,9 @@ blockquote p:first-child::before {
 .partner-logos {
     padding: 1rem;
 }
+
+@media screen and (min-width: 400px){
+    table, th, td, tr {
+        border: 1px solid !important;
+    }
+}
