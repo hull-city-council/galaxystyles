@@ -614,6 +614,12 @@ a.list__link.gm_sidebar_anchor {
     color: white;
 }
 
-table, td, tr {
+table, td, tr, th {
     border: 1px solid white !important;
+}
+
+@media screen and (max-width: 400px) {
+  table, tr {
+    border: unset !important;
+  }
 }
