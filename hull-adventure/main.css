@@ -541,10 +541,12 @@ input[type="email" i] {
 .page-content table:not([class]) td {
     background: #241401 !important;
     border-color: #fff !important;
+    border-width: 1px !important;
 }
 .page-content table:not([class]) th{
   background-color: #0e0800 !important;
   border-color: #fff !important;
+  border-width: 1px !important;
 }
 
 .pagination__item--next::after,.pagination__item--previous::after {
