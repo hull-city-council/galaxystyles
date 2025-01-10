@@ -541,8 +541,11 @@ text-decoration: underline;
 }
 
 .list--listing .list__item, .widget--external_feeds .list--listing .list__item, .widget--latest_news .list--listing .list__item, .search-list .list--listing .list__item, .news-list .list--listing .list__item, .event-list .list--listing .list__item, .councillor-list .list--listing .list__item {
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 1px solid var(--secondary);
+    border-top: 1px solid var(--secondary);
 }
+
+li.list__item {}
 
 .form__field, .form__component--esri input[type="text"], .form__radio, .google-translate .goog-te-combo, .form__select, select, .form__textarea {
     box-shadow: unset;
