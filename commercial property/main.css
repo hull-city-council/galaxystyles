@@ -13,12 +13,20 @@ body, input, select, textarea, h1, h2, h3, h4, h5, h6{
 #header, #header.alt{
   background-color: var(--jonquil);
 }
+
 #header .logo > *, #header nav > ul > li > a{
   color: #000;
 }
+
+
+#header #nav > ul > li > a.menuToggle {
+  color: black !important;
+}
+
 #header nav > ul > li > a.menuToggle:after{
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='16px' height='16px' viewBox='0 0 16 16' zoomAndPan='disable' preserveAspectRatio='none'%3E%3Cstyle type='text/css'%3E%3C!%5BCDATA%5B line %7B stroke: %23000000; stroke-width: 2; %7D %5D%5D%3E%3C/style%3E%3Cline x1='0' y1='1' x2='16' y2='1' /%3E%3Cline x1='0' y1='7' x2='16' y2='7' /%3E%3Cline x1='0' y1='13' x2='16' y2='13' /%3E%3C/svg%3E");
 }
+
 a:focus{
   background-color: var(--platinum);
   color: #000;
@@ -81,4 +89,18 @@ a:focus {background: transparent !important;opacity: 0.5;}
 /* Hide submit new event button */
 #one > div > div.col-4.col-12-medium > a {
     display: none;
+}
+
+/* remove underline on image links */
+.image-link {
+   border-bottom: unset;
+}
+
+#header #nav > ul > li > a {
+    text-transform: unset;
+}
+
+#header span.logo-text {
+    letter-spacing: unset;
+    text-transform: unset;
 }
