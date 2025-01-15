@@ -131,5 +131,5 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 }
 
 menu .close {
-  background-image: url(close-black.svg);
+  background-image: url("close-black.svg");
 }
