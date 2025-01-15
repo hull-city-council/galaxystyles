@@ -137,3 +137,12 @@ menu .close {
 #menu .close:focus {
   background-image: url("close-black.svg");
 }
+
+#header.alt .logo-text {
+  opacity: 100; 
+}
+
+#header.alt .logo {
+  opacity: 100;
+  visibility: visible;
+}  
