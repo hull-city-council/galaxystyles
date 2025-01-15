@@ -77,6 +77,10 @@ let el = arr.reduceRight(
     "title",
     "Open accessibility and translation tools",
   ),
+    reciteMeButton.setAttribute(
+    "href",
+    "#",
+  ),
   (reciteMeButton.innerHTML =
     'Accessibility tools'),
 );
