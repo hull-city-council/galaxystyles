@@ -122,3 +122,6 @@ ul.list.list--record > li, ul.list.list--navigation.list--2up > li {
   }
 }
     
+button{
+  box-shadow: unset !important;
+}
