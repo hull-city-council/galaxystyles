@@ -127,9 +127,9 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 }
 
 #header #nav > ul > li > a.menuToggle:after {
-  background-image: url("images/bars-black.svg");
+  background-image: url("bars-black.svg");
 }
 
 menu .close {
-  background-image: url(images/close-black.svg);
+  background-image: url(close-black.svg);
 }
