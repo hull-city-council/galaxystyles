@@ -34,7 +34,7 @@ a:focus{
 
 /* Menu */
 #menu .close:focus {
-  background-image: url(https://hccp.org.uk/themes/jadu-spectral/dist/css/images/close.svg) !important;
+  /*background-image: url(https://hccp.org.uk/themes/jadu-spectral/dist/css/images/close.svg) !important; */
   background-position: 4.85em 1em !important;
   background-repeat: no-repeat !important;
 }
@@ -127,9 +127,13 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 }
 
 #header #nav > ul > li > a.menuToggle:after {
-  background-image: url("bars-black.svg");
+ background-image: url("bars-black.svg");
 }
 
 menu .close {
+  background-image: url("close-black.svg");
+}
+
+#menu .close:focus {
   background-image: url("close-black.svg");
 }
