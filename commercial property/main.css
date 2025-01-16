@@ -145,4 +145,8 @@ menu .close {
 #header.alt .logo {
   opacity: 100;
   visibility: visible;
-}  
+}
+
+#footer .copyright {
+    color: rgba(255, 255, 255, 1);
+}
