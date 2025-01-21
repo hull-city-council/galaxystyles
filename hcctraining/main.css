@@ -12,7 +12,7 @@ p {
   font-family: "Verdana";
 }
 
-.site-header, .site-footer, .menu-navigation .menu-navigation__inner {
+.site-header, .site-footer, .site-footer, .menu-navigation .menu-navigation__inner{
     background-color: #7D4087;
 }
 
@@ -50,4 +50,12 @@ p {
 
 .js-menu-toggle, .js-search-toggle {
     background-color: unset !important;
+}
+
+.nav--primary-navigation .button:hover .button__text, .nav--primary-navigation .button:focus .button__text, .nav--primary-navigation .button:active .button__text {
+    color: #fff;
+}
+
+.nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::after, .nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::before, .nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon .toggle-icon__line, .nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::after, .nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::before, .nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon .toggle-icon__line, .nav--primary-navigation .button.js-menu-toggle:active .toggle-icon::after, .nav--primary-navigation .button.js-menu-toggle:active .toggle-icon::before, .nav--primary-navigation .button.js-menu-toggle:active .toggle-icon .toggle-icon__line {
+    background-color: #fff;
 }
