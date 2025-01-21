@@ -91,18 +91,20 @@ display: inline;
 width: 80%;
 }
 @media screen and (max-width: 840px){
-input#search-site {
-display: block;
-width: 100%;
-margin-bottom: 1rem;
-}
-input.button.button--primary {
-width: 100%;
-}
-#top-nav{
-height: 4rem;
-}
-
+    input#search-site {
+        display: block;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    input.button.button--primary {
+        width: 100%;
+    }
+    #top-nav{
+        height: 4rem;
+    }
+    #navPanel > nav > a:nth-child(7) {
+        display:none;
+    }
 }
 /* Search results */
 .search-refine.boxed.boxed--primary {
