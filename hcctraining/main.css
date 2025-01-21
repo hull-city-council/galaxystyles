@@ -3,3 +3,7 @@ h1, h2, h3, h4 {
   font-weight: 70; 
   color: #242424;
 }
+
+p {
+  font-family: "Verdana";
+}
