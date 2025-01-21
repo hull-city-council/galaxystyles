@@ -47,3 +47,7 @@ p {
 .site-header {
     margin-bottom: 5px;
 }
+
+.js-menu-toggle, .js-search-toggle {
+    background-color: unset !important;
+}
