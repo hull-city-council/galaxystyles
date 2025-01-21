@@ -35,8 +35,8 @@ p {
 }
 
 .button {
-    background-color: #5B8AB5;
-    color: #fff;
+    background-color: #5B8AB5 !important;
+    color: #fff !important;
     border-radius: unset;
 }
 
@@ -47,4 +47,3 @@ p {
 .site-header {
     margin-bottom: 5px;
 }
-
