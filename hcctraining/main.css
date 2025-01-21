@@ -12,6 +12,7 @@ p {
   font-family: "Verdana";
 }
 
-.site-header {
+.site-header, .site-footer, .menu-navigation .menu-navigation__inner {
     background-color: #7D4087;
 }
+
