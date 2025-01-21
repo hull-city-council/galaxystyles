@@ -23,8 +23,23 @@ p {
 .widget-navigation .list__link .list__heading, .card .list__heading {
     font-family: "Verdana";
     color: #fff;
+
 }
 
 .icon-ui-arrow-right {
     background-image: url(data:image/svg+xml;charset%3DUS-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2230%22%20height%3D%2230%22%20viewBox%3D%220%200%2030%2030%22%20preserveAspectRatio%3D%22xMinYMid%22%20aria-hidden%3D%22true%22%20focusable%3D%22false%22%3E%3Cpath%20d%3D%22M.536%2C15.683a1.183%2C1.183%2C0%2C0%2C0%2C.815.32h24.57L18.88%2C22.71a1.062%2C1.062%2C0%2C0%2C0%2C0%2C1.553%2C1.2%2C1.2%2C0%2C0%2C0%2C1.629%2C0l9.009-8.58a1.062%2C1.062%2C0%2C0%2C0%2C0-1.554L20.509%2C5.551a1.192%2C1.192%2C0%2C0%2C0-1.629%2C0%2C1.061%2C1.061%2C0%2C0%2C0%2C0%2C1.552l7.041%2C6.706L1.3%2C13.758a1.126%2C1.126%2C0%2C0%2C0-1.153%2C1.1%2C1.073%2C1.073%2C0%2C0%2C0%2C.337.774Z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%3E) !important;
+}
+
+.widget-navigation > ul >li > a {
+    background-color:#5B8AB5 !important;
+}
+
+.button {
+    background-color: #5B8AB5;
+    color: #fff;
+    border-radius: unset;
+}
+
+.button::before {
+    border-radius:unset;
 }
