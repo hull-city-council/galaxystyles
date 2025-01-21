@@ -16,3 +16,6 @@ p {
     background-color: #7D4087;
 }
 
+.menu-navigation .list__link:hover, .menu-navigation .list__link:focus, .menu-navigation .list__link:visited {
+    color: #fff;
+}
