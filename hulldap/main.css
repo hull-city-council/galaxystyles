@@ -8,14 +8,24 @@
 }
 
 /* Font */
-
-body, input, select, textarea, p{
-  font-family: Roboto,Arial,Helvetica Neue,Helvetica,sans-serif !important;
+* {
+  font-family: Roboto,Arial,Helvetica Neue,Helvetica,sans-serif;
   letter-spacing: unset !important;
   color: var(--text-colour);
   font-weight: normal;
-  hyphens: unset;
+  
+}
+p {
+    margin: 0 0 1em 0;
+}
+p, li, cta-banner__description {
   font-size: 1rem;
+  hyphens: unset;
+  font-weight: normal;
+  color: var(--text-colour) !important;
+}
+a {
+    color: var(--primary);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,8 +34,11 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--text-colour);
 }
 
-h2 {
+h2, h2.cta-banner__title {
     font-size: clamp(1.25rem, 2vw + 1rem, 1.625rem);
+}
+h3 {
+ font-size: clamp(1.125rem, 2vw + 1rem, 1.25rem);   
 }
 
 #banner {
@@ -44,16 +57,9 @@ h2 {
         padding: 7em 0 10em 0;
     }
 }
-  body.landing #main {
-      margin-top: -7em;
-  }
 
-p {
-  font-weight: 400 !important;
-}
-
-a {
-    color: var(--primary);
+body.landing #main {
+  margin-top: -7em;
 }
 
 @media screen and (min-width: 599px) {
@@ -88,6 +94,16 @@ a {
     animation: unset;
 }
 
+table th {
+    color: var(--text-colour);
+    font-weight: bold;
+}
+
+td, caption {
+    font-size: 1rem;
+    color: var(--text-colour);
+}
+
 #footer {
     padding: 1em !important;
     background-color: #F7F7F7;
@@ -102,6 +118,10 @@ a {
     background-color: #F7F7F7;
 }
 
+.cta-banner{
+    margin: 3rem 0;
+}
+
 #page-wrapper {
     background-color:var(--tertiary);
 }
@@ -113,6 +133,7 @@ input[type="button"]:focus, input[type="submit"]:focus, a:focus, *:focus{
 
 input[type="submit"], input[type="reset"], input[type="button"], .button{
     background-color:var(--primary) !important;
+    font-size: 1rem;
 }    
 
 input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, .button:active {
