@@ -74,11 +74,24 @@ body.landing #main {
         margin: 0;
     }
 }
+
+@media screen and (max-width: 840px) {
+    #navPanel .link {
+        color: #fff;
+        font-family: Roboto,Arial,Helvetica Neue,Helvetica,sans-serif;
+        font-size: 1rem;
+    }
+    #navPanel .link.depth-0 {
+        font-weight: bold;
+    }
+}
 #nav > ul > li > ul > li a:not(.button) {
     color: var(--text-colour);
 }
 
-
+#header .logo > *, #header nav > ul > li:first-child {
+    font-size: clamp(1.25rem, 2vw + 1rem, 1.625rem);
+}
 #header {
     background-color: var(--primary) !important;
 }
