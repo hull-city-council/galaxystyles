@@ -252,3 +252,13 @@ display: none;
 }
 
 #footer > ul > li:nth-child(2) { display:none; }
+
+/* Hide login and register for mobile view */
+#navPanel > nav > a:nth-child(9) {
+  display: none;
+}
+
+#navPanel > nav > a:nth-child(10) {
+  display: none;
+}
+
