@@ -1,0 +1,189 @@
+:root{
+--primary: #f6e078;
+--secondary: #1353b4;
+--tertiary: #242424;
+}
+/* Font */
+* {
+    font-family: Verdana,Geneva,sans-serif; 
+    letter-spacing: unset !important;
+}
+:focus{
+    outline: 2px solid var(--secondary) !important;
+}
+
+p {
+    color: var(--tertiary);
+    font-size: 16px;
+    margin: 0 0 1em 0;
+}
+
+h1, .h1 {
+    font-size: clamp(1.625rem, 2vw + 1rem, 2.063rem);
+    font-weight: bold;
+    color: #000;
+}
+h2, .h2 {
+    font-size: clamp(1.375rem, 2vw + 1rem, 1.625rem) !important;
+    font-weight: bold;
+    color: #000;
+}
+h3, .h3 {
+    font-size: clamp(1.063rem, 2vw + 1rem, 1.25rem) !important;
+    font-weight: bold;
+    color: #000;
+}
+h4, .h4 {
+    font-size: clamp(1.063rem, 2vw + 1rem, 1.125rem) !important;
+    font-weight: bold;
+    color: #000;
+}
+#banner h1 {
+    font-size: clamp(2rem, 2vw + 1rem, 3.5rem);
+}
+#banner {
+    color: white !important;
+    overflow: hidden !important;
+    background: #C04848 !important;
+    background: linear-gradient(rgb(25 19 25 / 80%), rgb(38 41 45 / 80%)), url(/site/images/CorCourt.jpg) !important;
+    background: linear-gradient(rgb(0 0 0 / 51%), rgb(50 47 47 / 45%)), url(/site/images/CorCourt.jpg) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+/* Site header */
+
+#header{
+    background-color: #fff !important;
+    border-bottom: 5px solid var(--primary);
+}
+#header .logo > *{
+    color: var(--tertiary)
+}
+#header nav > ul > li a:not(.button){
+    color: var(--tertiary);
+}
+
+/* Site footer */
+#footer {
+    background-color: #fff;
+    padding: 2em 0;
+}
+.copyright li {
+ color: var(--tertiary); 
+}
+#footer > ul > li:nth-child(2){
+    display: none;
+}
+
+/* Menu */
+
+#nav > ul > li > ul > li a:hover {
+    background: var(--secondary);
+    color: #fff !important;
+}
+#header nav{
+    right: 6.75em;
+}
+
+#nav > ul > li > ul > li a:not(.button){
+    color: var(--tertiary);
+}
+#nav > ul > li > ul >li:first-child > a{
+    border-top: 0;
+}
+#navPanel .link {
+    color: #fff;
+}
+@media screen and (max-width: 840px){
+    #navButton .toggle:before, #navPanel {
+      background-color: var(--secondary);
+    }
+    #navPanel .link.depth-0{
+      font-weight: 600;
+    }
+    a.toggle:focus:before{
+      outline: 2px solid white;
+    }
+}
+/* Hide register */    
+#navPanel > nav > a:last-child, #header nav > ul > li:nth-child(2), #header nav > ul > li:nth-child(3)  {
+    display: none !important;
+}
+
+/* Buttons */
+input[type="submit"], input[type="reset"], input[type="button"], .button, input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, .button.primary{
+    background-color: var(--primary);
+    color: var(--tertiary);
+    border-radius: 0;
+    border: 1px solid var(--tertiary)
+    
+}
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:hover, input[type="submit"].primary:hover, input[type="reset"].primary:hover, input[type="button"].primary:hover, .button.primary:hover{
+    background-color: #fff;
+    color: var(--tertiary);
+}
+/* Links */
+a {
+  color: var(--secondary);
+  text-decoration: underline;
+}
+a.image-link {
+  border: unset;
+}
+
+#page-wrapper{
+    background: #fff;
+}
+.box {
+    box-shadow: 0 -5px 0 0 var(--primary);
+}
+/* Select */
+input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="search"], select, textarea{
+    border: 1px solid var(--tertiary);
+    border-radius: 0;
+}
+
+input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover, input[type="date"]:hover, input[type="search"]:hover, select:hover, textarea:hover, input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="date"]:focus, input[type="search"]:focus, select:focus, textarea:focus {
+  border-radius: 0;
+  border: 0;
+  box-shadow: 0 0 0 2px var(--tertiary);
+}
+                       
+/* hide postcode */
+#postcode {
+  display:none;
+}
+label[for="postcode"]
+{
+  display:none;
+}
+
+.nav--pagination li {
+text-align: center;
+}
+
+.listing {
+padding: 2em;
+background-color: #ddd;
+border-radius: 10px;
+}
+.listing--featured {
+padding-top:1em;
+}
+
+#header .button, #header.alt .button  {
+box-shadow: unset;
+}
+#header nav{
+display: flex;
+}
+/* Hide submit new event button */
+#main > div > div > div.col-4.col-12-narrow > a.button.button--primary.button--block {
+display: none;
+}
+
+/* Hide banner heading */
+#banner > h2{
+    display: none;
+}
