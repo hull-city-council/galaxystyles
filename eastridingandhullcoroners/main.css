@@ -1,1 +1,33 @@
 /* East Riding and Hull Coroners */
+
+:root{
+  --grey: #242424;
+  --gold: #f6e078;
+  --blue: #1353b4;
+}
+
+/* Font */
+body, input, select, textarea, h1, h2, h3, h4, h5, h6{
+  font-family: Verdana, sans-serif;
+  letter-spacing: unset !important;
+}
+
+p {
+  color: var(--grey);
+}
+
+h1, h2 {
+  color: #000000;
+}
+
+h3, h4 {
+  color: var(--grey);
+}
+
+.list__item > a {
+  color: var(--blue);
+}
+
+#banner h1 {
+  color: var(--grey);
+}
