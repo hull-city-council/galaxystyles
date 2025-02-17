@@ -45,8 +45,8 @@ h4, .h4 {
     color: white !important;
     overflow: hidden !important;
     background: #C04848 !important;
-    background: linear-gradient(rgb(25 19 25 / 80%), rgb(38 41 45 / 80%)), url(/site/images/CorCourt.jpg) !important;
-    background: linear-gradient(rgb(0 0 0 / 51%), rgb(50 47 47 / 45%)), url(/site/images/CorCourt.jpg) !important;
+    background: linear-gradient(rgb(25 19 25 / 80%), rgb(38 41 45 / 80%)), url(https://eastridingandhullcoronersservice.org.uk/site/images/CorCourt.jpg) !important;
+    background: linear-gradient(rgb(0 0 0 / 51%), rgb(50 47 47 / 45%)), url(https://eastridingandhullcoronersservice.org.uk/site/images/CorCourt.jpg) !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
 }
