@@ -3,11 +3,9 @@
   --secondary:#A0D4B7;
   --tertiary: #91258E;
 }
-
 /*
 * Typography
 */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap')
 
 *{
@@ -484,10 +482,6 @@ Cludo search
     margin-bottom: 1em;
     text-align: center;
     padding: 15px 5px;
-}
-
-#cludo-search-results .cludo-facet__value-list {
-    /* padding: 0 0 0 21px; */
 }
 
 @media (max-width: 992px) {
@@ -1008,4 +1002,9 @@ p.cludo-search-results-item__description{
     table, th, td, tr {
         border: 1px solid !important;
     }
+}
+
+/* hide postcode */
+#postcode, label[for="postcode"] {
+  display:none;
 }
