@@ -162,4 +162,5 @@ display: none;
 
 #banner {
  background-repeat: no-repeat;
+    background-size: 130vw, 100vw;
 }
