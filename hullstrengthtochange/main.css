@@ -159,3 +159,7 @@ display: none;
 #navPanel > nav > a:nth-child(9), #navPanel > nav > a:nth-child(8) {
     display: none;
 }
+
+#banner {
+ background-repeat: no-repeat;
+}
