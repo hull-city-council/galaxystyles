@@ -1,27 +1,40 @@
 /* Hull Strength To Change */
 
 :root{
---primary: black;
+--primary: #1F1F1F;
 --secondary: #BD4521;
 --tertiary: #f7f7f7;
 }
 
 /* Font */
 
-body, input, select, textarea, h1, h2, h3, h4, h5, h6, p{
-  font-family: Roboto,Arial,Helvetica Neue,Helvetica,sans-serif; 
+body, input, select, textarea, h1, h2, h3, h4, h5, h6 p{
+  font-family: Verdana; 
   letter-spacing: unset !important;
-  color: black;
+  color: var(--primary);
   font-weight: 500;
   hyphens: unset;
 }
 
 p {
+  font-family: Roboto,Arial,Helvetica Neue,Helvetica,sans-serif;
   font-weight: 400 !important;
+}
+
+p a {
+    color: #2A4ACB !important;
 }
 
 nav {
     margin-right:5em; 
+}
+
+h1 {
+    color: white !important;
+}
+
+#header .logo > * {
+	font-family: 'Roboto';
 }
 
 header h1,
@@ -65,6 +78,7 @@ input[type="button"]:focus, input[type="submit"]:focus, a:focus, *:focus{
 
 input[type="submit"], input[type="reset"], input[type="button"], .button{
     background-color:black !important;
+    color: white !important;
 }    
 
 input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, .button:active {
@@ -74,6 +88,11 @@ input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:ac
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:hover {
     background-color: #737373 !important;
 }
+
+#nav > ul > li > ul > li a:not(.button) {
+ color: var(--primary);
+}
+
 
 #js-menu-toggle > li:nth-child(2), 
 #js-menu-toggle > li:nth-child(3), 
@@ -107,6 +126,10 @@ input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hove
 
 #footer > ul > li:nth-child(2) {
   display:none;
+}
+
+#footer .copyright {
+    color: var(--primary);
 }
 
 /* Hide submit new event button */
