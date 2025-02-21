@@ -43,9 +43,13 @@ h1 {
     color: var(--primary);
 }
 
-header h1,
+header h1, 
 .breadcrumb, a {
-    color:var(--tertiary) !important;
+    color:var(--tertiary);
+}
+
+.box a:not(.button) {
+    color: #2A4ACB !important;
 }
 
 #header {
