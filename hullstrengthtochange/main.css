@@ -29,8 +29,9 @@ nav {
     margin-right:5em; 
 }
 
-li > a:not('') {
-    color: black !important;
+
+#js-menu-toggle > li:nth-child(1) > a {
+    color: var(--primary) !important
 }
 
 h1 {
@@ -73,7 +74,7 @@ header h1,
 }
 
 #page-wrapper {
-    background-color:black;
+    background-color:#8AD7C5;
 }
 
 input[type="button"]:focus, input[type="submit"]:focus, a:focus, *:focus{
@@ -151,4 +152,10 @@ display: none;
 #header #nav a:focus {
     outline: 2px solid #fff;
     background-color:var(--secondary)
+}
+
+
+/* hide sign-in etc in mobile view */
+#navPanel > nav > a:nth-child(9), #navPanel > nav > a:nth-child(8) {
+    display: none;
 }
