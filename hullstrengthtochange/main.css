@@ -29,12 +29,17 @@ nav {
     margin-right:5em; 
 }
 
+li > a:not('') {
+    color: black !important;
+}
+
 h1 {
     color: white !important;
 }
 
 #header .logo > * {
 	font-family: 'Roboto';
+    color: var(--primary);
 }
 
 header h1,
