@@ -1,4 +1,4 @@
-h1, h2, h3, h4, li {
+h1, h2, h3, h4 {
   font-family: Calibri;
   color: #000000;
   font-weight: bold;
@@ -25,9 +25,16 @@ p {
 }
 
 .nav__list {
-  color: pink !important;
+  color: #000000 !important;
+  font-family: Verdana !important;
 }
 
-#pages-in-list > li.list__item.is-active > span {
-  font-family: Verdana !important;
+
+.pagination__label, .pagination__meta {
+  font-family: Verdana;
+}
+
+.page-subheading {
+  font-family:Arial;
+  color: #000000;
 }
