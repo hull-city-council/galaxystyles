@@ -10,11 +10,24 @@ p {
 }
 
 .list--breadcrumb > li > a {
-  color: #000000 !important;
+ color: #000000 !important;
 }
 
 
 .widget-navigation > ul > li > a > h3 {
   color:black !important;
   font-family: Arial !important;
+}
+
+.widget-image .image__caption {
+  font-family: Calibri !important;
+  color: #000000;
+}
+
+.nav__list {
+  color: pink !important;
+}
+
+#pages-in-list > li.list__item.is-active > span {
+  font-family: Verdana !important;
 }
