@@ -1,4 +1,20 @@
-p, h1, h2, h3, h4 {
+h1, h2, h3, h4, li {
   font-family: Calibri;
-  color: pink;
+  color: #000000;
+  font-weight: bold;
+}
+
+p {
+  font-family: Calibri;
+  color: #000000;
+}
+
+.list--breadcrumb > li > a {
+  color: #000000 !important;
+}
+
+
+.widget-navigation > ul > li > a > h3 {
+  color:black !important;
+  font-family: Arial !important;
 }
