@@ -52,6 +52,7 @@ p {
 
 #js-menu > div.menu-navigation__inner > div > nav > ul > li > a {
   text-transform: unset;
+  color: white !important;
 }
 
 a {
@@ -69,6 +70,10 @@ a {
 
 .site-footer {
   background-color: var(--primary);
+  background-image: url(https://hull-city-council.github.io/galaxystyles/communitycentreshull/footerimg_city.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:center bottom; 
 }
 
 .button:not(.js-menu-toggle, .js-search-toggle)  {
