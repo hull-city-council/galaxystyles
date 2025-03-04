@@ -92,21 +92,3 @@ a {
 .site-header a:focus, .site-header button:focus, .site-header .button:focus, .site-header__links:focus, .site-footer__social .list--social-links .list__link:focus, .site-footer__logo .identity__link:focus, .site-footer__group .list__link:focus, .site-footer__link:focus, .site-footer__text:focus, .site-footer__links:focus {
     outline: unset;
 }
-
-/*
-.nav__list {
-  color: #000000 !important;
-  font-family: Helvetica !important;
-}
-
-.pagination__label, .pagination__meta {
-  font-family: Helvetica;
-}
-
-.page-subheading {
-  font-family:Helvetica;
-  color: #000000;
-}
-
-*/
-
