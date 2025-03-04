@@ -1,17 +1,21 @@
+:root{
+  --primary: #011c35;
+}
+
 
 h1, h2, h3, h4 {
   font-family: Helvetica;
-  color: #011c35;
+  color: var(--primary);
   font-weight: bold;
 }
 
 p {
   font-family: Helvetica;
-  color: #011c35;
+  color: var(--primary);
 }
 
 .list--breadcrumb > li > a {
- color: #011c35 !important;
+ color: var(--primary) !important;
 }
 
 
