@@ -71,6 +71,12 @@ a {
   background-color: var(--primary);
 }
 
+.button:not(.js-menu-toggle, .js-search-toggle)  {
+  color: white !important;
+  background-color: var(--secondary) !important;
+}
+
+
 .menu-navigation .menu-navigation__inner {
     background-color: var(--secondary);
 }
@@ -79,6 +85,13 @@ a {
     color: white;
 }
 
+.nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::after, .nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::before, .nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon .toggle-icon__line, .nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::after, .nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::before, .nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon .toggle-icon__line, .nav--primary-navigation .button.js-menu-toggle:active .toggle-icon::after, .nav--primary-navigation .button.js-menu-toggle:active .toggle-icon::before, .nav--primary-navigation .button.js-menu-toggle:active .toggle-icon .toggle-icon__line {
+   color: var(--secondary) !important;
+}
+
+.site-header a:focus, .site-header button:focus, .site-header .button:focus, .site-header__links:focus, .site-footer__social .list--social-links .list__link:focus, .site-footer__logo .identity__link:focus, .site-footer__group .list__link:focus, .site-footer__link:focus, .site-footer__text:focus, .site-footer__links:focus {
+    outline: unset;
+}
 
 /*
 .nav__list {
