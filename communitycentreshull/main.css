@@ -22,10 +22,13 @@ p {
   color: white !important;
 }
 
-.list--breadcrumb > li > a {
- color: var(--primary) !important;
+.list__link-text {
+  color: var(--primary) !important;
 }
 
+.list__item {
+  color: var(--primary) !important;
+}
 
 .widget-navigation > ul > li > a > h3 {
   color:black !important;
@@ -37,6 +40,22 @@ p {
   color: #000000;
 }
 
+.pagination__content {
+  color: var(--primary);
+}
+
+.pagination__meta {
+  color: var(--primary) !important;
+}
+
+
+#js-menu > div.menu-navigation__inner > div > nav > ul > li > a {
+  text-transform: unset;
+}
+
+
+
+/*
 .nav__list {
   color: #000000 !important;
   font-family: Helvetica !important;
@@ -49,4 +68,10 @@ p {
 .page-subheading {
   font-family:Helvetica;
   color: #000000;
+}
+
+*/
+
+.list--breadcrumb > li > a {
+ color: var(--primary) !important;
 }
