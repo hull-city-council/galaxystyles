@@ -32,6 +32,10 @@ p, li, cta-banner__description {
 a {
     color: #2A4ACB;
 }
+
+.list--breadcrumb a {
+    color: var(--text-colour);
+}
 h1, .h1 {
     font-size: clamp(28px, calc(1.75rem + ((1vw - 7.68px) * 0.434)), 33px);
 }
@@ -61,8 +65,8 @@ h3 {
     color: white !important;
     overflow: hidden !important;
     background: var(--primary);
-    background: linear-gradient(rgb(25 19 25 / 80%), rgb(38 41 45 / 80%)), url(https://www.hull.gov.uk/hullDAP/site/images/1000_F_148731803_Ub1o5CRCmbFkTMo7qi2jGLU1zPn1alnu.jpg) !important;
-    background: linear-gradient(rgb(0 0 0 / 51%), rgb(50 47 47 / 45%)), url(https://www.hull.gov.uk/hullDAP/site/images/1000_F_148731803_Ub1o5CRCmbFkTMo7qi2jGLU1zPn1alnu.jpg) !important;
+    background: linear-gradient(rgb(25 19 25 / 80%), rgb(38 41 45 / 80%)), url(https://www.hull.gov.uk/hullDAP/site/images/group_women_landscape___pinks2.jpg) !important;
+    background: linear-gradient(rgb(0 0 0 / 51%), rgb(50 47 47 / 45%)), url(https://www.hull.gov.uk/hullDAP/site/images/group_women_landscape___pinks2.jpg) !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     border-bottom: 2px solid gold;
@@ -133,8 +137,16 @@ body.landing #main {
 table th {
     color: var(--text-colour);
     font-weight: bold;
+
 }
 
+table thead {
+    border-bottom: solid 2px #000;
+}
+
+table tbody tr {
+    border-bottom: solid 1px #000;
+}
 td, caption {
     font-size: 1rem;
     color: var(--text-colour);
@@ -152,6 +164,7 @@ td, caption {
 
 .box {
     background-color: #F7F7F7;
+    box-shadow: unset;
 }
 
 .cta-banner{
@@ -205,6 +218,7 @@ input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hove
   display:none;
 }
 
+
 #js-menu-toggle > li:nth-child(2), 
 #js-menu-toggle > li:nth-child(3), 
 #navPanel > nav > a:nth-child(6),
@@ -225,6 +239,8 @@ input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hove
     display:none;
 }
 
+
+/* */
 #page-wrapper > section > div > div > div {
     width: 100%;
 }
@@ -235,23 +251,38 @@ input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hove
     border-top: unset;
 }
 
+
 /* hide html5 copyright */
+
 #footer > ul > li:nth-child(2) {
   display:none;
 }
 
 /* Hide submit new event button */
+
 #main > div > div > div.col-4.col-12-narrow > a.button.button--primary.button--block {
 display: none;
 }
+
+
 
 #header #nav a:focus {
     outline: 2px solid #fff;
     background-color:var(--secondary)
 }
 
+
+
 @media screen and (max-width: 840px) {
     body.navPanel-visible #navPanel {
       background-color: var(--primary);
     }
+}
+
+
+blockquote {
+    border: none;
+    background-color: var(--secondary);
+    padding: 1.6rem;
+    border-radius: 6px
 }
