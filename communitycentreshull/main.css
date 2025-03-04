@@ -1,0 +1,40 @@
+
+h1, h2, h3, h4 {
+  font-family: Helvetica;
+  color: #011c35;
+  font-weight: bold;
+}
+
+p {
+  font-family: Helvetica;
+  color: #011c35;
+}
+
+.list--breadcrumb > li > a {
+ color: #011c35 !important;
+}
+
+
+.widget-navigation > ul > li > a > h3 {
+  color:black !important;
+  font-family: Arial !important;
+}
+
+.widget-image .image__caption {
+  font-family: Helvetica !important;
+  color: #000000;
+}
+
+.nav__list {
+  color: #000000 !important;
+  font-family: Helvetica !important;
+}
+
+.pagination__label, .pagination__meta {
+  font-family: Helvetica;
+}
+
+.page-subheading {
+  font-family:Helvetica;
+  color: #000000;
+}
