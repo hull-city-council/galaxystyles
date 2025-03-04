@@ -68,6 +68,27 @@ a {
   background-color: var(--primary);
 }  
 
+
+@media screen and (max-width: 599px) {
+    .site-header>.container {
+        display: flex;
+        padding: 0 .8rem;
+    }
+
+    .site-header .button {
+        padding: .5rem;
+    }
+    .identity__logo {
+        width: 12.5rem;
+    }
+}
+
+.identity__logo {
+  width: 8.5rem;
+  margin: 0.5rem
+}
+
+
 .site-footer {
   background-color: var(--primary);
   background-image: url(https://hull-city-council.github.io/galaxystyles/communitycentreshull/footerimg_city.png);
