@@ -1,5 +1,6 @@
 :root{
   --primary: #011c35;
+  --secondary: #cc306a;
 }
 
 
@@ -61,6 +62,23 @@ a {
   color: var(--primary) !important;
   
 }
+
+.site-header {
+  background-color: var(--primary);
+}  
+
+.site-footer {
+  background-color: var(--primary);
+}
+
+.menu-navigation .menu-navigation__inner {
+    background-color: var(--secondary);
+}
+
+.menu-navigation .list__link:hover, .menu-navigation .list__link:focus, .menu-navigation .list__link:visited {
+    color: white;
+}
+
 
 /*
 .nav__list {
