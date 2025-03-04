@@ -53,7 +53,14 @@ p {
   text-transform: unset;
 }
 
+a {
+  text-underline-position: under !important;
+}
 
+.list--breadcrumb > li > a {
+  color: var(--primary) !important;
+  
+}
 
 /*
 .nav__list {
@@ -72,6 +79,3 @@ p {
 
 */
 
-.list--breadcrumb > li > a {
- color: var(--primary) !important;
-}
