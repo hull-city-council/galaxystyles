@@ -1,6 +1,7 @@
 :root{
   --primary: #011c35;
   --secondary: #cc306a;
+  --tertiary: #E48BAC;
 }
 
 
@@ -52,7 +53,6 @@ p {
 
 #js-menu > div.menu-navigation__inner > div > nav > ul > li > a {
   text-transform: unset;
-  color: white !important;
 }
 
 a {
@@ -64,38 +64,44 @@ a {
   
 }
 
+
+.nav--primary-navigation .button:hover .button__text, .nav--primary-navigation 
+.button:focus .button__text, .nav--primary-navigation .button:active .button__text {
+  color: var(--tertiary) !important;  
+}
+
+.nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::after, 
+.nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::before, 
+.nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon .toggle-icon__line, 
+.nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::after, 
+.nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::before, 
+.nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon .toggle-icon__line, 
+.nav--primary-navigation .button.js-menu-toggle:active .toggle-icon::after, 
+.nav--primary-navigation .button.js-menu-toggle:active .toggle-icon::before, 
+.nav--primary-navigation .button.js-menu-toggle:active .toggle-icon .toggle-icon__line {
+    background-color: var(--tertiary);
+}
+
 .site-header {
   background-color: var(--primary);
 }  
 
-
-@media screen and (max-width: 599px) {
-    .site-header>.container {
-        display: flex;
-        padding: 0 .8rem;
-    }
-
-    .site-header .button {
-        padding: .5rem;
-    }
-    .identity__logo {
-        width: 12.5rem;
-    }
-}
-
-.identity__logo {
-  width: 8.5rem;
-  margin: 0.5rem
+.nav--primary-navigation .button:hover .icon-ui-search, .nav--primary-navigation 
+.button:focus .icon-ui-search, .nav--primary-navigation .button:active .icon-ui-search, 
+.icon-ui-search-standout {
+  background-image: url(data:image/svg+xml;charset%3DUS-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2260%22%20height%3D%2260%22%20viewBox%3D%220%200%2060%2060%22%20preserveAspectRatio%3D%22xMinYMid%22%20aria-hidden%3D%22true%22%20focusable%3D%22false%22%3E%3Cpath%20class%3D%22cls-1%22%20d%3D%22M57.64%2C53.46l-15-15a23%2C23%2C0%2C1%2C0-4.18%2C4.18l15%2C15a3%2C3%2C0%2C0%2C0%2C4.18-4.17Zm-33.19-46a17%2C17%2C0%2C1%2C1-17%2C17A17.06%2C17.06%2C0%2C0%2C1%2C24.45%2C7.41Z%22%20fill%3D%22%23E48BAC%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E) !important;
 }
 
 
+/*
 .site-footer {
-  background-color: var(--primary);
-  background-image: url(https://hull-city-council.github.io/galaxystyles/communitycentreshull/footerimg_city.png);
+  background-color: var(--primary);  
+  background-image: url(https://hull-city-council.github.io/galaxystyles/communitycentreshull/footerimg.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position:center bottom; 
 }
+*/
 
 .button:not(.js-menu-toggle, .js-search-toggle)  {
   color: white !important;
@@ -112,9 +118,25 @@ a {
 }
 
 .nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::after, .nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::before, .nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon .toggle-icon__line, .nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::after, .nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::before, .nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon .toggle-icon__line, .nav--primary-navigation .button.js-menu-toggle:active .toggle-icon::after, .nav--primary-navigation .button.js-menu-toggle:active .toggle-icon::before, .nav--primary-navigation .button.js-menu-toggle:active .toggle-icon .toggle-icon__line {
-   color: var(--secondary) !important;
+   /* color: var(--secondary) !important; */
 }
 
 .site-header a:focus, .site-header button:focus, .site-header .button:focus, .site-header__links:focus, .site-footer__social .list--social-links .list__link:focus, .site-footer__logo .identity__link:focus, .site-footer__group .list__link:focus, .site-footer__link:focus, .site-footer__text:focus, .site-footer__links:focus {
     outline: unset;
 }
+
+.nav__list {
+  color: #000000 !important;
+  font-family: Helvetica !important;
+}
+
+.pagination__label, .pagination__meta {
+  font-family: Helvetica;
+}
+
+.page-subheading {
+  font-family:Helvetica;
+  color: #000000;
+}
+
+
