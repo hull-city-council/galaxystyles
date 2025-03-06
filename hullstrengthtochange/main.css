@@ -58,7 +58,7 @@ h1 {
 
 header h1, 
 .breadcrumb, a {
-    color:var(--tertiary);
+    color: black !important;
 }
 
 .box a:not(.button) {
