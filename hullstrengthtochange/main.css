@@ -52,6 +52,7 @@ h1 {
     background: linear-gradient(rgb(0 0 0 / 51%), rgb(50 47 47 / 45%)), url(https://www.hull.gov.uk/HullStrengthToChange/site/images/Strength_to_Change.jpg) !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
+    background-position: center !important;
     border-bottom: 2px solid gold;
 }	
 
