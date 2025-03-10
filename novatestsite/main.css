@@ -38,3 +38,7 @@ p {
   font-family:Arial;
   color: #000000;
 }
+
+.site-header, .site-footer {
+    background-color: #c83169;
+}
