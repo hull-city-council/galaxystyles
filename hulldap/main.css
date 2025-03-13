@@ -62,7 +62,7 @@ h3 {
 }
 #banner {
     padding: 12em 0 12em 0;
-    color: white !important;
+   /* color: white !important; */
     overflow: hidden !important;
     background: var(--primary);
     background: linear-gradient(rgb(25 19 25 / 80%), rgb(38 41 45 / 80%)), url(https://www.hull.gov.uk/hullDAP/site/images/group_women_landscape___pinks2.jpg) !important;
@@ -175,9 +175,13 @@ td, caption {
     background-color:var(--tertiary);
 }
 
-input[type="button"]:focus, input[type="submit"]:focus, a:focus, *:focus{
+#js-menu-toggle:focus {
+    color:var(--text-colour) !important;
+}
+
+input[type="button"]:focus, input[type="submit"]:focus, a:focus{
     outline: 2px dotted var(--primary);
-    color: var(--text-colour);
+    color: var(--text-colour) !important;
     background-color:var(--tertiary);
     border: 2px solid var(--primary);
 }
@@ -217,7 +221,6 @@ input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hove
 #postcode, label[for="postcode"] {
   display:none;
 }
-
 
 #js-menu-toggle > li:nth-child(2), 
 #js-menu-toggle > li:nth-child(3), 
@@ -264,7 +267,8 @@ display: none;
 
 #header #nav a:focus {
     outline: 2px solid #fff;
-    background-color:var(--secondary)
+    background-color:var(--secondary);
+    color: var(--text-colour);
 }
 
 @media screen and (max-width: 840px) {
