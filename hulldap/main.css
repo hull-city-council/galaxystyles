@@ -121,6 +121,11 @@ body.landing #main {
     background-color: var(--primary) !important;
 }
 
+.logo:focus > span{
+   color:var(--text-colour) !important;
+   background-color:var(--secondary) !important;
+}
+
 #header.alt {
     position: fixed;
     border-bottom: 2px solid gold;
@@ -175,11 +180,7 @@ td, caption {
     background-color:var(--tertiary);
 }
 
-#js-menu-toggle:focus {
-    color:var(--text-colour) !important;
-}
-
-input[type="button"]:focus, input[type="submit"]:focus, a:focus{
+input[type="button"]:focus, input[type="submit"]:focus, a:focus, *:focus{
     outline: 2px dotted var(--primary);
     color: var(--text-colour) !important;
     background-color:var(--tertiary);
@@ -267,8 +268,7 @@ display: none;
 
 #header #nav a:focus {
     outline: 2px solid #fff;
-    background-color:var(--secondary);
-    color: var(--text-colour);
+    background-color:var(--secondary)
 }
 
 @media screen and (max-width: 840px) {
