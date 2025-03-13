@@ -225,8 +225,8 @@ input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hove
 
 #js-menu-toggle > li:nth-child(2), 
 #js-menu-toggle > li:nth-child(3), 
-#navPanel > nav > a:nth-child(6),
-#navPanel > nav > a:nth-child(7)
+#navPanel > nav > a:nth-child(7),
+#navPanel > nav > a:nth-child(8)
 {
   display: none;
 }
