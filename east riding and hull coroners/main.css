@@ -39,7 +39,7 @@ h4, .h4 {
     color: #000;
 }
 ul {
-    font-size: 16px;
+    font-size: 1rem;
 }
 #banner h1 {
     font-size: clamp(2rem, 2vw + 1rem, 3.5rem);
@@ -73,7 +73,8 @@ ul {
     padding: 2em 0;
 }
 .copyright li {
- color: var(--tertiary); 
+ color: var(--tertiary);
+ font-size: 1rem;
 }
 #footer > ul > li:nth-child(2){
     display: none;
@@ -102,17 +103,15 @@ ul {
     #navButton .toggle:before, #navPanel {
       background-color: var(--secondary);
     }
-    #navPanel .link.depth-0{
-      font-weight: 600;
-    }
     a.toggle:focus:before{
       outline: 2px solid white;
     }
 }
 /* Hide register */    
-a.link.depth-0 {
+a.link.depth-0 , #js-menu-toggle > li:nth-child(2), #js-menu-toggle > li:nth-child(3) {
     display: none !important;
 }
+
 
 /* Buttons */
 input[type="submit"], input[type="reset"], input[type="button"], .button, input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, .button.primary{
@@ -196,7 +195,8 @@ padding-top:1em;
 box-shadow: unset;
 }
 #header nav{
-display: flex;
+    display: flex;
+    align-items: center;
 }
 /* Hide submit new event button */
 #main > div > div > div.col-4.col-12-narrow > a.button.button--primary.button--block {
@@ -206,4 +206,9 @@ display: none;
 /* Hide banner heading */
 #banner > h2{
     display: none;
+}
+a#enableRecite{
+    color: var(--tertiary) !important;
+    font-size: 1rem;
+    border: 0;
 }
