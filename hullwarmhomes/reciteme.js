@@ -54,17 +54,19 @@ define = function(a, b, c) {
 	almondDefine(a, b, c);
 };
 const recitemeButtonLink = document.createElement("a"),
-	recitemeButtonLinkMobile = document.createElement("a");
+recitemeButtonLinkMobile = document.createElement("a");
 recitemeButtonLink.setAttribute("id", "enableRecite");
+recitemeButtonLink.setAttribute("role", "button");
 recitemeButtonLink.setAttribute("class", "button fit recite_button");
 recitemeButtonLinkMobile.setAttribute("class", "link depth-1");
 recitemeButtonLinkMobile.setAttribute("id", "enableReciteM");
+recitemeButtonLinkMobile.setAttribute("role", "button");
 recitemeButtonLink.appendChild(document.createTextNode("Accessibility and translation"));
 recitemeButtonLinkMobile.appendChild(document.createTextNode("Accessibility and translation"));
 document.getElementById("nav").appendChild(recitemeButtonLink);
 document.getElementById("navPanel").appendChild(recitemeButtonLinkMobile);
 const recitemeNavBtn1 = document.getElementById('enableRecite'),
-	recitemeNavBtn2 = document.getElementById('enableReciteM');
+recitemeNavBtn2 = document.getElementById('enableReciteM');
 document.addEventListener("DOMContentLoaded", function(event) {
 	[recitemeNavBtn1, recitemeNavBtn2].map(element => element.addEventListener("click", function() {
 		loadService();
