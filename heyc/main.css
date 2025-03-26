@@ -258,6 +258,9 @@ a:focus, a:hover, a:active {
     color: #fff;
     content: counter(list_item_count, numbers);
 }
+.list--numbered li::before, .editor ol:not([class]):not([type]) li::before, .list--ordered li::before {
+    background-color: white !important;
+}
 
 /*
 * Documents
