@@ -14,8 +14,8 @@ a {
 }
 
 #js-menu-toggle > li:nth-child(2),
-#js-menu-toggle > li:nth-child(3)
-{
+#js-menu-toggle > li:nth-child(3),
+#banner h1 {
   display:none;
 }
 
