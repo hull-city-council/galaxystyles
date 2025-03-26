@@ -110,7 +110,7 @@ ul {
     }
 }
 /* Hide register */    
-#navPanel > nav > a.depth-0:nth-child(7), #navPanel > nav > a.depth-0:nth-child(8), #header nav > ul > li:nth-child(2), #header nav > ul > li:nth-child(3)  {
+a.link.depth-0 {
     display: none !important;
 }
 
