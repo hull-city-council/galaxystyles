@@ -17,6 +17,10 @@ p {
 font-size: 1.7rem;
 }
 
+#banner h1 {
+    display: none;
+}
+
 /* Menu */
 #header nav{
 right: 6.75em;
