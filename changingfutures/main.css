@@ -15,16 +15,16 @@ body, input, select, textarea, h1, h2, h3, h4, h5, h6{
   color: #4e4e4e;
 }
 h1 {
-  font-size: 33px;
+  font-size: 33px !important;
 }  
 h2 {
-  font-size: 26px;
+  font-size: 26px !important;
 }
 h3 {
-  font-size: 20px;
+  font-size: 20px !important;
 }
 h4 {
-  font-size: 16px;
+  font-size: 16px !important;
 }
 
 p {
