@@ -5,32 +5,53 @@
 :root{
   --primary:#114323;
   --secondary:#FFCF00;
+  --light-green:#d1e0d2;
 }
 
 
 /*
 * Typography
 */
-h1, .h1, h2, .h2, h3, .form__heading, .h3, h4, .h4, h5, .h5, h6, .h6,.listing .listing__link {
-    color: #000;
-}
 
-h3, .form__heading, .h3, .gamma {
-    font-size: 1.8rem;
+h1, .h1 {
+    font-size: clamp(1.625rem, 2vw + 1rem, 2.063rem);
+    font-weight: bold;
 }
-
+h2, .h2 {
+    font-size: clamp(1.375rem, 2vw + 1rem, 1.625rem);
+    font-weight: bold;
+}
+h3, .h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
 h4, .h4 {
-    font-size: 1.55rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+h1, .h1, h2, .h2, h3, .form__heading, .h3, h4, .h4, h5, .h5, h6, .h6,.listing .listing__link {
+    color: #242424;
+    text-transform: unset;
 }
 
-h5, .h5 {
-    font-size: 1.3rem;
-    text-transform: unset !important;
+a {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration-thickness: 2px;
 }
 
 /*
 * Header
 */
+
+@media screen and (min-width: 400px) {
+    .identity__logo {
+        width: 7.5rem;
+    }
+}
 
 .site-header{
     background-color: var(--primary);
@@ -74,9 +95,9 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
 */
 .button,.button:visited,.form__label--upload,.form__label--image-upload,.widget--myaccount-sign-in a,.widget--myaccount-api-links a,.widget--myaccount-organisation-account-links a,.widget--myaccount-organisation-links a,.form__label--upload:visited,.form__label--image-upload:visited,.widget--myaccount-sign-in a:visited,.widget--myaccount-api-links a:visited,.widget--myaccount-organisation-account-links a:visited,.widget--myaccount-organisation-links a:visited {
     -webkit-appearance: none;
-    background-color: var(--secondary);
+    background-color: #fff;
     border-radius: unset;
-    color: #000000;
+    color:  var(--primary);
     cursor: pointer;
     display: inline-block;
     font-size: 1rem;
@@ -91,13 +112,14 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
     white-space: normal;
 }
 .button, .button:visited, .form__label--upload, .form__label--image-upload, .widget--myaccount-sign-in a, .widget--myaccount-api-links a, .widget--myaccount-organisation-account-links a, .widget--myaccount-organisation-links a, .form__label--upload:visited, .form__label--image-upload:visited, .widget--myaccount-sign-in a:visited, .widget--myaccount-api-links a:visited, .widget--myaccount-organisation-account-links a:visited, .widget--myaccount-organisation-links a:visited {
-    background-color: var(--secondary);
+    background-color: #fff;
+    color: var(--primary);
+    border: 1px solid var(--primary);'
     border: unset;
     border-radius: unset;
 }
 .button:hover{
-    background-color: var(--primary);
-    color: #fff;
+    background-color: var(--light-green);
 }
 .button::before, .button:visited::before {
     border: unset;
@@ -120,7 +142,7 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
 
 
 .page-header, .breadcrumb {
-    background-color: #fafaf8;
+    background-color: var(--light-green);
 }
 
 
@@ -136,6 +158,7 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
 }
 .menu-navigation .menu-navigation__inner {
     background-color: var(--primary);
+    border-left: 10px solid var(--secondary)
 }
 
 .menu-navigation .list__link {
@@ -157,7 +180,7 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
     background-position: 0 -2px;
     background-repeat: no-repeat;
     background-size: 0 100%;
-    color: #000;
+    color:  #242424;
     background-size: 100% 110%;
 }
 
@@ -207,14 +230,6 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
     background-image: linear-gradient(to top, var(--secondary) 0, var(--secondary) 3px, transparent 1px, transparent 100%);
 }
 
-
-
-.widget-image .image {
-    background: #fff;
-    border-bottom: unset;
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,65) 90%,rgba(0,0,0,0.0) 0%);
-    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,65) 90%,rgba(0,0,0,0.0) 0%);
-}
 
 .image-link:hover .image__caption, .image-link:focus .image__caption, .image-link:active .image__caption {
     background-position: bottom left;
@@ -266,6 +281,10 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
     font-weight: 700;
 }
 
+.widget-image .image {
+    border-bottom: 10px solid var(--secondary);
+}
+
 .supplement {
     background-color: hsl(0, 0%, 100%);
     border-radius: 0.75em;
@@ -280,7 +299,7 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
 }
 
 .listing--featured {
-    border: 3px solid #000;
+    border: 3px solid  #242424;
 }
 
 .list--listing .list__item, .widget--external_feeds .list--listing .list__item, .widget--latest_news .list--listing .list__item, .search-list .list--listing .list__item, .news-list .list--listing .list__item, .event-list .list--listing .list__item, .councillor-list .list--listing .list__item {
@@ -292,31 +311,52 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
 }
 
 .editor ul:not([class]):not([type]) li::before {
-    background-color: #000;
+    background-color:  #242424;
+}
+
+.widget-image .image__caption {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+.widget-image .image__caption:hover {
+    color: var(--primary) !important;
+    text-decoration-thickness: 2px;
 }
 
 table {
-    border: 1px solid #000 !important;
+    border: 1px solid var(--primary) !important;
+}
+
+th {
+    background-color: var(--light-green);
+    padding: 1rem;
+}
+
+td {
+    padding: 1rem;
 }
 
 .nav--pages-in .nav__list {
-    background-color: #fafaf8;
+    background-color:  var(--light-green);;
 }
 
 .nav--pages-in {
-    background-color: #fafaf8;
+    background-color:  var(--light-green);;
 }
 
 .nav--pages-in .nav__list::before {
-    border-color: #fafaf8 transparent transparent;
+    border-color:  var(--light-green); transparent transparent;
 }
 
+.widget-image .image__caption
+
 .pagination {
-    background-color: #fafaf8;
+    background-color:  var(--light-green);;
 }
 
 .pagination__item--next::after,.pagination__item--previous::after {
-    border-left: 4px solid #000;
+    border-left: 4px solid  #242424;
 }
 
 @media screen and (max-width: 768px) {
@@ -326,11 +366,16 @@ table {
 }
 
 blockquote, .blockquote {
-    background-color: #fafaf8;
+    background-color: var(--light-green);
 }
 
 blockquote p:first-child::before {
-    background-color: #000;
+    background-color:  var(--primary);
+}
+
+.list--numbered li::before, .editor ol:not([class]):not([type]) li::before, .list--ordered li::before {
+    background-color: var(--secondary);
+    content: counter(list_item_count, font-variant-numeric)
 }
 
 @media screen and (min-width: 1200px) {
@@ -347,13 +392,13 @@ blockquote p:first-child::before {
 
 
 .site-header a:focus, .site-header button:focus, .site-header .button:focus, .site-header__links:focus, .site-footer__social .list--social-links .list__link:focus, .site-footer__logo .identity__link:focus, .site-footer__group .list__link:focus, .site-footer__link:focus, .site-footer__text:focus, .site-footer__links:focus {
-    outline: 3px solid #000000;
+    outline: 3px solid  #242424000;
     background-color: unset;
 }
 
 .site-search--header .js-search-toggle:hover, .site-search--header .js-search-toggle:focus, .site-search--header .js-search-toggle:active {
     background-color: unset;
-    outline: 3px solid #000;
+    outline: 3px solid  #242424;
 }
 
 
