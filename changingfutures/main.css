@@ -268,10 +268,6 @@ label[for="postcode"]
 }
 
 
-/* Banner */
-#banner {
-background-size: cover !important; 
-}
 
 .supplement__heading {
 font-size: 1.8em !important;
@@ -287,7 +283,10 @@ color:black !important;
 
 /* Banner */
 #banner {
-background-size: cover !important; 
+  background-size: cover !important; 
+}
+#banner > h1 {
+  color: var(--primary);
 }
 
 .supplement__heading {
