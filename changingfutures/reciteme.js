@@ -1,6 +1,6 @@
 var serviceUrl = "//api.reciteme.com/asset/js?key=";
 var serviceKey = "f6cd075d8f4872e8017e5b50baf4b22c6eabd288";
-var options = {}; // Options can be added as needed        
+var options = {};
 var autoLoad = false;
 var enableFragment = "#reciteEnable";
 var loaded = [],
@@ -43,12 +43,9 @@ function loadService(c) {
 	})
 }
 "true" == _rc("Recite.Persist") && loadService();
-if (autoLoad && "false" != _rc("Recite.Persist") || frag)
-
-	document.addEventListener ? document.addEventListener("DOMContentLoaded", function(c) {
-		loadService()
-	}) : loadService();
-
+if (autoLoad && "false" != _rc("Recite.Persist") || frag) document.addEventListener ? document.addEventListener("DOMContentLoaded", function(c) {
+	loadService()
+}) : loadService();
 var almondDefine = define;
 define = function(a, b, c) {
 	if (b == null) {
@@ -56,26 +53,22 @@ define = function(a, b, c) {
 	}
 	almondDefine(a, b, c);
 };
-
-var arr = ["li"]
-
-let el = arr.reduceRight((el, n) => {
-		let d = document.createElement(n)
-		d.setAttribute('class', 'list__item')
-		d.appendChild(el)
-		return d
-	},
-	reciteMeButton = document.createElement('button'),
-	reciteMeButton.setAttribute('id', 'enableRecite'),
-	reciteMeButton.setAttribute('class', 'button button--primary button--icon list__link'),
-	reciteMeButton.setAttribute('title', 'Open accessibility and translation tools'),
-	reciteMeButton.innerHTML = '<span class="icon icon-accessibility"></span><span class="button__text">Accessibility tools</span>'
-)
-document.querySelector("#top > div.container > nav > div.navigation-buttons > ul").appendChild(el);
-
+const recitemeButtonLink = document.createElement("a"),
+recitemeButtonLinkMobile = document.createElement("a");
+recitemeButtonLink.setAttribute("id", "enableRecite");
+recitemeButtonLink.setAttribute("role", "button");
+recitemeButtonLink.setAttribute("class", "button fit recite_button");
+recitemeButtonLinkMobile.setAttribute("class", "link depth-1");
+recitemeButtonLinkMobile.setAttribute("id", "enableReciteM");
+recitemeButtonLinkMobile.setAttribute("role", "button");
+recitemeButtonLink.appendChild(document.createTextNode("Accessibility and translation"));
+recitemeButtonLinkMobile.appendChild(document.createTextNode("Accessibility and translation"));
+document.getElementById("nav").appendChild(recitemeButtonLink);
+document.getElementById("navPanel").appendChild(recitemeButtonLinkMobile);
+const recitemeNavBtn1 = document.getElementById('enableRecite'),
+recitemeNavBtn2 = document.getElementById('enableReciteM');
 document.addEventListener("DOMContentLoaded", function(event) {
-
-	[reciteMeButton].map(element => element.addEventListener("click", function() {
+	[recitemeNavBtn1, recitemeNavBtn2].map(element => element.addEventListener("click", function() {
 		loadService();
 	}))
 });
