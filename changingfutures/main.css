@@ -129,7 +129,10 @@ outline: 2px dotted var(--secondary);
 #enableRecite:hover {
     border: unset;
 }
-
+#enableRecite {
+  color: black !important;
+}
+  
 
 /* hide html5 copyright */
 #footer > ul > li:nth-child(2) {
