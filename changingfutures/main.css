@@ -126,6 +126,10 @@ outline: 2px dotted var(--secondary);
   color:black !important;
 }
 
+#enableRecite:hover {
+    border: unset;
+}
+
 
 /* hide html5 copyright */
 #footer > ul > li:nth-child(2) {
