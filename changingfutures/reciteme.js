@@ -55,8 +55,8 @@ define = function(a, b, c) {
 };
 //const recitemeButtonLink = document.createElement("a"),
 const recitemeButtonLink = document.createElement("ul"),
-	recitemeButtonLink = document.createElement("li"),
-	recitemeButtonLink = document.createElement("a"),
+	recitemeButtonLink = document.createElement("li");
+	recitemeButtonLink = document.createElement("a");
 recitemeButtonLinkMobile = document.createElement("a");
 recitemeButtonLink.setAttribute("id", "enableRecite");
 recitemeButtonLink.setAttribute("role", "button");
