@@ -53,7 +53,12 @@ define = function(a, b, c) {
 	}
 	almondDefine(a, b, c);
 };
-const recitemeButtonLink = document.createElement("a");
+const recitemeButtonLink = document.createElement("ul");
+let li = document.createElement("li");
+let a = document.createElement("a");
+recitemeButtonLink.append(li);
+recitemeButtonLink.append(a);
+
 recitemeButtonLinkMobile = document.createElement("a");
 recitemeButtonLink.setAttribute("id", "enableRecite");
 recitemeButtonLink.setAttribute("role", "button");
