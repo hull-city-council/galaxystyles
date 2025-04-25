@@ -10,7 +10,7 @@
 /* Font */
 
 body, input, select, textarea, h1, h2, h3, h4, h5, h6{
-  font-family: Adelle Bold, Arial,Helvetica Neue,Helvetica,sans-serif; 
+  font-family: Adelle Bold, Arial,Helvetica Neue,Helvetica,sans-serif;
   letter-spacing: unset !important;
   color: #4e4e4e;
 }
@@ -28,7 +28,7 @@ h4 {
 }
 
 p {
-  font-family: Adelle Regular, Arial,Helvetica Neue,Helvetica,sans-serif; 
+  font-family: Adelle Regular, Arial,Helvetica Neue,Helvetica,sans-serif;
   font-size: 12px;
 }  
 
@@ -132,7 +132,6 @@ outline: 2px dotted var(--secondary);
 #enableRecite {
   color: black !important;
 }
-  
 
 /* hide html5 copyright */
 #footer > ul > li:nth-child(2) {
@@ -143,17 +142,18 @@ outline: 2px dotted var(--secondary);
   color:black !important;
 }
 
+
 .list--breadcrumb li {
-  color: var(--secondary);
+  color: var(--primary) !important;
+}
+.list--breadcrumb a {
+  color: var(--primary) !important;
 }
 
 .list--record li {
     color: var(--secondary) !important;
 }
 
-.list--breadcrumb a {
-  color: var(--secondary);
-}
 
 .secondary a {
   color: var(--secondary) !important
@@ -175,7 +175,7 @@ input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hove
 
 /* Links */
 a {
-  color: var(--secondary);
+  color: var(--primary) !important;
 }
 
 a.image-link {
@@ -197,8 +197,8 @@ input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hove
   box-shadow: 0 0 0 2px var(--secondary);
 }
 
-#main > header > nav > div > ol > li:nth-child(1) {
-  color: var(--secondary);
+#main > header > nav > div > ol > li:nth-child(1):not(.breadcrumb) {
+  /* color: var(--secondary); */
 }
 
 
@@ -295,7 +295,7 @@ color:black !important;
 
 /* Banner */
 #banner {
-  background-size: cover !important; 
+  background-size: cover !important;
 }
 #banner > h1 {
   color: var(--primary);
@@ -305,9 +305,7 @@ color:black !important;
 font-size: 1.8em !important;
 }
 
-#footer {
-background-color: var(--primary);
-}
+#footer {background-color: var(--primary);}
 
 .copyright li {
 color:white;
@@ -331,9 +329,7 @@ padding-top:1em;
 box-shadow: unset;
 }
 
-#header nav{
-display: flex;
-}
+#header nav{display: flex;}
 
 
 /* Hide submit new event button */
