@@ -121,6 +121,10 @@ outline: 2px dotted var(--secondary);
   background-color: var(--primary);
 }
 
+#banner > h1 {
+    display: none;
+}
+
 /*categories text */
 #js-menu-toggle > li:nth-child(1) > a {
   color:black !important;
