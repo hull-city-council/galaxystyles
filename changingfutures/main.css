@@ -121,11 +121,8 @@ outline: 2px dotted var(--secondary);
   background-color: var(--primary);
 }
 
-#banner > h1 {
-    display: none;
-}
-
 /*categories text */
+
 #js-menu-toggle > li:nth-child(1) > a {
   color:black !important;
 }
@@ -133,6 +130,7 @@ outline: 2px dotted var(--secondary);
 #enableRecite:hover {
     border: unset;
 }
+
 #enableRecite {
   color: black !important;
 }
@@ -178,6 +176,7 @@ input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hove
 
 
 /* Links */
+
 a {
   color: var(--primary) !important;
 }
@@ -192,6 +191,7 @@ color: var(--secondary);
 
 
 /* Select */
+
 input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="search"], select, textarea{
 border: 1px solid var(--primary);
 }
@@ -202,7 +202,7 @@ input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hove
 }
 
 #main > header > nav > div > ol > li:nth-child(1):not(.breadcrumb) {
-  /* color: var(--secondary); */
+  color: var(--secondary);
 }
 
 
@@ -300,9 +300,10 @@ color:black !important;
 /* Banner */
 #banner {
   background-size: cover !important;
+  /* display: none; */
 }
 #banner > h1 {
-  color: var(--primary);
+  display:none;
 }
 
 .supplement__heading {
@@ -341,11 +342,6 @@ box-shadow: unset;
 display: none;
 }
 
-
-/* Hide banner heading */
-#banner > h2{
-    display: none;
-}
 
 /* 
 Cludo search
@@ -871,8 +867,18 @@ p.cludo-search-results-item__description{
 .cludo-opacity0 {
     opacity: 0
 }
+.list--breadcrumb {
+  display: inline-block;
+}
 
+.list--breadcrumb > li::after {
+  content: "/";
+  display: inline-block;
+}
 
+.list--breadcrumb li > a {
+    display: inline;
+}
 
 @media screen and (min-width: 760px){
 .search-results li{margin:2rem 0;padding:2rem 0 0;}
