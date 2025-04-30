@@ -107,7 +107,7 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
 }
 .button.button-sticky,.button.button-sticky:visited {
     -webkit-appearance: none;
-    background-color: var(--secondary);
+    background-color: var(--primary);
     color: #000000;
     font-size: 1rem;
     font-weight: 700;
