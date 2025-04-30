@@ -255,7 +255,7 @@ body > footer > div > div.site-footer__left > nav > ul > li > a {
 * Links
 */
 *:focus:not(main) {
-    outline: 3px solid var(--primary) !important;
+    outline: 3px solid var(--secondary) !important;
 }
 
 .page-header, 
