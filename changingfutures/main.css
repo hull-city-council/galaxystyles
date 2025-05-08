@@ -139,6 +139,16 @@ outline: 2px dotted var(--secondary);
   color: white !important;
 }
 
+:not(.alt) > nav > ul > li > #enableRecite {
+    color: black !important;
+}
+
+/*
+#header nav > ul > li a:not(.button) {
+  color: white !important;
+}
+*/
+
 /* hide html5 copyright */
 #footer > ul > li:nth-child(2) {
   display:none;
@@ -182,7 +192,7 @@ input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hove
 /* Links */
 
 a {
-  color: #0011ff !important;
+  color: #0011ff;
 }
 
 a.image-link {
