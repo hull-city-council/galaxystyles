@@ -109,11 +109,10 @@ a.toggle:focus:before{
 input[type="button"]:focus, input[type="submit"]:focus, a:focus, *:focus{
 outline: 2px dotted var(--secondary);
 }
+
 #js-menu-toggle > li:nth-child(2), 
-#js-menu-toggle > li:nth-child(3), 
-#navPanel > nav > a:nth-child(5), 
-#navPanel > nav > a:nth-child(6),
-#navPanel > nav > a:nth-child(7){
+#js-menu-toggle > li:nth-child(3),
+#navPanel > nav > a:nth-child(12){
   display: none;
 }
 
