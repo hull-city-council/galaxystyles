@@ -230,6 +230,10 @@ width: 80%;
     }
 }
 
+ul li {
+    font-size: 1em;
+}
+
 
 /* Search results */
 .search-refine.boxed.boxed--primary {
