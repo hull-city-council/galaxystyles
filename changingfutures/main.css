@@ -123,8 +123,12 @@ outline: 2px dotted var(--secondary);
 
 /*categories text */
 
-#js-menu-toggle > li:nth-child(1) > a {
+.alt > nav > #js-menu-toggle > li:nth-child(1) > a {
   color:white !important;
+}
+
+:not(.alt) > nav > #js-menu-toggle > li:nth-child(1) > a {
+    color: black !important;
 }
 
 #enableRecite:hover {
