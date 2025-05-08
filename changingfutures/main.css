@@ -159,10 +159,10 @@ outline: 2px dotted var(--secondary);
 
 
 .list--breadcrumb li {
-  color: var(--primary) !important;
+  color: black !important;
 }
 .list--breadcrumb a {
-  color: var(--primary) !important;
+  color: black !important;
 }
 
 .list--record li {
