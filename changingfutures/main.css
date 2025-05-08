@@ -178,7 +178,7 @@ input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hove
 /* Links */
 
 a {
-  color: var(--primary) !important;
+  color: #0011ff !important;
 }
 
 a.image-link {
