@@ -159,6 +159,11 @@ outline: 2px dotted var(--secondary);
     color: black;
 }
 
+
+#skip-links > ul > li > a {
+    color: white !important;
+}
+
 /*
 #header nav > ul > li a:not(.button) {
   color: white !important;
