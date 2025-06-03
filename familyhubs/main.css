@@ -762,3 +762,15 @@ display: none;
 #banner > h2{
     display: none;
 }
+
+.dt-column-order {
+    display:none;
+}
+
+.dt-orderable-none {
+    color:white;
+}
+
+th {
+    background-color:var(--tekhelet);
+}
