@@ -12,7 +12,7 @@
 *{
     font-family: Arial ,"Helvetica Neue", Helvetica,sans-serif !important; 
 }
-h1, .h1, h2, .h2, h3, .form__heading, .h3, h4, .h4, h5, .h5, h6, .h6,.listing .listing__link, .widget-image .image__caption, input#search-site-header {
+h1, .h1, h2, .h2, h3, .form__heading, .h3, h4, .h4, h5, .h5, h6, .h6,.listing .listing__link, p.image__caption, input#search-site-header {
   color: #000;
   font-family: "Barlow", sans-serif;
   font-weight: 700;
@@ -156,17 +156,19 @@ button#js-menu-toggle:hover, button#js-search-toggle:hover{
     text-decoration: underline;
 }
 
-.page-header, .breadcrumb {
-    /* background-color: var(--primary); */
-}
-.image-link:hover .image__caption, .image-link:focus .image__caption, .image-link:active .image__caption{
+a.image-link, a.image-link:hover p.image__caption, a.image-link:focus p.image__caption, a.image-link:active .image__caption{
     color: #000;
 }
-.image-link .image__caption{
+a.image-link p.image__caption{
     color: #000;
+}
+a.image-link {
+    text-decoration: underline;
 }
 a.image-link:hover {
     text-decoration-color: #000;
+    text-decoration-thickness: 4px;
+    border: unset;
 }
 
 
@@ -279,11 +281,11 @@ a.image-link:hover {
     text-decoration-thickness: 2px;
 }
 
-.widget-image .image__caption {
-    padding: 6px 0;
+.widget-image p.image__caption {
+    /* padding: 6px 0;
     text-align: center;
     background-color: var(--primary);
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px; */
 }
 
 .widget-image .image {
@@ -485,7 +487,7 @@ blockquote p:first-child::before {
     display: none;
 }
 
-.widget-image .image__caption{
+.widget-image p.image__caption{
     padding-top: unset;
 }
 
