@@ -1,5 +1,5 @@
-#menu h2:last-of-type,
-#menu ul:last-of-type {
+#menu div:last-of-type,
+#menu ul:last-of-type  {
 display: none;
 }
 .summary {
