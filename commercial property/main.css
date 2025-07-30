@@ -38,14 +38,10 @@ a:focus{
   background-position: 4.85em 1em !important;
   background-repeat: no-repeat !important;
 }
-#menu ul + h2,
-#menu ul + h2 + ul {
-  display: none;
+#menu > div:nth-child(4), #menu > ul:nth-child(5) {
+    display: none;
 }
-#menu h2:last-of-type,
-#menu ul:last-of-type {
-display: block;
-}
+
 #menu {
   background: var(--platinum) !important;
 }
@@ -58,7 +54,8 @@ display: block;
     color: white !important;
 }
 
-#menu > h2 {
+#menu > h2, #menu > div:nth-child(2) {
+    letter-spacing: unset;
     color: #000;
 }
 
