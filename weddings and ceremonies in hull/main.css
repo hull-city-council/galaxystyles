@@ -1,36 +1,44 @@
 body.is-menu-visible #menu {
-    -moz-transform: translateX(0);
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
-    background-color: #657083 !important;
+  -moz-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  background-color: #657083 !important;
 }
 
-#menu ul + h2,
-#menu ul + h2 + ul {
-    display: none;
+#menu div:last-of-type,
+#menu ul:last-of-type{
+  display: none;
 }
-
 
 #menu {
   background: #657083 !important;
 }
 
-#header nav > ul > li > a.menuToggle {
-  color:#ffffff !important;
+#header nav>ul>li>a.menuToggle {
+  color: #ffffff !important;
 }
 
 .more:focus {
-    outline: 2px dotted #657083 !important;
-    color: white !important;
+  outline: 2px dotted #657083 !important;
+  color: white !important;
 }
 
 *:focus,
-input:focus           { outline: 2px dotted #657083;}
-.wrapper.style5 button:focus { background-color: blue !important; border: 2px dotted #657083; }
+input:focus {
+  outline: 2px dotted #657083;
+}
+
+.wrapper.style5 button:focus {
+  background-color: blue !important;
+  border: 2px dotted #657083;
+}
 
 
-a:focus {background: transparent !important;opacity: 0.5;}
+a:focus {
+  background: transparent !important;
+  opacity: 0.5;
+}
 
 .list--breadcrumb a:focus {
   color: unset !important;
@@ -48,6 +56,7 @@ a:focus {background: transparent !important;opacity: 0.5;}
 a.list__link, #one a {
   border-bottom: solid 1px #B1D9D0;
 }
+
 a.list__link:hover, #one a:hover {
   border-bottom: solid 1px #AFC4AF;
 }
@@ -56,11 +65,12 @@ a.list__link:active, #one a:active {
   border-bottom: solid 1px #A8BBC7;
 }
 
-#menu .close > a:focus {
-    background: unset !important;
+#menu .close>a:focus {
+  background: unset !important;
 }
+
 #menu .close:focus {
-    background-image: url(https://www.weddingsandceremoniesinhull.org.uk/themes/jadu-spectral/dist/css/images/close.svg) !important;
-    background-position: 4.85em 1em !important;
-    background-repeat: no-repeat !important;
+  background-image: url(https://www.weddingsandceremoniesinhull.org.uk/themes/jadu-spectral/dist/css/images/close.svg) !important;
+  background-position: 4.85em 1em !important;
+  background-repeat: no-repeat !important;
 }
