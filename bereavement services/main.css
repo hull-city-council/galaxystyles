@@ -53,15 +53,15 @@ a:focus, .wrapper.style5 button:focus, *:focus, input:focus {
   background: var(--primary);
   color: #000;
 }
-#menu h2{
+#menu h2, #menu div{
+  letter-spacing: unset;
   color: #000;
 }
 #menu a.list__link:hover {
     color: #400471;
 }
 
-#menu ul + h2,
-#menu ul + h2 + ul {
+#menu > div:nth-child(4), #menu > ul:nth-child(5), #menu > h2:nth-child(6){
     display: none;
 }
 
