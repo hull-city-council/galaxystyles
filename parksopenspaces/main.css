@@ -438,3 +438,11 @@ blockquote p:first-child::before {
         border: 1px solid !important;
     }
 }
+
+.image-link {
+    margin: unset;
+}
+h5, .h5, .button--large, .button--large:visited, .nav--pages-in .nav__heading, .alert__heading, .calendar__heading, .widget-feeds .listing .listing__heading, .widget-latest-news .listing .listing__heading, .listing--compact .listing__heading, .widget-image .image__caption, .epsilon {
+    font-size: 1rem;
+    padding
+}
