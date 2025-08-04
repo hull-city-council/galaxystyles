@@ -2,16 +2,13 @@
   --primary:#5ABEB3;
   --secondary:#F5296F;
 }
-
 /*
 * Buttons
 */
-
 .button,.button:visited,.form__label--upload,.form__label--image-upload,.widget--myaccount-sign-in a,.widget--myaccount-api-links a,.widget--myaccount-organisation-account-links a,.widget--myaccount-organisation-links a,.form__label--upload:visited,.form__label--image-upload:visited,.widget--myaccount-sign-in a:visited,.widget--myaccount-api-links a:visited,.widget--myaccount-organisation-account-links a:visited,.widget--myaccount-organisation-links a:visited {
     color: #333;
     border: 2px solid var(--primary);
 }
-
 /*
 * Menu
 */
@@ -75,7 +72,12 @@
     font-weight: 700;
 }
 
-
+.image-link {
+    margin: unset;
+}
+h5, .h5, .button--large, .button--large:visited, .nav--pages-in .nav__heading, .alert__heading, .calendar__heading, .widget-feeds .listing .listing__heading, .widget-latest-news .listing .listing__heading, .listing--compact .listing__heading, .widget-image .image__caption, .epsilon {
+    font-size: 1rem;
+}
 
 .listing--featured {
     border: 3px solid #000;
