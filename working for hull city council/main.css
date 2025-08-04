@@ -80,7 +80,6 @@ padding: .2rem;
 }
 .editor a:not(.button):visited {
      color: var(--tertiary);
-     /* text-underline-offset: 0.2em; */
 }
 
 .site-header button:focus {
@@ -133,7 +132,12 @@ a:not(.image-link):focus                {
 .style5 h1, h2, h3, h4, h5, h6 {
 letter-spacing: 0.05em !important;
 }
-
+.image-link {
+    margin: unset;
+}
+h5, .h5, .button--large, .button--large:visited, .nav--pages-in .nav__heading, .alert__heading, .calendar__heading, .widget-feeds .listing .listing__heading, .widget-latest-news .listing .listing__heading, .listing--compact .listing__heading, .widget-image .image__caption, .epsilon {
+    font-size: 1rem;
+}
 
 .editor a:active {
 color: var(--primary) !important;
