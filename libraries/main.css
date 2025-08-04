@@ -1,5 +1,3 @@
-/* Hull Libraries custom css */
-
 *{
     font-family: Arial ,"Helvetica Neue", Helvetica,sans-serif !important; 
 }
@@ -697,4 +695,12 @@ a#header-donate-button:hover, a#header-donate-button:focus, a#header-donate-butt
         a#header-donate-button{
         display: none;
     }
+}
+
+.image-link {
+    margin: unset;
+}
+h5, .h5, .button--large, .button--large:visited, .nav--pages-in .nav__heading, .alert__heading, .calendar__heading, .widget-feeds .listing .listing__heading, .widget-latest-news .listing .listing__heading, .listing--compact .listing__heading, .widget-image .image__caption, .epsilon {
+    font-size: 1rem;
+    padding: unset;
 }
