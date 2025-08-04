@@ -55,6 +55,10 @@ p {
   text-transform: unset;
 }
 
+#js-menu > div.menu-navigation__inner > div > nav:nth-child(1) > ul > li > a {
+    color: #fff;
+}
+
 a {
   text-underline-position: under !important;
 }
