@@ -1,14 +1,9 @@
-/* changing futures */
-
 :root{
 --primary: #19D3C6;
 --secondary: #D4EBDF;
 }
 
-
-
 /* Font */
-
 body, input, select, textarea, h1, h2, h3, h4, h5, h6{
   font-family: Adelle Bold, Arial,Helvetica Neue,Helvetica,sans-serif;
   letter-spacing: unset !important;
@@ -58,7 +53,6 @@ p {
 }
 
 /* Menu */
-
 #header nav{
   right: 6.75em;
 }
@@ -112,7 +106,8 @@ outline: 2px dotted var(--secondary);
 
 #js-menu-toggle > li:nth-child(2), 
 #js-menu-toggle > li:nth-child(3),
-#navPanel > nav > a:nth-child(12){
+#navPanel > nav > ul > li:nth-child(11) > a,
+#navPanel > nav > ul > li:nth-child(12) > a{
   display: none;
 }
 
