@@ -10,9 +10,9 @@ window.location.hash === enableFragment && (frag = !0);
 function loadScript(c, b) {
 	var a = document.createElement("script");
 	a.type = "text/javascript";
-	a.readyState ? a.onreadystatechange = function () {
+	a.readyState ? a.onreadystatechange = function() {
 		if ("loaded" == a.readyState || "complete" == a.readyState) a.onreadystatechange = null, void 0 != b && b()
-	} : void 0 != b && (a.onload = function () {
+	} : void 0 != b && (a.onload = function() {
 		b()
 	});
 	a.src = c;
@@ -33,50 +33,41 @@ function loadService(c) {
 	for (var b = serviceUrl + serviceKey, a = 0; a < loaded.length; a++)
 		if (loaded[a] == b) return;
 	loaded.push(b);
-	loadScript(serviceUrl + serviceKey, function () {
+	loadScript(serviceUrl + serviceKey, function() {
 		"function" === typeof _reciteLoaded && _reciteLoaded();
 		"function" == typeof c && c();
 		Recite.load(options);
-		Recite.Event.subscribe("Recite:load", function () {
+		Recite.Event.subscribe("Recite:load", function() {
 			Recite.enable()
 		})
 	})
 }
-
 "true" == _rc("Recite.Persist") && loadService();
-if (autoLoad && "false" != _rc("Recite.Persist") || frag) document.addEventListener ? document.addEventListener("DOMContentLoaded", function (c) {
+if (autoLoad && "false" != _rc("Recite.Persist") || frag) document.addEventListener ? document.addEventListener("DOMContentLoaded", function(c) {
 	loadService()
 }) : loadService();
 var almondDefine = define;
-define = function (a, b, c) {
+define = function(a, b, c) {
 	if (b == null) {
 		return;
 	}
 	almondDefine(a, b, c);
 };
-const recitemeButtonLink = document.createElement("a"),
-	recitemeButtonLinkMobile = document.createElement("a");
-recitemeButtonLink.setAttribute("id", "enableRecite");
-recitemeButtonLink.setAttribute("class", "button fit");
-recitemeButtonLink.setAttribute("tabindex", "0");
-recitemeButtonLinkMobile.setAttribute("class", "link depth-1");
-recitemeButtonLinkMobile.setAttribute("id", "enableReciteM");
-recitemeButtonLinkMobile.setAttribute("tabindex", "0");
-recitemeButtonLink.appendChild(document.createTextNode("Accessibility and translation"));
-recitemeButtonLinkMobile.appendChild(document.createTextNode("Accessibility and translation"));
-
-var element = document.getElementsByClassName("widget-row")[0];
-if (typeof (element) == 'undefined' && element == null) {
-	element = document.getElementsByClassName("breadcrumb")[0];
-}
-element.appendChild(recitemeButtonLink);
-
-const recitemeNavBtn1 = document.getElementById('enableRecite');
-document.addEventListener("DOMContentLoaded", function (event) {
-	[recitemeNavBtn1].map(element => element.addEventListener("click", function () {
+var arr = ["li"]
+let el = arr.reduceRight((el, n) => {
+		let d = document.createElement(n)
+		d.setAttribute('class', 'list__item')
+		d.appendChild(el)
+		return d
+	},
+	reciteMeButton = document.createElement('button'),
+	reciteMeButton.setAttribute('id', 'enableRecite'),
+	reciteMeButton.setAttribute('class', 'button button--primary button--icon list__link'),
+	reciteMeButton.setAttribute('title', 'Open accessibility and translation tools'),
+	reciteMeButton.innerHTML = '<span class="icon icon-accessibility"></span><span class="button__text">Accessibility tools</span>')
+document.querySelector("#top > div.container > nav > div.navigation-buttons > ul").appendChild(el);
+document.addEventListener("DOMContentLoaded", function(event) {
+	[reciteMeButton].map(element => element.addEventListener("click", function() {
 		loadService();
-	}));
-	[recitemeNavBtn1].map(element => element.addEventListener("keypress", function () {
-		loadService();
-	}));
+	}))
 });
