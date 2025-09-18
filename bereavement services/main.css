@@ -100,3 +100,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
 #footer .copyright {
     color: white;
 }
+
+.site-rating__heading {
+    color: white !important;
+}
