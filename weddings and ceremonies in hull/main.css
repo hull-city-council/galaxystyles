@@ -74,3 +74,7 @@ a.list__link:active, #one a:active {
   background-position: 4.85em 1em !important;
   background-repeat: no-repeat !important;
 }
+
+.site-rating__heading {
+    color: white !important;
+}
