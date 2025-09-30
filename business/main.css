@@ -10,3 +10,50 @@
 #js-menu > div.menu-navigation__inner > div > nav > ul > li > a {
   text-transform: unset;
 }
+
+p, h1, .h1, h2, .h2, h3, .form__heading, .h3, h4, .h4, h5, .h5, h6, .h6, li, .li {
+   font-family: calibri;
+}
+
+li, .li, p, .p {
+  font-size: 16px;
+}
+
+h1, .h1 {
+  font-size: 33px;
+}
+
+h2, .h2 {
+  font-size: 26px !important;
+}
+
+h3, .h3 {
+  font-size: 20px !important;
+}
+
+h4, .h4 {
+  font-size: 16px !important;
+}
+
+a:[not]visited {
+  color: #0000FF;
+}
+
+/*
+a, a:visited {
+  text-decoration: underline;
+  text-underline-position: under;
+  border-bottom: none;
+}
+*/
+
+a {
+  all: unset;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+}
+
+a:hover {
+  text decoration: unset;
+}
