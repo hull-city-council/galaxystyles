@@ -1,0 +1,12 @@
+/* Hull Business */
+
+:root{
+--primary: #504f4f;
+--secondary: #adadad;
+--tertiary: #36b257;
+}
+
+
+#js-menu > div.menu-navigation__inner > div > nav > ul > li > a {
+  text-transform: unset;
+}
