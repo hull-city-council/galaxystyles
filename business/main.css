@@ -7,16 +7,23 @@
 }
 
 
-#js-menu > div.menu-navigation__inner > div > nav > ul > li > a {
+#js-menu > div.menu-navigation__inner > div > nav > ul > li > a, 
+.button,
+#a11y-pages-in-heading {
   text-transform: unset;
 }
 
 p, h1, .h1, h2, .h2, h3, .form__heading, .h3, h4, .h4, h5, .h5, h6, .h6, li, .li {
-   font-family: calibri;
+  font-family: calibri;
+  color: #000000;
 }
 
 li, .li, p, .p {
   font-size: 16px;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+  font-weight: bold;
 }
 
 h1, .h1 {
@@ -35,25 +42,101 @@ h4, .h4 {
   font-size: 16px !important;
 }
 
-a:[not]visited {
-  color: #0000FF;
+.button {
+  color: black !important;
+  background-color: var(--secondary) !important;
+  font-size: 20px;
+  font-weight: 600;
+  border-color: #000000 !important;
 }
 
-/*
-a, a:visited {
-  text-decoration: underline;
-  text-underline-position: under;
-  border-bottom: none;
+
+/* no bg colour on pest image buttons because the images have white bg */
+.widget-width--33 .editor a {
+  background-color: unset !important
 }
-*/
+
+.widget-width--33 .button {
+  width: 60% !important
+}
+
+
+.button:hover, .button:focus {
+  background-color: var(--tertiary) !important;
+}
+
+#js-menu-toggle, #js-search-toggle {
+  background-color:var(--primary) !important;
+}
+
+
+.nav--primary-navigation .button__text {
+  font-family: calibri;
+  color: #000000;
+}
+
+.toggle-icon::before, .toggle-icon::after, .toggle-icon .toggle-icon__line {
+  background-color: #000000;
+}
+
+/* not working yet */
+.icon-ui-search {
+   url('data:image/svg+xml;charset%3DUS-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2260%22%20height%3D%2260%22%20viewBox%3D%220%200%2060%2060%22%20preserveAspectRatio%3D%22xMinYMid%22%20aria-hidden%3D%22true%22%20focusable%3D%22false%22%3E%3Cpath%20class%3D%22cls-1%22%20d%3D%22M57.64%2C53.46l-15-15a23%2C23%2C0%2C1%2C0-4.18%2C4.18l15%2C15a3%2C3%2C0%2C0%2C0%2C4.18-4.17Zm-33.19-46a17%2C17%2C0%2C1%2C1-17%2C17A17.06%2C17.06%2C0%2C0%2C1%2C24.45%2C7.41Z%22%20fill%3D%22%23000%22%2F%3E%3C%2Fsvg%3E');
+} 
+
+.site-footer__text, .site-footer__links {
+  color: #000000;
+}
+
+.site-footer__link {
+  display: none;
+}
 
 a {
   all: unset;
   text-decoration: underline;
   text-underline-position: under;
+  font-size: 16px !important;
 }
+
+.editor a:not(.button) {
+  background-image: unset;
+  color: #0000FF;
 }
+
+.editor a:not(.button):visited {
+  all: unset;
+  text-decoration: underline;
+  text-underline-position: under;
+  color: #800090 !important;
+}
+
+/* not sure this is right have commented out because it affects content links in doc pages */
+.nav a:visited {
+  //color: #ffffff !important;
+}
+
+.site-header, .site-footer {
+  background-color: var(--primary);
+}
+
+.menu-navigation .menu-navigation__inner {
+    background-color: var(--secondary);
+}
+
+.widget-image .image {
+  border-bottom: unset; 
+}
+
+.cta-banner__description, .pagination__content {
+  font-face: calibri;
+  color: black !important;
+}
+
+
 
 a:hover {
   text decoration: unset;
 }
+
+
