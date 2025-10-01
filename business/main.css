@@ -53,11 +53,11 @@ h4, .h4 {
 
 /* no bg colour on pest image buttons because the images have white bg */
 .widget-width--33 .editor a {
-  background-color: unset !important
+  // background-color: unset !important
 }
 
-.widget-width--33 .button {
-  width: 60% !important
+.button {
+  width: 60% !important;
 }
 
 
@@ -81,7 +81,7 @@ h4, .h4 {
 
 /* not working yet */
 .icon-ui-search {
-   url('data:image/svg+xml;charset%3DUS-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2260%22%20height%3D%2260%22%20viewBox%3D%220%200%2060%2060%22%20preserveAspectRatio%3D%22xMinYMid%22%20aria-hidden%3D%22true%22%20focusable%3D%22false%22%3E%3Cpath%20class%3D%22cls-1%22%20d%3D%22M57.64%2C53.46l-15-15a23%2C23%2C0%2C1%2C0-4.18%2C4.18l15%2C15a3%2C3%2C0%2C0%2C0%2C4.18-4.17Zm-33.19-46a17%2C17%2C0%2C1%2C1-17%2C17A17.06%2C17.06%2C0%2C0%2C1%2C24.45%2C7.41Z%22%20fill%3D%22%23000%22%2F%3E%3C%2Fsvg%3E');
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60' preserveAspectRatio='xMinYMid' aria-hidden='true' focusable='false'%3E%3Cpath class='cls-1' d='M57.64,53.46l-15-15a23,23,0,1,0-4.18,4.18l15,15a3,3,0,0,0,4.18-4.17Zm-33.19-46a17,17,0,1,1-17,17A17.06,17.06,0,0,1,24.45,7.41Z' fill='%23000'%3E%3C/path%3E%3C/svg%3E") !important;
 } 
 
 .site-footer__text, .site-footer__links {
@@ -133,7 +133,18 @@ a {
   color: black !important;
 }
 
+/* not sure about this */
+.nav--pages-in, #pages-in-list {
+  background-color: #ffffff;
+}
 
+.nav--pages-in .nav__list::before {
+  border-style: unset;
+}
+
+.site-footer { 
+  background-image: url('//business.hull.gov.uk/images/Banner.png');
+}
 
 a:hover {
   text decoration: unset;
