@@ -32,6 +32,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 26px !important;
+    margin: unset;
 }
 
 h3, .h3 {
@@ -45,6 +46,14 @@ h3, .h3 {
 h4, .h4 {
   font-size: 16px !important;
 }
+
+
+
+
+.nav--pages-in .list__link-text {
+  
+}
+
 
 .button {
   color: black !important;
@@ -147,6 +156,18 @@ a {
   font-size: 16px !important;
 }
 
+.nav--pages-in .nav__heading,
+.nav--pages-in .list__item,
+.nav--pages-in .list__link-text,
+#pages-in-list .list__item .list__link
+{
+  color: #ffffff !important;
+}
+
+#pages-in-list > li > a {
+  text-decoration-color: white; 
+}
+
 .editor a:not(.button) {
   background-image: unset;
   color: #0000FF;
@@ -184,7 +205,7 @@ a {
 
 /* not sure about this */
 .nav--pages-in, #pages-in-list {
-  background-color: #ffffff;
+  background-color: #5eaf63;
 }
 
 .nav--pages-in .nav__list::before {
