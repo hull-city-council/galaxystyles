@@ -55,13 +55,15 @@ h4, .h4 {
 }
 
 
-.button {
+.button, .button:visited {
   color: black !important;
-  background-color: var(--secondary) !important;
+  background-color: var(--secondary);
   font-size: 20px;
   font-weight: 600;
   border-color: #000000 !important;
 }
+
+
 
 
 /* no bg colour on pest image buttons because the images have white bg */
@@ -110,7 +112,7 @@ h4, .h4 {
 
 
 .editor .button {
-   width: 60% !important; 
+   width: 60% !important;
 }
 
 
@@ -171,6 +173,10 @@ a {
 .editor a:not(.button) {
   background-image: unset;
   color: #0000FF;
+}
+
+.editor a:not(.button):hover {
+    background-position: 0 1px;
 }
 
 .editor a:not(.button):visited {
