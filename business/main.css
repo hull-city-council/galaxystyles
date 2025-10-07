@@ -117,13 +117,19 @@ h4, .h4 {
 
 
 .button:hover, .button:focus {
-   background-color: var(--tertiary) !important;
+   background-color: var(--tertiary);
 }
 
+/*
 #js-menu-toggle, #js-search-toggle {
-  background-color:var(--primary) !important;
+  background-color:var(--primary);
 }
+*/
 
+
+#js-menu-toggle:hover, #js-search-toggle:hover {
+  background-color: unset;
+}
 
 
 .site-header button:focus, 
@@ -158,16 +164,17 @@ a {
   font-size: 16px !important;
 }
 
+
 .nav--pages-in .nav__heading,
 .nav--pages-in .list__item,
 .nav--pages-in .list__link-text,
 #pages-in-list .list__item .list__link
 {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 #pages-in-list > li > a {
-  text-decoration-color: white; 
+  text-decoration-color: #000000; 
 }
 
 .editor a:not(.button) {
@@ -190,11 +197,6 @@ a {
 .nav a:visited {
   //color: #ffffff !important;
 }
-
-.site-header, .site-footer {
-  background-color: var(--primary);
-}
-
 
 .menu-navigation .menu-navigation__inner {
     background-color: var(--secondary);
