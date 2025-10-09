@@ -51,12 +51,10 @@ h4, .h4 {
   font-size: 16px !important;
 }
 
-
-
-
-.nav--pages-in .list__link-text {
-  
+.list--breadcrumb > li > a {
+  cursor:pointer;
 }
+
 
 
 .button, .button:visited {
@@ -120,6 +118,8 @@ h4, .h4 {
 .button:hover, .button:focus {
    background-color: var(--tertiary);
 }
+
+
 
 /*
 #js-menu-toggle, #js-search-toggle {
