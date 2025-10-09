@@ -13,6 +13,10 @@
   text-transform: unset;
 }
 
+#js-menu > div.menu-navigation__inner > div > nav > ul > li > a {
+  font-size:18px !important;
+}
+
 p, h1, .h1, h2, .h2, h3, .form__heading, .h3, h4, .h4, h5, .h5, h6, .h6, li, .li {
   font-family: calibri;
   color: #000000;
@@ -109,12 +113,9 @@ h4, .h4 {
 } 
 */
 
-
-
 .editor .button {
    width: 60% !important;
 }
-
 
 .button:hover, .button:focus {
    background-color: var(--tertiary);
@@ -206,8 +207,10 @@ a {
   border-bottom: unset; 
 }
 
+
+
 .cta-banner__description, .pagination__content {
-  font-face: calibri;
+  font-family: calibri;
   color: black !important;
 }
 
