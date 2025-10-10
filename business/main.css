@@ -111,6 +111,11 @@ h4, .h4 {
 } 
 */
 
+.image-text[aria-hidden='true'] {
+    display: unset;
+}
+
+
 .editor .button {
    width: 60% !important;
 }
