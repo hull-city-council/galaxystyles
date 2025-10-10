@@ -120,18 +120,17 @@ h4, .h4 {
 }
 
 
-
-/*
 #js-menu-toggle, #js-search-toggle {
-  background-color:var(--primary);
+  background-color:unset;
 }
-*/
-
 
 #js-menu-toggle:hover, #js-search-toggle:hover {
   background-color: unset;
 }
 
+.site-header, .site-footer {
+    background-color: var(--primary);
+}
 
 .site-header button:focus, 
 .site-header .button:focus {
@@ -159,7 +158,6 @@ h4, .h4 {
 }
 
 a {
-  all: unset;
   text-decoration: underline;
   text-underline-position: under;
   font-size: 16px !important;
