@@ -3,3 +3,34 @@
 --secondary: #B0113C;
 --tertiary: #9E1036;
 }
+
+Hide sign-in and register
+
+#js-menu-toggle > li:nth-child(2), 
+#js-menu-toggle > li:nth-child(3),
+#navPanel > nav > ul > li:nth-child(6)> a,
+#navPanel > nav > ul > li:nth-child(7)> a
+{
+    display: none;
+}
+
+h1, h2, h3, h4, p, .list__link  {
+    color: var(--primary) !important;
+}
+
+#banner > h1 {
+    color: white !important;
+}
+
+p {
+    font-size: 16px;
+}
+h2 {
+    font-size 26px;
+}
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size 16px;
+}
