@@ -78,3 +78,7 @@ a.list__link:active, #one a:active {
 .site-rating__heading {
     color: white !important;
 }
+
+ul.feedback__list {
+    color: black;
+}
