@@ -8,25 +8,36 @@
 #js-menu-toggle > li:nth-child(2) > a,
 #js-menu-toggle > li:nth-child(3),
 #navPanel > nav > ul > li:nth-child(6)> a,
-#navPanel > nav > ul > li:nth-child(7)> a
+#navPanel > nav > ul > li:nth-child(7)> a,
+#footer > ul > li:nth-child(2),
+#main > div > div > div.col-4.col-12-narrow > a
 {
     display: none;
+}
+
+#navPanel > nav > ul > li > a {
+    color: white !important;
+}
+
+#js-menu-toggle > li > ul > li > a {
+    color: var(--primary) !important;
 }
 
 .list--breadcrumb > .list__item > a {
     color: var(--tertiary) !important;
 }
 
-h1, h2, h3, h4, p  {
+h1, h2, h3, h4, p, th, td {
     color: var(--primary) !important;
 }
 
-#banner > h1 {
+#banner > h1, .copyright {
     color: white !important;
 }
 
 p {
     font-size: 16px;
+    hyphens: none;
 }
 h2 {
     font-size 26px;
@@ -38,3 +49,32 @@ h4 {
     font-size 16px;
 }
 
+#header, #footer {
+    background-color: var(--secondary);
+}
+
+#js-menu-toggle > li > ul > li > a:hover {
+    background-color: var(--secondary) !important;
+    color: white !important;
+}
+
+.button {
+    background-color: var(--secondary) !important;
+}
+
+.button:hover {
+    background-color: #ED6E12 !important;
+    color: #242424;
+}
+
+#page-wrapper {
+    background-color: #FFB366 !important;
+}
+
+th {
+    font-weight:bold !important;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
