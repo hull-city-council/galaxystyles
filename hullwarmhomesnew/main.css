@@ -78,3 +78,8 @@ th {
 table, th, td {
     border: 1px solid black;
 }
+
+#header nav {
+    right: 4em;
+}
+
