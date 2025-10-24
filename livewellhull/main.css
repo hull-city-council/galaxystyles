@@ -1010,3 +1010,7 @@ p.cludo-search-results-item__description{
 @media screen and (min-width: 760px){
 #cludo-search-results .col-md-9{width:75%;}
 }
+
+.image-text[aria-hidden='true'] {
+    display: unset;
+}
