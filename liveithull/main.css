@@ -192,3 +192,7 @@ blockquote p:first-child::before {
         border: 1px solid !important;
     }
 }
+
+.image-text[aria-hidden='true'] {
+    display: unset;
+}
