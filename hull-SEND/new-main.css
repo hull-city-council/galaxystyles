@@ -1008,3 +1008,6 @@ p.cludo-search-results-item__description{
 #postcode, label[for="postcode"] {
   display:none;
 }
+.image-text[aria-hidden='true'] {
+    display: unset;
+}
