@@ -648,3 +648,6 @@ table, td, tr, th {
     border: unset !important;
   }
 }
+.image-text[aria-hidden='true'] {
+    display: unset;
+}
