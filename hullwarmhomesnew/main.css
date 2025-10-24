@@ -19,6 +19,14 @@
     color: white !important;
 }
 
+#navPanel {
+    background-color: var(--tertiary);
+}
+
+#search-site-header {
+    border-color: var(--secondary);
+}
+
 #js-menu-toggle > li > ul > li > a {
     color: var(--primary) !important;
 }
@@ -27,26 +35,54 @@
     color: var(--tertiary) !important;
 }
 
-h1, h2, h3, h4, p, th, td {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, p, th, td {
     color: var(--primary) !important;
 }
 
-#banner > h1, .copyright {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+    font-weight: bold;
+}
+
+#header > a > span:nth-child(2) {
+    color: var(--primary);
+    font-weight:normal;
+    font-size: clamp(16px, calc(0.9375rem + ((1vw - 7.68px) * 0.434)), 20px) !important;
+}
+
+#header .logo:focus {
+    outline: 2px solid var(--primary);
+}
+
+#banner > h1 {
+    color: var(--primary);
+}
+
+.copyright {
     color: white !important;
 }
 
 p {
-    font-size: 16px;
     hyphens: none;
 }
+
+p, li {
+    font-weight: normal !important;
+    font-size: 18px !important;    
+}
+
 h2 {
-    font-size 26px;
+	font-size: clamp(21px, calc(1.3125rem + ((1vw - 7.68px) * 0.434)), 26px) !important;
+	min-height: 0vw;
 }
-h3 {
-    font-size: 20px;
+
+h3, blockquote p:first-child {
+	font-size: clamp(16px, calc(0.9375rem + ((1vw - 7.68px) * 0.434)), 20px) !important;
+	min-height: 0vw;
 }
-h4 {
-    font-size 16px;
+
+h4, h5 {
+	font-size: clamp(16px, calc(1rem + ((1vw - 7.68px) * 0)), 16px) !important;
+	min-height: 0vw;
 }
 
 #header, #footer {
@@ -83,3 +119,6 @@ table, th, td {
     right: 4em;
 }
 
+.col-12-mobilep > h2 {
+    font-size: 30px
+}
