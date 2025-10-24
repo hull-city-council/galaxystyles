@@ -704,3 +704,6 @@ h5, .h5, .button--large, .button--large:visited, .nav--pages-in .nav__heading, .
     font-size: 1rem;
     padding: unset;
 }
+.image-text[aria-hidden='true'] {
+    display: unset;
+}
