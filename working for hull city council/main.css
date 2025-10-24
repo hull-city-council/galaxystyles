@@ -289,3 +289,7 @@ background-color: var(--secondary);
         border: 1px solid !important;
     }
 }
+
+.image-text[aria-hidden='true'] {
+    display: unset;
+}
