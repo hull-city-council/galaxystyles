@@ -146,3 +146,10 @@ a {
 .image-text[aria-hidden='true'] {
     display: unset;
 }
+
+
+@media screen and (min-width: 400px) {
+    .identity__logo {
+        width: 20rem;
+    }
+}
