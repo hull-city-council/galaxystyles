@@ -54,11 +54,26 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 
 #banner > h1 {
-    color: var(--primary);
+    color: var(--primary) !important;
 }
 
 .copyright {
     color: white !important;
+}
+
+#header > a > span:nth-child(2) {
+	color: white;
+	font-size: 18px  !important;
+}
+
+#header.reveal {
+  animation: unset;
+}
+
+#header.alt {
+	background: unset;
+	background-color: var(--secondary);
+	position:fixed;
 }
 
 p {
