@@ -143,6 +143,6 @@ table, th, td {
 }
 
 .list--navigation > .list__item {
-	display: inline; 
+	/* display: inline;  */
 	margin-right: 20px;
 }
