@@ -137,3 +137,12 @@ table, th, td {
 .col-12-mobilep > h2 {
     font-size: 30px
 }
+
+.col-3 {
+	width: unset;
+}
+
+.list--navigation > .list__item {
+	display: inline; 
+	margin-right: 20px;
+}
