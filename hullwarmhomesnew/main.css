@@ -151,3 +151,23 @@ table, th, td {
 	display: inline;   
 	margin-right: 20px;
 }
+
+
+
+/* following added by request */
+
+p.meta.meta--telephone, p.meta.meta--email {
+margin: 0;
+}
+
+.supplement__content strong {
+display: none;
+}
+
+.supplement__content {
+border: solid 2px var(--primary);
+border-radius: 6px;
+padding: 15px 15px 0;
+background-color: #FFF9F3;
+}
+
