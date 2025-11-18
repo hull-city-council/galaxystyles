@@ -142,11 +142,12 @@ table, th, td {
     font-size: 30px
 }
 
-.col-3 {
-	width: unset;
+.row > .col-3 {
+    width: unset;
 }
 
+
 .list--navigation > .list__item {
-	/* display: inline;  */
+	display: inline;   
 	margin-right: 20px;
 }
