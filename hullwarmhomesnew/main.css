@@ -31,6 +31,10 @@
     color: var(--primary) !important;
 }
 
+.list--breadcrumb {
+	color: var(--primary);
+}
+
 .list--breadcrumb > .list__item > a {
     color: var(--tertiary) !important;
 }
