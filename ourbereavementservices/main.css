@@ -39,15 +39,10 @@ a, .a {
   text-decoration: underline;
 }
 
-.list--breadcrumb a:visited {
-    color: #2d3547;
-}
-  
-/*
 .list--breadcrumb > li > a {
- color: #000000 !important;
+  color: var(--carbon-black)!important;
 }
-
+/*
 
 .widget-navigation > ul > li > a > h3 {
   color:black !important;
