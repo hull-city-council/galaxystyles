@@ -1,24 +1,49 @@
 /*  NOTE. THIS APPLIES TO THE NEW HULL BEREAVEMENT SERVICES SITE. THE EXISTING SITE REPOSITORY IS "bereavement services" (TWO WORDS) */
 
 :root{
-  --jonquil: #FFCC00;
-  --platinum: #DEDEDD;
-  --amethyst: #9665AB;
+  --primary: #3b7946;
+  --light-gold: #e5c780; 
+  --platinum: #f0f0f0;
+  --white: #ffffff;
+  --carbon-black: #242424;
 }
 
-
-/*
 h1, h2, h3, h4 {
-  font-family: Calibri;
-  color: #000000;
+  font-family: Tahoma;
+  color: var(--primary) !important;
   font-weight: bold;
 }
 
-p {
-  font-family: Calibri;
-  color: #000000;
+h1, .h1 {
+  font-size: 33px !important;
+}
+h2, .h2 {
+  font-size: 26px !important;
+}
+h3, .h3 {
+  font-size: 20px !important;
+}
+h4, .h4 {
+  font-size: 16px !important;  
 }
 
+p, .p {
+  font-family: Tahoma;
+  color: var(--carbon-black); 
+  font-size: 16px;
+}
+
+a, .a {
+  color: var(--primary) !important;
+  text-decoration-color: var(--primary) !important;
+  text-decoration: underline;
+}
+
+.list--breadcrumb a:visited {
+    color: #2d3547;
+}
+  
+/*
 .list--breadcrumb > li > a {
  color: #000000 !important;
 }
