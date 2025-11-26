@@ -42,6 +42,10 @@ a, .a {
 .list--breadcrumb > li > a {
   color: var(--carbon-black)!important;
 }
+
+.site-footer__supplier {
+  display:none;
+}
 /*
 
 .widget-navigation > ul > li > a > h3 {
