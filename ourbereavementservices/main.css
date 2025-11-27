@@ -2,7 +2,7 @@
 
 :root{
   --primary: #3b7946;
-  --light-gold: #e5c780; 
+  --light-green: #d4ffde; 
   --platinum: #f0f0f0;
   --white: #ffffff;
   --carbon-black: #242424;
@@ -16,6 +16,7 @@ h1, h2, h3, h4 {
 
 h1, .h1 {
   font-size: 33px !important;
+  font-weight: bold;
 }
 h2, .h2 {
   font-size: 26px !important;
@@ -61,6 +62,14 @@ a, .a {
   background-color: white;
 }
 
+
+.menu-navigation .menu-navigation__inner {
+  width: unset;
+}
+
+.site-header a:focus, .site-header button:focus, .site-header .button:focus, .site-header__links:focus, .site-footer__social .list--social-links .list__link:focus, .site-footer__logo .identity__link:focus, .site-footer__group .list__link:focus, .site-footer__link:focus, .site-footer__text:focus, .site-footer__links:focus {
+  outline: unset;
+}
 
 /*
 
