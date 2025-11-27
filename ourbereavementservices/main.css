@@ -71,6 +71,21 @@ a, .a {
   outline: unset;
 }
 
+.pagination {
+  background-color: var(--light-green);
+}
+
+
+th {
+  color:white;
+  background-color: black !important;
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+}
+
 /*
 
 .widget-navigation > ul > li > a > h3 {
