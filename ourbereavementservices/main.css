@@ -71,10 +71,13 @@ a, .a {
   outline: unset;
 }
 
+#page-heading {
+  color:var(--carbon-black) !important;
+}
+
 .pagination {
   background-color: var(--light-green);
 }
-
 
 th {
   color:white;
