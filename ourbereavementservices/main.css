@@ -56,6 +56,11 @@ a, .a {
     background-color: var(--primary);
 }
 
+.menu-navigation .js-menu-toggle .toggle-icon::before,
+.menu-navigation .js-menu-toggle .toggle-icon::after {
+  background-color: white;
+}
+
 
 /*
 
