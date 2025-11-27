@@ -46,6 +46,17 @@ a, .a {
 .site-footer__supplier {
   display:none;
 }
+
+#js-menu > div.menu-navigation__inner > div > nav > ul > li > a {
+  text-transform: unset;
+  color: white !important;
+}
+
+.menu-navigation .menu-navigation__inner {
+    background-color: var(--primary);
+}
+
+
 /*
 
 .widget-navigation > ul > li > a > h3 {
