@@ -64,7 +64,7 @@ let el = arr.reduceRight((el, n) => {
 	reciteMeButton.setAttribute('id', 'enableRecite'),
 	reciteMeButton.setAttribute('class', 'button button--primary button--icon list__link'),
 	reciteMeButton.setAttribute('title', 'Open accessibility and translation tools'),
-	reciteMeButton.innerHTML = '<span class="icon icon-accessibility"></span><span class="button__text">Accessibility tools</span>')
+	reciteMeButton.innerHTML = '<span class="icon icon-accessibility toggle-icon"></span><span class="button__text">Accessibility tools</span>')
 document.querySelector("#top > div.container > nav > div.navigation-buttons > ul").appendChild(el);
 document.addEventListener("DOMContentLoaded", function(event) {
 	[reciteMeButton].map(element => element.addEventListener("click", function() {
