@@ -100,7 +100,7 @@ td {
 }
 
 .page-header, .breadcrumb, .pagination {
-  background-color: var(--light-green) !important;
+  background-color: var(--light-green);
 }
 
 .icon-accessibility{
