@@ -10,7 +10,7 @@
 
 h1, h2, h3, h4 {
   font-family: Tahoma;
-  color: var(--primary) !important;
+  color: var(--primary);
   font-weight: bold;
 }
 
