@@ -65,8 +65,11 @@ h4, .h4 {
   border-color: #000000 !important;
 }
 
-
-
+.widget-width--100  .widget-content h3 {
+  padding: 1em;
+  border: 5px solid #25316A;
+  border-radius: 1px;
+}
 
 /* no bg colour on pest image buttons because the images have white bg */
 .widget-width--33 .editor a {
