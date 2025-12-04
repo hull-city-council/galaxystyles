@@ -63,6 +63,10 @@ a, .a {
   color: white !important;
 }
 
+button:before {
+  border: 6px solid rgba(59, 121, 70, 0.15) !important;
+}
+
 .menu-navigation .menu-navigation__inner {
     background-color: var(--primary);
 }
