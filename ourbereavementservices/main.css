@@ -45,7 +45,7 @@ p, .p {
 }
 
 a, .a {
-  color: var(--primary);
+  color: var(--primary) !important;
   text-decoration-color: var(--primary) !important;
   text-decoration: underline;
 }
