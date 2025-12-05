@@ -781,4 +781,5 @@ display: none;
 
 th {
     background-color:var(--tekhelet);
+    color: white !important;
 }
