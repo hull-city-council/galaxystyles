@@ -63,8 +63,20 @@ a, .a {
   color: white !important;
 }
 
-button:before {
+button::before {
   border: 6px solid rgba(59, 121, 70, 0.15) !important;
+}
+
+.button:hover::before {
+    border-color: var(--primary) !important;
+}
+
+.button {
+  border: 2px solid var(--primary);
+}    
+
+.button::before {
+  border: 6px solid rgba(59, 121, 70, 0.4) !important;
 }
 
 .menu-navigation .menu-navigation__inner {
@@ -148,83 +160,3 @@ td {
   margin-bottom: 1rem;
   text-transform: none;
 }
-
-
-
-/*
-
-.widget-navigation > ul > li > a > h3 {
-  color:black !important;
-  font-family: Arial !important;
-}
-
-.widget-image .image__caption {
-  font-family: Calibri !important;
-  color: #000000;
-}
-
-.nav__list {
-  color: #000000 !important;
-  font-family: Verdana !important;
-}
-
-
-.pagination__label, .pagination__meta {
-  font-family: Verdana;
-}
-
-.page-subheading {
-  font-family:Arial;
-  color: #000000;
-}
-
-.site-header, .site-footer {
-    background-color: #c83169;
-}
-
-.menu-navigation__inner {
-  background-color:#19263c !important;
-}
-
-.menu-navigation .list__link {
-  color: white !important;
-}
-.menu-navigation .js-menu-toggle {
-  background-color: white !important;
-}
-
-.button {
-  background-color: #19263c;
-  color: #ffffff;
-  border-color: #794b8c ;
-}
-
-.nav--primary-navigation .button:hover .button__text, .nav--primary-navigation 
-.button:focus .button__text, .nav--primary-navigation .button:active .button__text {
-  color: #19263c !important;  
-}
-
-.nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::after, 
-.nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon::before, 
-.nav--primary-navigation .button.js-menu-toggle:hover .toggle-icon .toggle-icon__line, 
-.nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::after, 
-.nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon::before, 
-.nav--primary-navigation .button.js-menu-toggle:focus .toggle-icon .toggle-icon__line, 
-.nav--primary-navigation .button.js-menu-toggle:active .toggle-icon::after, 
-.nav--primary-navigation .button.js-menu-toggle:active .toggle-icon::before, 
-.nav--primary-navigation .button.js-menu-toggle:active .toggle-icon .toggle-icon__line {
-    background-color: #794b8c;
-}
-
-.nav--primary-navigation .button:hover .icon-ui-search, .nav--primary-navigation 
-.button:focus .icon-ui-search, .nav--primary-navigation .button:active .icon-ui-search, 
-.icon-ui-search-standout {
-  background-image: url(data:image/svg+xml;charset%3DUS-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2260%22%20height%3D%2260%22%20viewBox%3D%220%200%2060%2060%22%20preserveAspectRatio%3D%22xMinYMid%22%20aria-hidden%3D%22true%22%20focusable%3D%22false%22%3E%3Cpath%20class%3D%22cls-1%22%20d%3D%22M57.64%2C53.46l-15-15a23%2C23%2C0%2C1%2C0-4.18%2C4.18l15%2C15a3%2C3%2C0%2C0%2C0%2C4.18-4.17Zm-33.19-46a17%2C17%2C0%2C1%2C1-17%2C17A17.06%2C17.06%2C0%2C0%2C1%2C24.45%2C7.41Z%22%20fill%3D%22%23794b8c%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E) !important;
-}
-
-.widget-navigation > ul > li > a {
-  background-color: #C83169 !important;
-  border: 1px solid #a53f82;
-}
-
-*/
