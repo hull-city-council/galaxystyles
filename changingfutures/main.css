@@ -375,7 +375,10 @@ box-shadow: unset;
 #main > div > div > div.col-4.col-12-narrow > a.button.button--primary.button--block {
 display: none;
 }
-
+/* hide "Share" social media links on articles  Assyst 372001 */
+.nav--social-links {
+    display:none;
+}
 
 /* 
 Cludo search
