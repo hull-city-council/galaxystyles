@@ -50,6 +50,11 @@ a, .a {
   text-decoration: underline;
 }
 
+.site-footer__group > ul > li > a {
+  color: white !important;
+  text-decoration-color: white !important;
+}
+
 .list--breadcrumb > li > a {
   color: var(--carbon-black)!important;
 }
