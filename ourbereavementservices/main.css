@@ -59,6 +59,10 @@ a, .a {
   color: var(--carbon-black)!important;
 }
 
+li::before {
+  background-color: var(--carbon-black) !important; 
+}
+
 .site-footer__supplier {
   display:none;
 }
