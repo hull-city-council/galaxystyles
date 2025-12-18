@@ -209,6 +209,12 @@ h5 {
     margin: 0 0 0 0.5rem;
 }
 
+body > footer > div > div.site-footer__right > div > div > a > picture > img {
+	content:url("https://hull-city-council.github.io/galaxystyles/hcctraining/multi_training_logo.png");
+	height: 100%;
+	width: 100%
+}
+
 /* Page header */
 .page-header {
 	background-color: #EEDCEF;
