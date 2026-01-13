@@ -1,7 +1,7 @@
 :root{
   --primary:#2DC6D6;
   --secondary:#e87511;
-  --tertiary: var(--tertiary);
+  --tertiary: #242424;
 }
 
 /*
